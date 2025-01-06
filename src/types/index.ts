@@ -15,8 +15,9 @@ export interface DatabaseConfig {
 }
 
 export interface SearchResult extends MCPConfig {
-  similarity?: number;
-  score?: number;
-  bm25_score?: number;
-  vector_score?: number;
+  id: string;
+  title: string;
+  description: string;
+  github_url?: string;
+  score: number;
 }

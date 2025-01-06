@@ -25,7 +25,7 @@ export class RecommendationService {
       title: row.title,
       description: row.description,
       github_url: row.github_url,
-      similarity: parseFloat(row.similarity.toFixed(4))
+      score: parseFloat(row.similarity.toFixed(4))
     }));
   }
 
