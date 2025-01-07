@@ -2,6 +2,7 @@
   "id": "@andybrandt/mcp-simple-timeserver",
   "title": "Mcp-Simple-Timeserver",
   "description": "A simple MCP server that provides local and UTC time to enable Claude to access timestamps and calculate elapsed time since the last interaction.",
+  "categories": ["Developer Tools", "Integration & Delivery"],
   "tags": [
     "Python",
     "MCP",

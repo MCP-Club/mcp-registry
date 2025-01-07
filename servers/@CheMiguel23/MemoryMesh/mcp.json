@@ -2,6 +2,7 @@
   "id": "@CheMiguel23/MemoryMesh",
   "title": "Memorymesh",
   "description": "MemoryMesh is a local knowledge graph server designed for AI, enabling structured memory management and dynamic interactions, especially for text-based RPGs.",
+  "categories": ["Machine Learning & AI", "Databases & Storage"],
   "tags": [
     "TypeScript",
     "Node.js",

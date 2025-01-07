@@ -2,6 +2,7 @@
   "id": "@Laksh-star/mcp-server-tmdb",
   "title": "The Movie Database",
   "description": "This MCP server integrates with The Movie Database (TMDB) API to provide movie information, search capabilities, and recommendations.",
+  "categories": ["API Management", "Content Management System"],
   "tags": [
     "Node.js",
     "TMDB API",

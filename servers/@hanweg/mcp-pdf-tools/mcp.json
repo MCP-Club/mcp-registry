@@ -2,6 +2,7 @@
   "id": "@hanweg/mcp-pdf-tools",
   "title": "Mcp-Pdf-Tools",
   "description": "An MCP server for performing PDF manipulations such as merging, extracting pages, and searching PDFs for use with LLMs via the Model Context Protocol.",
+  "categories": ["Content Management System", "Machine Learning & AI"],
   "tags": [
     "PDF manipulation",
     "MCP",

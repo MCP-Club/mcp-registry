@@ -2,6 +2,7 @@
   "id": "@Jacck/mcp-reasoner",
   "title": "Mcp-Reasoner",
   "description": "A systematic reasoning MCP server implementation for Claude Desktop with beam search, thought evaluation, and tree-based reasoning capabilities.",
+  "categories": ["Machine Learning & AI", "Developer Tools"],
   "tags": [
     "MCP",
     "beam search",

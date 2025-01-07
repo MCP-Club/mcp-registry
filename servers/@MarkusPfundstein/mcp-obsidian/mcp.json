@@ -2,6 +2,7 @@
   "id": "@MarkusPfundstein/mcp-obsidian",
   "title": "Mcp-Obsidian",
   "description": "MCP server to interact with Obsidian via the Local REST API, offering tools for file handling, search, and content operations.",
+  "categories": ["Content Management System", "API Management"],
   "tags": [
     "MCP",
     "Obsidian",

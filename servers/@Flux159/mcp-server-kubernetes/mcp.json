@@ -2,6 +2,7 @@
   "id": "@Flux159/mcp-server-kubernetes",
   "title": "Kubernetes",
   "description": "Connect to Kubernetes cluster and manage pods, deployments, and services.",
+  "categories": ["Integration & Delivery", "Operating Systems"],
   "tags": [
     "kubernetes"
   ],

@@ -2,6 +2,7 @@
   "id": "@ergut/mcp-bigquery-server",
   "title": "BigQuery",
   "description": "A server that enables secure and efficient communication between Claude Desktop and BigQuery, allowing users to query data in plain English without writing SQL.",
+  "categories": ["Databases & Storage", "Machine Learning & AI"],
   "tags": [
     "BigQuery",
     "AI Integration",

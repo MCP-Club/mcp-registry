@@ -2,6 +2,7 @@
   "id": "@DMontgomery40/mcp-server-birdstats",
   "title": "Mcp-Server-Birdstats",
   "description": "An MCP plugin that connects BirdNET-Pi bird detection data with eBird observations using natural language queries.",
+  "categories": ["Machine Learning & AI", "Data Science"],
   "tags": [
     "MCP plugin",
     "Bird detection",

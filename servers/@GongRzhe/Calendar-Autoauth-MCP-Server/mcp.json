@@ -2,6 +2,7 @@
   "id": "@GongRzhe/Calendar-Autoauth-MCP-Server",
   "title": "Calendar-Autoauth-Mcp-Server",
   "description": "An MCP server for Google Calendar integration with auto authentication, enabling AI assistants to manage calendar events using natural language.",
+  "categories": ["API Management", "Integration & Delivery"],
   "tags": [
     "Google Calendar",
     "OAuth2",

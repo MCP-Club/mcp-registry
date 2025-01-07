@@ -2,6 +2,7 @@
   "id": "@2b3pro/roam-research-mcp",
   "title": "Roam-Research-Mcp",
   "description": "A Model Context Protocol (MCP) server that provides comprehensive access to Roam Research's API functionality, enabling AI tools to interact with Roam Research graphs through a standardized interface.",
+  "categories": ["API Management", "Machine Learning & AI"],
   "tags": [
     "TypeScript",
     "API",

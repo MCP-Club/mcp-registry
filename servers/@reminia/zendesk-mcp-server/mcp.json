@@ -2,6 +2,7 @@
   "id": "@reminia/zendesk-mcp-server",
   "title": "Zendesk-Mcp-Server",
   "description": "A Model Context Protocol server for Zendesk providing integration tools for ticket management, analysis, and help center access.",
+  "categories": ["API Management", "Integration & Delivery"],
   "tags": [
     "Zendesk",
     "MCP protocol",

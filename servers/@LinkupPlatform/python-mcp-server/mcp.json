@@ -2,6 +2,7 @@
   "id": "@LinkupPlatform/python-mcp-server",
   "title": "Python-Mcp-Server",
   "description": "Linkup for Claude enhances Claude AI by providing internet access for real-time knowledge updates and premium content access.",
+  "categories": ["Machine Learning & AI", "Web Analytics"],
   "tags": [
     "AI",
     "real-time search",

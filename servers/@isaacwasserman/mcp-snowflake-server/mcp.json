@@ -2,6 +2,7 @@
   "id": "@isaacwasserman/mcp-snowflake-server",
   "title": "Snowflake",
   "description": "A Model Context Protocol (MCP) server implementation for Snowflake to interact with databases, run SQL queries, and manage insights using Claude Desktop.",
+  "categories": ["Databases & Storage", "Data Science"],
   "tags": [
     "MCP server",
     "Snowflake",

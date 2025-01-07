@@ -2,6 +2,7 @@
   "id": "@MindscapeHQ/mcp-server-raygun",
   "title": "Raygun",
   "description": "MCP Server for Raygun API V3 providing endpoints for crash reporting, real user monitoring, and performance monitoring.",
+  "categories": ["Monitoring & Observability", "Developer Tools"],
   "tags": [
     "Raygun",
     "API",

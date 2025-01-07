@@ -2,6 +2,7 @@
   "id": "@PhialsBasement/Pagespeed-MCP-Server",
   "title": "Pagespeed-Mcp-Server",
   "description": "A Model Context Protocol (MCP) server that integrates PageSpeed Insights functionality, enabling AI assistants to perform detailed web performance analysis.",
+  "categories": ["Web Analytics", "Developer Tools"],
   "tags": [
     "AI",
     "PageSpeed Insights",

@@ -2,6 +2,7 @@
   "id": "@BurtTheCoder/mcp-maigret",
   "title": "Mcp-Maigret",
   "description": "A Model Context Protocol (MCP) server for Maigret, enabling username search across social networks and URL analysis with integration for MCP-compatible applications like Claude Desktop.",
+  "categories": ["Security", "Web Analytics"],
   "tags": [
     "Node.js",
     "Docker",

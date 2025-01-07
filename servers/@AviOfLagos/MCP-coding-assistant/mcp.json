@@ -2,6 +2,7 @@
   "id": "@AviOfLagos/MCP-coding-assistant",
   "title": "Mcp-Coding-Assistant",
   "description": "The Coding Assistant Server is an MCP server that offers intelligent coding assistance, technology detection, and documentation integration for enhanced development workflows.",
+  "categories": ["Developer Tools", "Machine Learning & AI"],
   "tags": [
     "MCP",
     "Node.js",

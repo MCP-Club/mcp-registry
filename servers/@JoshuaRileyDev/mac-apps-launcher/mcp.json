@@ -2,6 +2,7 @@
   "id": "@JoshuaRileyDev/mac-apps-launcher",
   "title": "Mac-Apps-Launcher",
   "description": "A Model Context Protocol (MCP) server for managing and launching macOS applications.",
+  "categories": ["Operating Systems", "Developer Tools"],
   "tags": [
     "macOS",
     "MCP",

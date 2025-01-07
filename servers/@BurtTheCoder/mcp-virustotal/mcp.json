@@ -2,6 +2,7 @@
   "id": "@BurtTheCoder/mcp-virustotal",
   "title": "Mcp-Virustotal",
   "description": "A Model Context Protocol (MCP) server for querying the VirusTotal API to provide comprehensive security analysis and automatic relationship data fetching.",
+  "categories": ["Security", "API Management"],
   "tags": [
     "VirusTotal",
     "MCP",

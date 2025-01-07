@@ -2,6 +2,7 @@
   "id": "@GongRzhe/Calendar-MCP-Server",
   "title": "Calendar-Mcp-Server",
   "description": "A Model Context Protocol (MCP) server for Google Calendar integration in Claude Desktop, enabling AI assistants to manage Google Calendar events through natural language interactions.",
+  "categories": ["API Management", "Integration & Delivery"],
   "tags": [
     "MCP",
     "Google Calendar",

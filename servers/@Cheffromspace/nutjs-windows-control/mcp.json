@@ -2,6 +2,7 @@
   "id": "@Cheffromspace/nutjs-windows-control",
   "title": "Nutjs-Windows-Control",
   "description": "A Windows control server leveraging nut.js and Model Context Protocol to provide programmatic control over mouse, keyboard, windows, and other system operations.",
+  "categories": ["Operating Systems", "Developer Tools"],
   "tags": [
     "Windows",
     "automation",

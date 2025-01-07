@@ -2,6 +2,7 @@
   "id": "@CamdenClark/jira-mcp",
   "title": "Jira-Mcp",
   "description": "An MCP server that allows Large Language Models (LLMs) to interact with JIRA for executing JQL queries and retrieving issue details.",
+  "categories": ["API Management", "Developer Tools"],
   "tags": [
     "JIRA",
     "MCP Server",

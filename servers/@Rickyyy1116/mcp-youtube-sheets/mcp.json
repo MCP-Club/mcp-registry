@@ -2,6 +2,7 @@
   "id": "@Rickyyy1116/mcp-youtube-sheets",
   "title": "Mcp-Youtube-Sheets",
   "description": "An MCP server to search YouTube videos using the YouTube Data API v3 and save results to Google Sheets.",
+  "categories": ["API Management", "Data Science"],
   "tags": [
     "YouTube Data API",
     "Google Sheets API",

@@ -2,6 +2,7 @@
   "id": "@KashiwaByte/vikingdb-mcp-server",
   "title": "Vikingdb-Mcp-Server",
   "description": "An MCP server for VikingDB, a high-performance vector database by ByteDance, used for storing and searching information.",
+  "categories": ["Databases & Storage", "Machine Learning & AI"],
   "tags": [
     "MCP",
     "VikingDB",

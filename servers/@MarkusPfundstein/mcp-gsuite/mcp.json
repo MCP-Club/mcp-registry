@@ -2,6 +2,7 @@
   "id": "@MarkusPfundstein/mcp-gsuite",
   "title": "Mcp-Gsuite",
   "description": "MCP server to integrate with Gmail and Google Calendar for managing emails and calendar events programmatically using OAuth2.",
+  "categories": ["Integration & Delivery", "API Management"],
   "tags": [
     "MCP",
     "OAuth2",

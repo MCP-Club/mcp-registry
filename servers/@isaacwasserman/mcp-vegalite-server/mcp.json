@@ -2,6 +2,7 @@
   "id": "@isaacwasserman/mcp-vegalite-server",
   "title": "Mcp-Vegalite-Server",
   "description": "A Model Context Protocol (MCP) server enabling data visualization through data tables and Vega-Lite specifications.",
+  "categories": ["Data Science", "Developer Tools"],
   "tags": [
     "MCP",
     "data visualization",

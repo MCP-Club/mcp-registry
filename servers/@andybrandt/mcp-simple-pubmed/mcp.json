@@ -2,6 +2,7 @@
   "id": "@andybrandt/mcp-simple-pubmed",
   "title": "Mcp-Simple-Pubmed",
   "description": "An MCP server for searching the PubMed database, accessing abstracts, and downloading full-text for open-access articles using the Entrez API.",
+  "categories": ["Data Science", "API Management"],
   "tags": [
     "pubmed",
     "api",

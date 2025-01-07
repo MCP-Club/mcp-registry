@@ -2,6 +2,7 @@
   "id": "@Jacck/mcp-ortools",
   "title": "Mcp-Ortools",
   "description": "MCP-ORTools is a Model Context Protocol server integrating Google's OR-Tools for solving constraint satisfaction and optimization problems, designed to work with Large Language Models.",
+  "categories": ["Data Science", "Machine Learning & AI"],
   "tags": [
     "OR-Tools",
     "constraint-solving",

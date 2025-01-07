@@ -2,6 +2,7 @@
   "id": "@Ad-Veritas/mcp-server-trueRAG",
   "title": "Mcp-Server-Truerag",
   "description": "This repository contains an MCP server implementation for a GraphQL API providing access to TrueRAG policy systems.",
+  "categories": ["API Management", "Security"],
   "tags": [
     "MCP",
     "GraphQL",

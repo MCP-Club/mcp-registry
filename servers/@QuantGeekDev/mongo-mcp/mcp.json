@@ -2,6 +2,7 @@
   "id": "@QuantGeekDev/mongo-mcp",
   "title": "Mongo-Mcp",
   "description": "A Model Context Protocol (MCP) server that enables LLMs to interact with MongoDB databases for query, schema inspection, and data management through natural language.",
+  "categories": ["Databases & Storage", "Machine Learning & AI"],
   "tags": [
     "MongoDB",
     "MCP",

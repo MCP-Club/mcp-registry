@@ -2,6 +2,7 @@
   "id": "@GongRzhe/Gmail-MCP-Server",
   "title": "Gmail-Mcp-Server",
   "description": "A Model Context Protocol (MCP) server for integrating Gmail in Claude Desktop, supporting natural language-driven email management and auto-authentication.",
+  "categories": ["API Management", "Integration & Delivery"],
   "tags": [
     "MCP",
     "Gmail API",

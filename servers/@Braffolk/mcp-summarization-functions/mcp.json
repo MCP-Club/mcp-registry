@@ -2,6 +2,7 @@
   "id": "@Braffolk/mcp-summarization-functions",
   "title": "Mcp-Summarization-Functions",
   "description": "A powerful MCP server providing intelligent summarization capabilities for efficient context management in AI workflows.",
+  "categories": ["Machine Learning & AI", "Integration & Delivery"],
   "tags": [
     "summarization",
     "AI",

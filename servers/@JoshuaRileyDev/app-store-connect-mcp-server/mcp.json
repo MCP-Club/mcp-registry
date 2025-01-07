@@ -2,6 +2,7 @@
   "id": "@JoshuaRileyDev/app-store-connect-mcp-server",
   "title": "App-Store-Connect-Mcp-Server",
   "description": "An MCP server for interacting with the App Store Connect API, offering tools for app, beta tester, bundle ID, device, and user management.",
+  "categories": ["API Management", "Developer Tools"],
   "tags": [
     "App Store Connect",
     "MCP",

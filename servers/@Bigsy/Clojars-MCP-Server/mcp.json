@@ -2,6 +2,7 @@
   "id": "@Bigsy/Clojars-MCP-Server",
   "title": "Clojars-Mcp-Server",
   "description": "A Model Context Protocol (MCP) server that provides tools for fetching dependency version information from Clojars, the Clojure artifact repository.",
+  "categories": ["Languages & Frameworks", "Developer Tools"],
   "tags": [
     "MCP",
     "Clojure",

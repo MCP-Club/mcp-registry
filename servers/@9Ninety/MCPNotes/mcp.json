@@ -2,6 +2,7 @@
   "id": "@9Ninety/MCPNotes",
   "title": "Mcpnotes",
   "description": "MCP Notes Server is an AI-powered note-taking application using MCP protocol with secure DynamoDB storage and integration with tools such as Claude Desktop.",
+  "categories": ["Machine Learning & AI", "Databases & Storage"],
   "tags": [
     "Node.js",
     "MCP",

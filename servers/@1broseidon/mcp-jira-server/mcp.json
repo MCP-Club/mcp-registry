@@ -2,6 +2,7 @@
   "id": "@1broseidon/mcp-jira-server",
   "title": "Mcp-Jira-Server",
   "description": "A Model Context Protocol (MCP) server for integrating with Jira's REST API, enabling programmatic management of Jira issues.",
+  "categories": ["API Management", "Developer Tools"],
   "tags": [
     "Jira",
     "API",

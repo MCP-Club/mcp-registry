@@ -2,6 +2,7 @@
   "id": "@RafalWilinski/aws-mcp",
   "title": "Aws-Mcp",
   "description": "A Model Context Protocol (MCP) server that enables natural language querying and management of AWS resources using Claude Desktop.",
+  "categories": ["Integration & Delivery", "Machine Learning & AI"],
   "tags": [
     "AWS",
     "MCP",

@@ -2,6 +2,7 @@
   "id": "@MladenSU/cli-mcp-server",
   "title": "Cli-Mcp-Server",
   "description": "A secure CLI MCP server implementation offering strict command execution controls and robust security features for enabling protected command-line operations.",
+  "categories": ["Security", "Developer Tools"],
   "tags": [
     "CLI",
     "security",

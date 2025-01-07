@@ -2,6 +2,7 @@
   "id": "@Nayshins/mcp-server-ccxt",
   "title": "Mcp-Server-Ccxt",
   "description": "An MCP server providing real-time and historical cryptocurrency market data, enabling LLMs like Claude to fetch market prices and analyze trends.",
+  "categories": ["Data Science", "Web Analytics"],
   "tags": [
     "cryptocurrency",
     "MCP",

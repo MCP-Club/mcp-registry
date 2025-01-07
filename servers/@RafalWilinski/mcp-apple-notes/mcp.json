@@ -2,6 +2,7 @@
   "id": "@RafalWilinski/mcp-apple-notes",
   "title": "Mcp-Apple-Notes",
   "description": "An MCP server for semantic search and AI-assisted Retrieval Augmented Generation (RAG) over Apple Notes, enabling local, private, and secure interaction with your notes through Claude Desktop.",
+  "categories": ["Content Management System", "Machine Learning & AI"],
   "tags": [
     "MCP",
     "semantic search",

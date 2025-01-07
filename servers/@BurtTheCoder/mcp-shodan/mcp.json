@@ -2,6 +2,7 @@
   "id": "@BurtTheCoder/mcp-shodan",
   "title": "Mcp-Shodan",
   "description": "A Model Context Protocol (MCP) server for querying Shodan's API and CVEDB to perform IP reconnaissance, DNS operations, vulnerability tracking, and device discovery.",
+  "categories": ["Security", "Networking"],
   "tags": [
     "MCP",
     "Shodan",

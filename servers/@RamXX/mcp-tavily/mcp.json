@@ -2,6 +2,7 @@
   "id": "@RamXX/mcp-tavily",
   "title": "Tavily",
   "description": "A Model Context Protocol server enabling AI-powered web searches, direct Q&A, and recent news retrieval using Tavily's API.",
+  "categories": ["Web Analytics", "Machine Learning & AI"],
   "tags": [
     "AI",
     "web-search",

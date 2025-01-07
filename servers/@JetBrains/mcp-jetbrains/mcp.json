@@ -2,6 +2,7 @@
   "id": "@JetBrains/mcp-jetbrains",
   "title": "Jetbrains",
   "description": "The JetBrains MCP Proxy Server proxies requests from clients to JetBrains IDEs and can be integrated with Claude Desktop for multi-IDE support.",
+  "categories": ["Developer Tools", "Integration & Delivery"],
   "tags": [
     "JetBrains",
     "proxy",

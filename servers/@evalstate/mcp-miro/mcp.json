@@ -2,6 +2,7 @@
   "id": "@evalstate/mcp-miro",
   "title": "Mcp-Miro",
   "description": "A Model Context Protocol (MCP) server to interface with the MIRO Whiteboard app, enabling board manipulation, sticky creation, bulk actions, and more.",
+  "categories": ["API Management", "Developer Tools"],
   "tags": [
     "MIRO",
     "MCP",

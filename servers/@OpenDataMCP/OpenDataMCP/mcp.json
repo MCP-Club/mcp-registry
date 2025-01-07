@@ -2,6 +2,7 @@
   "id": "@OpenDataMCP/OpenDataMCP",
   "title": "Opendatamcp",
   "description": "Open Data MCP enables seamless access to public datasets and easy integration with LLM applications through CLI tools and MCP servers.",
+  "categories": ["Data Science", "Integration & Delivery"],
   "tags": [
     "open-data",
     "CLI",

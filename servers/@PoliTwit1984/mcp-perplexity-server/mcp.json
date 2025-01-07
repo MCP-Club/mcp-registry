@@ -2,6 +2,7 @@
   "id": "@PoliTwit1984/mcp-perplexity-server",
   "title": "Mcp-Perplexity-Server",
   "description": "An MCP server providing intelligent code analysis and debugging capabilities using Perplexity AI's API, seamlessly integrated with Claude desktop.",
+  "categories": ["Machine Learning & AI", "Developer Tools"],
   "tags": [
     "Node.js",
     "MCP",

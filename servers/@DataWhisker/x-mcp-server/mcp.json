@@ -2,6 +2,7 @@
   "id": "@DataWhisker/x-mcp-server",
   "title": "X-Mcp-Server",
   "description": "A Model Context Protocol (MCP) server for integrating with X (Twitter), allowing reading timelines, posting tweets, and replying with rate limit handling.",
+  "categories": ["API Management", "Web Analytics"],
   "tags": [
     "Node.js",
     "Twitter API",

@@ -2,6 +2,7 @@
   "id": "@gerred/mcpmc",
   "title": "Mcpmc",
   "description": "A Model Context Protocol (MCP) server enabling AI agents to control Minecraft bots via a standardized JSON-RPC interface.",
+  "categories": ["Machine Learning & AI", "Developer Tools"],
   "tags": [
     "Minecraft",
     "AI",

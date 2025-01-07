@@ -2,6 +2,7 @@
   "id": "@GongRzhe/REDIS-MCP-Server",
   "title": "Redis-Mcp-Server",
   "description": "A Redis Model Context Protocol (MCP) server implementation for interacting with Redis databases, enabling LLMs to interact with Redis key-value stores.",
+  "categories": ["Databases & Storage", "Integration & Delivery"],
   "tags": [
     "Redis",
     "MCP",

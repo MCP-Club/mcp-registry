@@ -2,6 +2,7 @@
   "id": "@SeanMcLoughlin/mcp-vcd",
   "title": "Mcp-Vcd",
   "description": "An MCP server for handling Value Change Dump (VCD) waveforms, useful for extracting signal changes within specified time ranges.",
+  "categories": ["Data Science", "Developer Tools"],
   "tags": [
     "MCP",
     "VCD",

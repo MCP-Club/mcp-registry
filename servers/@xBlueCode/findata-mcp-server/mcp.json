@@ -2,6 +2,7 @@
   "id": "@xBlueCode/findata-mcp-server",
   "title": "Findata-Mcp-Server",
   "description": "An MCP server that integrates with the Alpha Vantage API to provide stock data, including current quotes and historical data, for use with LLMs.",
+  "categories": ["Data Science", "API Management"],
   "tags": [
     "MCP",
     "API",

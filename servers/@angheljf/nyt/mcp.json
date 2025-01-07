@@ -2,6 +2,7 @@
   "id": "@angheljf/nyt",
   "title": "Nyt",
   "description": "A TypeScript-based MCP server that enables searching for New York Times articles from the last 30 days using a keyword.",
+  "categories": ["API Management", "Content Management System"],
   "tags": [
     "TypeScript",
     "MCP server",

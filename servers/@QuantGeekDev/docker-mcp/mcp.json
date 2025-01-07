@@ -2,6 +2,7 @@
   "id": "@QuantGeekDev/docker-mcp",
   "title": "Docker-Mcp",
   "description": "A Model Context Protocol (MCP) server for managing Docker containers and Docker Compose stacks, designed for integration with the Claude Desktop app.",
+  "categories": ["Integration & Delivery", "Developer Tools"],
   "tags": [
     "Docker",
     "Model Context Protocol",

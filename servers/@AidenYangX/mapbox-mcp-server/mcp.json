@@ -2,6 +2,7 @@
   "id": "@AidenYangX/mapbox-mcp-server",
   "title": "Mapbox-Mcp-Server",
   "description": "A server providing MCP (Model Context Protocol) integration for Mapbox APIs, including tools for directions, matrices, and geocoding.",
+  "categories": ["API Management", "Integration & Delivery"],
   "tags": [
     "Mapbox",
     "Node.js",

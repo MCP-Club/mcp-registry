@@ -2,6 +2,7 @@
   "id": "@DynamicEndpoints/huntress-mcp-server",
   "title": "Huntress-Mcp-Server",
   "description": "A Model Context Protocol (MCP) server for interacting with the Huntress API, providing tools for account, organization, agent, and incident management with built-in rate limiting.",
+  "categories": ["Security", "API Management"],
   "tags": [
     "Node.js",
     "API",

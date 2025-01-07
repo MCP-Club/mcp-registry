@@ -2,6 +2,7 @@
   "id": "@DynamicEndpoints/supabase-mcp",
   "title": "Supabase-Mcp",
   "description": "A Model Context Protocol (MCP) server providing tools for Supabase database, storage, and edge function management.",
+  "categories": ["Databases & Storage", "Integration & Delivery"],
   "tags": [
     "Supabase",
     "MCP",

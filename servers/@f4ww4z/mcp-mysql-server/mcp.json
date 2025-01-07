@@ -2,6 +2,7 @@
   "id": "@f4ww4z/mcp-mysql-server",
   "title": "Mcp-Mysql-Server",
   "description": "A Model Context Protocol (MCP) server that enables AI models to interact with MySQL databases through a standardized interface.",
+  "categories": ["Databases & Storage", "Machine Learning & AI"],
   "tags": [
     "MySQL",
     "AI",

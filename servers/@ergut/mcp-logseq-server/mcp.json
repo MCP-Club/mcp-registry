@@ -2,6 +2,7 @@
   "id": "@ergut/mcp-logseq-server",
   "title": "Mcp-Logseq-Server",
   "description": "An MCP server to interact with LogSeq via its API, enabling operations like page management and content search.",
+  "categories": ["API Management", "Content Management System"],
   "tags": [
     "LogSeq",
     "API",

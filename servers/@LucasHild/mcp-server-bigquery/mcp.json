@@ -2,6 +2,7 @@
   "id": "@LucasHild/mcp-server-bigquery",
   "title": "Mcp Server Bigquery",
   "description": "An MCP server for accessing BigQuery, allowing LLMs to inspect database schemas and execute SQL queries.",
+  "categories": ["Databases & Storage", "Data Science"],
   "tags": [
     "BigQuery",
     "MCP",

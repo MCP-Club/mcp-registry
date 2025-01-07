@@ -2,6 +2,7 @@
   "id": "@alexwohletz/language-server-mcp",
   "title": "Language-Server-Mcp",
   "description": "A TypeScript-based MCP server providing language features like hover info, code completions, and diagnostics for code editors.",
+  "categories": ["Languages & Frameworks", "Developer Tools"],
   "tags": [
     "TypeScript",
     "MCP",

@@ -2,6 +2,7 @@
   "id": "@JoshuaRileyDev/simulator-mcp-server",
   "title": "Simulator-Mcp-Server",
   "description": "An MCP server for programmatically controlling iOS simulators, supporting features like listing, booting, and managing apps on simulators.",
+  "categories": ["Developer Tools", "Operating Systems"],
   "tags": [
     "iOS",
     "MCP",

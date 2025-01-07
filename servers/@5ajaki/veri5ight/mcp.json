@@ -2,6 +2,7 @@
   "id": "@5ajaki/veri5ight",
   "title": "Veri5Ight",
   "description": "Veri5ight acts as a bridge between Claude and Ethereum nodes, enabling seamless interaction with ENS, smart contracts, and transactions.",
+  "categories": ["Integration & Delivery", "Security"],
   "tags": [
     "Ethereum",
     "MCP",

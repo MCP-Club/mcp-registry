@@ -2,6 +2,7 @@
   "id": "@PhialsBasement/CMD-MCP-Server",
   "title": "Cmd-Mcp-Server",
   "description": "A cross-platform Model Context Protocol (MCP) server for executing CMD commands, supporting both Windows/Linux and SSH connections.",
+  "categories": ["Operating Systems", "Developer Tools"],
   "tags": [
     "MCP",
     "TypeScript",

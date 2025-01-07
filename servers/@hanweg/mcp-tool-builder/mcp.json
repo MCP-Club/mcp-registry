@@ -2,6 +2,7 @@
   "id": "@hanweg/mcp-tool-builder",
   "title": "Mcp-Tool-Builder",
   "description": "An MCP server that enables LLMs to dynamically create new tools for usage through clients like Claude Desktop by describing them in natural language.",
+  "categories": ["Developer Tools", "Machine Learning & AI"],
   "tags": [
     "Python",
     "LLM",

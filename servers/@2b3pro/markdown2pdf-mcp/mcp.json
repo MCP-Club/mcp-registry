@@ -2,6 +2,7 @@
   "id": "@2b3pro/markdown2pdf-mcp",
   "title": "Markdown2Pdf-Mcp",
   "description": "An MCP server for converting Markdown documents to PDF with syntax highlighting, custom styling, and optional watermarking.",
+  "categories": ["Content Management System", "Developer Tools"],
   "tags": [
     "markdown",
     "pdf",

@@ -2,6 +2,7 @@
   "id": "@JoshuaRileyDev/supabase-mcp-server",
   "title": "Supabase-Mcp-Server",
   "description": "A Model Context Protocol (MCP) server for programmatic access to the Supabase Management API, enabling management of projects and organizations.",
+  "categories": ["API Management", "Databases & Storage"],
   "tags": [
     "Supabase",
     "API",

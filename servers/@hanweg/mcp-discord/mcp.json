@@ -2,6 +2,7 @@
   "id": "@hanweg/mcp-discord",
   "title": "Mcp-Discord",
   "description": "A Model Context Protocol (MCP) server for integrating Discord functionalities into MCP clients like Claude Desktop.",
+  "categories": ["API Management", "Integration & Delivery"],
   "tags": [
     "Discord",
     "MCP",

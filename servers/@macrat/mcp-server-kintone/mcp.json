@@ -2,6 +2,7 @@
   "id": "@macrat/mcp-server-kintone",
   "title": "Mcp-Server-Kintone",
   "description": "MCP server for kintone to enable AI tools like Claude Desktop to interact with kintone data.",
+  "categories": ["Databases & Storage", "Machine Learning & AI"],
   "tags": [
     "MCP",
     "kintone",

@@ -2,6 +2,7 @@
   "id": "@DynamicEndpoints/pocketbase-mcp-server",
   "title": "Pocketbase-Mcp-Server",
   "description": "A sophisticated MCP server for seamless interaction with PocketBase databases, enabling advanced operations such as schema management, data manipulation, and user management.",
+  "categories": ["Databases & Storage", "API Management"],
   "tags": [
     "PocketBase",
     "MCP",

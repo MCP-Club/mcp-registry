@@ -2,6 +2,7 @@
   "id": "@andybrandt/mcp-simple-openai-assistant",
   "title": "Mcp-Simple-Openai-Assistant",
   "description": "A simple MCP server for interacting with OpenAI assistants, enabling creation, manipulation, and messaging with AI models via the Model Context Protocol.",
+  "categories": ["Machine Learning & AI", "API Management"],
   "tags": [
     "MCP",
     "OpenAI",
