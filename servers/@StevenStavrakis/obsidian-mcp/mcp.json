@@ -1,0 +1,35 @@
+{
+  "id": "@StevenStavrakis/obsidian-mcp",
+  "title": "Obsidian-Mcp",
+  "description": "An MCP server enabling AI assistants to manage and interact with Obsidian vaults, including reading, editing, and organizing notes and tags.",
+  "tags": [
+    "MCP",
+    "Obsidian",
+    "Node.js"
+  ],
+  "creator": "StevenStavrakis",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:08:05Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/StevenStavrakis/obsidian-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "obsidian-mcp",
+      "**VAULT_PATH**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "VAULT_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "The absolute path to your Obsidian vault folder."
+    }
+  }
+}

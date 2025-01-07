@@ -1,0 +1,37 @@
+{
+  "id": "@hanweg/mcp-pdf-tools",
+  "title": "Mcp-Pdf-Tools",
+  "description": "An MCP server for performing PDF manipulations such as merging, extracting pages, and searching PDFs for use with LLMs via the Model Context Protocol.",
+  "categories": ["Content Management System", "Machine Learning & AI"],
+  "tags": [
+    "PDF manipulation",
+    "MCP",
+    "LLMs"
+  ],
+  "creator": "hanweg",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:52:39Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/hanweg/mcp-pdf-tools"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "**PATH_TO_MCP_PDF_TOOLS**",
+      "run",
+      "pdf-tools"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PATH_TO_MCP_PDF_TOOLS": {
+      "type": "string",
+      "required": true,
+      "description": "Path to the mcp-pdf-tools directory where the server is installed."
+    }
+  }
+}

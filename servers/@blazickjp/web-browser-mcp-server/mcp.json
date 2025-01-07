@@ -1,0 +1,43 @@
+{
+  "id": "@blazickjp/web-browser-mcp-server",
+  "title": "Web-Browser-Mcp-Server",
+  "description": "A Python server that integrates web browsing capabilities into AI applications, enabling content extraction and metadata retrieval.",
+  "tags": [
+    "Python",
+    "Web Browsing",
+    "Automation"
+  ],
+  "creator": "blazickjp",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:53:07Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/blazickjp/web-browser-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "**INSTALLATION_PATH**",
+      "run",
+      "web-browser-mcp-server"
+    ],
+    "env": {
+      "REQUEST_TIMEOUT": "**REQUEST_TIMEOUT**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "INSTALLATION_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "The file system path to the installed `web-browser-mcp-server` directory."
+    },
+    "REQUEST_TIMEOUT": {
+      "type": "string",
+      "required": true,
+      "description": "Maximum request time in seconds."
+    }
+  }
+}

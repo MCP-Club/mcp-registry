@@ -1,0 +1,41 @@
+{
+  "id": "@domdomegg/airtable-mcp-server",
+  "title": "Airtable",
+  "description": "MCP server for managing Airtable bases and tables with comprehensive API support for base, table, field, and record operations",
+  "tags": [
+    "database",
+    "api",
+    "tables",
+    "records",
+    "fields"
+  ],
+  "categories": [
+    "Databases & Storage",
+    "API Management"
+  ],
+  "creator": "felores",
+  "verified": false,
+  "logoUrl": "https://www.svgrepo.com/show/353383/airtable.svg",
+  "publishDate": "2024-01-17T00:00:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/domdomegg/airtable-mcp-server",
+    "npm": "https://www.npmjs.com/package/airtable-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "airtable-mcp-server",
+      "**AIRTABLE_API_KEY**"
+    ]
+  },
+  "parameters": {
+    "AIRTABLE_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Airtable Personal Access Token for authentication"
+    }
+  }
+}

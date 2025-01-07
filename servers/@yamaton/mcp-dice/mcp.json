@@ -1,0 +1,27 @@
+{
+  "id": "@yamaton/mcp-dice",
+  "title": "Mcp-Dice",
+  "description": "A MCP server for rolling dice using standard dice notation, designed for integration with Claude Desktop and debugging with MCP Inspector.",
+  "tags": [
+    "MCP",
+    "uvx",
+    "dice rolling"
+  ],
+  "creator": "yamaton",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:59:33Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/yamaton/mcp-dice"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-dice"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

@@ -1,0 +1,36 @@
+{
+  "id": "@mzxrai/mcp-openai",
+  "title": "Mcp-Openai",
+  "description": "An MCP server that integrates OpenAI's models with Claude Desktop for seamless message passing and model interaction.",
+  "tags": [
+    "MCP",
+    "OpenAI",
+    "Claude"
+  ],
+  "creator": "mzxrai",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:54:29Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/mzxrai/mcp-openai"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@mzxrai/mcp-openai@latest"
+    ],
+    "env": {
+      "OPENAI_API_KEY": "**OPENAI_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "OPENAI_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key for accessing OpenAI's services. Obtain one from https://platform.openai.com/api-keys."
+    }
+  }
+}

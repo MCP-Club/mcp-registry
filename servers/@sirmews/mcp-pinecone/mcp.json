@@ -1,0 +1,42 @@
+{
+  "id": "@sirmews/mcp-pinecone",
+  "title": "Pinecone",
+  "description": "A server to integrate Pinecone index read and write operations in Claude Desktop utilizing semantic search and embedding functionalities.",
+  "tags": [
+    "Pinecone",
+    "Claude Desktop",
+    "MCP"
+  ],
+  "creator": "sirmews",
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV0dX7V6O77yPtI_nKWICiR9pGFoCPp8KGiA&s",
+  "publishDate": "2024-12-24T09:57:14Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/sirmews/mcp-pinecone"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "--index-name",
+      "**INDEX_NAME**",
+      "--api-key",
+      "**API_KEY**",
+      "mcp-pinecone"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "INDEX_NAME": {
+      "type": "string",
+      "required": true,
+      "description": "Name of the Pinecone index to be used."
+    },
+    "API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key for accessing the Pinecone service."
+    }
+  }
+}

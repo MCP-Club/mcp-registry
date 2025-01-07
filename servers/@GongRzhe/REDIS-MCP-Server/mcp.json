@@ -1,0 +1,40 @@
+{
+  "id": "@GongRzhe/REDIS-MCP-Server",
+  "title": "Redis-Mcp-Server",
+  "description": "A Redis Model Context Protocol (MCP) server implementation for interacting with Redis databases, enabling LLMs to interact with Redis key-value stores.",
+  "categories": ["Databases & Storage", "Integration & Delivery"],
+  "tags": [
+    "Redis",
+    "MCP",
+    "Server"
+  ],
+  "creator": "GongRzhe",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:08:21Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/GongRzhe/REDIS-MCP-Server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "@gongrzhe/server-redis-mcp@1.0.0",
+      "redis://**REDIS_HOST**:**REDIS_PORT**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "REDIS_HOST": {
+      "type": "string",
+      "required": true,
+      "description": "Hostname or IP address of the Redis server"
+    },
+    "REDIS_PORT": {
+      "type": "string",
+      "required": true,
+      "description": "Port number of the Redis server"
+    }
+  }
+}

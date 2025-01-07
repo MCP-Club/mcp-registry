@@ -1,0 +1,36 @@
+{
+  "id": "@ivo-toby/contentful-mcp",
+  "title": "Contentful",
+  "description": "An MCP server for managing Contentful's content and spaces, designed for integration with Claude Desktop or other MCP-compatible tools.",
+  "tags": [
+    "Contentful",
+    "MCP",
+    "API"
+  ],
+  "creator": "ivo-toby",
+  "logoUrl": "https://pipedream.com/s.v0/app_mLNhoV/logo/orig",
+  "publishDate": "2024-12-24T10:09:58Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/ivo-toby/contentful-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@ivotoby/contentful-management-mcp-server"
+    ],
+    "env": {
+      "CONTENTFUL_MANAGEMENT_ACCESS_TOKEN": "**CONTENTFUL_MANAGEMENT_ACCESS_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "CONTENTFUL_MANAGEMENT_ACCESS_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Your Contentful Content Management API token"
+    }
+  }
+}

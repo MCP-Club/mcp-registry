@@ -1,0 +1,31 @@
+{
+  "id": "@modelcontextprotocol/server-sequential-thinking",
+  "title": "Sequential Thinking",
+  "description": "Sequential thinking server for step-by-step reasoning",
+  "tags": [
+    "reasoning",
+    "step-by-step",
+    "problem solving"
+  ],
+  "categories": [
+    "Developer Tools"
+  ],
+  "creator": "modelcontextprotocol",
+  "verified": false,
+  "logoUrl": "https://app.mcphub.net/server-configuration/image/sequential-thinking.svg",
+  "publishDate": "2024-12-17T12:49:12Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/modelcontextprotocol/server-sequential-thinking",
+    "npm": "https://www.npmjs.com/package/@modelcontextprotocol/server-sequential-thinking"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking"
+    ]
+  },
+  "parameters": {}
+}

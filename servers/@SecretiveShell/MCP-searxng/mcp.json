@@ -1,0 +1,43 @@
+{
+  "id": "@SecretiveShell/MCP-searxng",
+  "title": "Mcp-Searxng",
+  "description": "An MCP server for integrating agentic systems with web search functionality using searXNG.",
+  "tags": [
+    "MCP",
+    "searXNG",
+    "web-search"
+  ],
+  "creator": "SecretiveShell",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:57:04Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/SecretiveShell/MCP-searxng"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--project",
+      "**PROJECT_PATH**",
+      "run",
+      "**PROJECT_PATH**/mcp-searxng/main.py"
+    ],
+    "env": {
+      "SEARXNG_URL": "**SEARXNG_URL**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PROJECT_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "The absolute path to the MCP-searxng project."
+    },
+    "SEARXNG_URL": {
+      "type": "string",
+      "required": true,
+      "description": "The URL of the searXNG server. Defaults to 'http://localhost:8080'."
+    }
+  }
+}

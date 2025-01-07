@@ -1,0 +1,27 @@
+{
+  "id": "@splendasucks/webperfect-mcp-server",
+  "title": "Webperfect-Mcp-Server",
+  "description": "WebPerfect MCP Server is an AI-powered solution for web image optimization, offering advanced processing techniques to reduce file size while maintaining image quality.",
+  "tags": [
+    "AI",
+    "image optimization",
+    "Node.js"
+  ],
+  "creator": "splendasucks",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:08:42Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/splendasucks/webperfect-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/webperfect-mcp-server/build/index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

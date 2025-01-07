@@ -1,0 +1,40 @@
+{
+  "id": "@buryhuang/mcp-hubspot",
+  "title": "Mcp-Hubspot",
+  "description": "A Model Context Protocol (MCP) server implementation for integrating AI models with HubSpot CRM data and operations via a standardized interface.",
+  "tags": [
+    "HubSpot",
+    "MCP",
+    "AI"
+  ],
+  "creator": "buryhuang",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:12:53Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/buryhuang/mcp-hubspot"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "docker",
+    "args": [
+      "run",
+      "-i",
+      "--rm",
+      "-e",
+      "HUBSPOT_ACCESS_TOKEN=**HUBSPOT_ACCESS_TOKEN**",
+      "buryhuang/mcp-hubspot:latest"
+    ],
+    "env": {
+      "HUBSPOT_ACCESS_TOKEN": "**HUBSPOT_ACCESS_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "HUBSPOT_ACCESS_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "The access token for authenticating with the HubSpot API."
+    }
+  }
+}

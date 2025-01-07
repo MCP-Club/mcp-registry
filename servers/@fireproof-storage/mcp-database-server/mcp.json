@@ -1,0 +1,28 @@
+{
+  "id": "@fireproof-storage/mcp-database-server",
+  "title": "Mcp-Database-Server",
+  "description": "A demo JSON document server for integrating Fireproof database with Model Context Protocol and Claude Desktop, providing basic CRUD operations and document querying.",
+  "categories": ["Databases & Storage", "Developer Tools"],
+  "tags": [
+    "Fireproof",
+    "Model Context Protocol",
+    "Claude Desktop"
+  ],
+  "creator": "fireproof-storage",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:52:19Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/fireproof-storage/mcp-database-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/fireproof-mcp/build/index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

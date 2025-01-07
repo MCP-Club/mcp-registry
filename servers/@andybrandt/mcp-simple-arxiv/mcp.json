@@ -1,0 +1,29 @@
+{
+  "id": "@andybrandt/mcp-simple-arxiv",
+  "title": "Mcp-Simple-Arxiv",
+  "description": "An MCP server for interacting with arXiv's API to search for, retrieve metadata, and access scientific papers.",
+  "categories": ["API Management", "Data Science"],
+  "tags": [
+    "arXiv",
+    "API",
+    "Python"
+  ],
+  "creator": "andybrandt",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:13:26Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/andybrandt/mcp-simple-arxiv"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "python",
+    "args": [
+      "-m",
+      "mcp_simple_arxiv"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

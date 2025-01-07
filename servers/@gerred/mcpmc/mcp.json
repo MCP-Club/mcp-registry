@@ -1,0 +1,26 @@
+{
+  "id": "@gerred/mcpmc",
+  "title": "Mcpmc",
+  "description": "A Model Context Protocol (MCP) server enabling AI agents to control Minecraft bots via a standardized JSON-RPC interface.",
+  "categories": ["Machine Learning & AI", "Developer Tools"],
+  "tags": [
+    "Minecraft",
+    "AI",
+    "JSON-RPC"
+  ],
+  "creator": "gerred",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:09:27Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/gerred/mcpmc"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "mcpmc",
+    "args": [],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

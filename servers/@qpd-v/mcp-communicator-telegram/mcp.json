@@ -1,0 +1,41 @@
+{
+  "id": "@qpd-v/mcp-communicator-telegram",
+  "title": "Mcp-Communicator-Telegram",
+  "description": "An MCP server enabling communication with users via Telegram, allowing questions to be asked and responses received asynchronously through a Telegram bot.",
+  "tags": [
+    "Telegram",
+    "Node.js",
+    "MCP"
+  ],
+  "creator": "qpd-v",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:58:19Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/qpd-v/mcp-communicator-telegram"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "path/to/mcp-communicator-telegram/build/index.js"
+    ],
+    "env": {
+      "TELEGRAM_TOKEN": "**TELEGRAM_TOKEN**",
+      "CHAT_ID": "**CHAT_ID**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "TELEGRAM_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "The Telegram bot token obtained from BotFather."
+    },
+    "CHAT_ID": {
+      "type": "string",
+      "required": true,
+      "description": "The Telegram chat ID of the user to communicate with."
+    }
+  }
+}

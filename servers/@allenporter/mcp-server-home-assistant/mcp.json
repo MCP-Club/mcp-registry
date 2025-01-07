@@ -1,0 +1,51 @@
+{
+  "id": "@allenporter/mcp-server-home-assistant",
+  "title": "Mcp-Server-Home-Assistant",
+  "description": "A Model Context Protocol Server integration for Home Assistant to enable interaction via Claude Desktop.",
+  "tags": [
+    "Home Assistant",
+    "Model Context Protocol",
+    "Claude Desktop"
+  ],
+  "creator": "allenporter",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:55:47Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/allenporter/mcp-server-home-assistant"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "**MCP_SERVER_DIRECTORY**",
+      "run",
+      "mcp-server-home-assistant",
+      "-v",
+      "-v"
+    ],
+    "env": {
+      "HOME_ASSISTANT_WEB_SOCKET_URL": "**HOME_ASSISTANT_WEB_SOCKET_URL**",
+      "HOME_ASSISTANT_API_TOKEN": "**HOME_ASSISTANT_API_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "MCP_SERVER_DIRECTORY": {
+      "type": "string",
+      "required": true,
+      "description": "The directory path where the MCP server for Home Assistant is cloned."
+    },
+    "HOME_ASSISTANT_WEB_SOCKET_URL": {
+      "type": "string",
+      "required": true,
+      "description": "The websocket URL of the Home Assistant instance."
+    },
+    "HOME_ASSISTANT_API_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "The API token for authenticating with the Home Assistant instance."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "@TimHolden/figma-mcp-server",
+  "title": "Figma-Mcp-Server",
+  "description": "",
+  "tags": [],
+  "creator": "TimHolden",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:51:41Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/TimHolden/figma-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "",
+    "args": [],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

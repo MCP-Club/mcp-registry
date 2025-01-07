@@ -1,0 +1,35 @@
+{
+  "id": "@sirmews/apple-notes-mcp",
+  "title": "Apple-Notes-Mcp",
+  "description": "The Apple Notes MCP server enables Claude Desktop to read, access, and search through your local Apple Notes database for enhanced context support.",
+  "tags": [
+    "Apple Notes",
+    "Claude Desktop",
+    "MCP server"
+  ],
+  "creator": "sirmews",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:48:07Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/sirmews/apple-notes-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "apple-notes-mcp"
+    ],
+    "env": {
+      "UV_PUBLISH_TOKEN": "**UV_PUBLISH_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "UV_PUBLISH_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Token for publishing the MCP server to PyPI."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "@kazuph/mcp-github-pera1",
+  "title": "Mcp-Github-Pera1",
+  "description": "A Model Context Protocol server that integrates GitHub repository code with Claude.ai for enhanced contextual understanding.",
+  "tags": [
+    "MCP",
+    "GitHub",
+    "Claude.ai"
+  ],
+  "creator": "kazuph",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:55:29Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/kazuph/mcp-github-pera1"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@kazuph/mcp-github-pera1"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "url": {
+      "type": "string",
+      "required": true,
+      "description": "GitHub repository URL"
+    }
+  }
+}

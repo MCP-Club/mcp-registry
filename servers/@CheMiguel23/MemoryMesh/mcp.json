@@ -1,0 +1,34 @@
+{
+  "id": "@CheMiguel23/MemoryMesh",
+  "title": "Memorymesh",
+  "description": "MemoryMesh is a local knowledge graph server designed for AI, enabling structured memory management and dynamic interactions, especially for text-based RPGs.",
+  "categories": ["Machine Learning & AI", "Databases & Storage"],
+  "tags": [
+    "TypeScript",
+    "Node.js",
+    "AI"
+  ],
+  "creator": "CheMiguel23",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:50:29Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/CheMiguel23/MemoryMesh"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "**PATH_TO_PROJECT**/dist/index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PATH_TO_PROJECT": {
+      "type": "string",
+      "required": true,
+      "description": "The absolute path to the MemoryMesh project directory."
+    }
+  }
+}

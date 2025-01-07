@@ -1,0 +1,29 @@
+{
+  "id": "@kimtaeyoon83/mcp-server-youtube-transcript",
+  "title": "YouTube Transcript",
+  "description": "Retrieval of transcripts from YouTube videos",
+  "tags": [
+    "youtube"
+  ],
+  "categories": [
+    "Content Management System"
+  ],
+  "creator": "kimtaeyoon83",
+  "verified": false,
+  "logoUrl": "https://app.mcphub.net/server-configuration/image/youtube-transcript.svg",
+  "publishDate": "2024-12-13T12:00:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/kimtaeyoon83/mcp-server-youtube-transcript",
+    "npm": "https://www.npmjs.com/package/@kimtaeyoon83/mcp-server-youtube-transcript"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@kimtaeyoon83/mcp-server-youtube-transcript"
+    ]
+  },
+  "parameters": {}
+}

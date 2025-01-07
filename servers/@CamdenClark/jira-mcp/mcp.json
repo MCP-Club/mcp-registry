@@ -1,0 +1,49 @@
+{
+  "id": "@CamdenClark/jira-mcp",
+  "title": "Jira-Mcp",
+  "description": "An MCP server that allows Large Language Models (LLMs) to interact with JIRA for executing JQL queries and retrieving issue details.",
+  "categories": ["API Management", "Developer Tools"],
+  "tags": [
+    "JIRA",
+    "MCP Server",
+    "LLM"
+  ],
+  "creator": "CamdenClark",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:54:34Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/CamdenClark/jira-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "jira-mcp"
+    ],
+    "env": {
+      "JIRA_INSTANCE_URL": "**JIRA_INSTANCE_URL**",
+      "JIRA_USER_EMAIL": "**JIRA_USER_EMAIL**",
+      "JIRA_API_KEY": "**JIRA_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "JIRA_INSTANCE_URL": {
+      "type": "string",
+      "required": true,
+      "description": "Base URL of the JIRA instance."
+    },
+    "JIRA_USER_EMAIL": {
+      "type": "string",
+      "required": true,
+      "description": "Email address associated with your Atlassian account."
+    },
+    "JIRA_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API token or Personal Access Token for JIRA authentication."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "@kazuph/mcp-taskmanager",
+  "title": "Mcp-Taskmanager",
+  "description": "MCP TaskManager is a server for managing and executing tasks in a queue-based system through Claude Desktop or any MCP client.",
+  "tags": [
+    "Node.js",
+    "MCP",
+    "Task Management"
+  ],
+  "creator": "kazuph",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:47:56Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/kazuph/mcp-taskmanager"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@kazuph/mcp-taskmanager"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

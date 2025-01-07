@@ -1,0 +1,42 @@
+{
+  "id": "@DynamicEndpoints/huntress-mcp-server",
+  "title": "Huntress-Mcp-Server",
+  "description": "A Model Context Protocol (MCP) server for interacting with the Huntress API, providing tools for account, organization, agent, and incident management with built-in rate limiting.",
+  "categories": ["Security", "API Management"],
+  "tags": [
+    "Node.js",
+    "API",
+    "MCP"
+  ],
+  "creator": "DynamicEndpoints",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:51:47Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/DynamicEndpoints/huntress-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "path/to/huntress-server/build/index.js"
+    ],
+    "env": {
+      "HUNTRESS_API_KEY": "**HUNTRESS_API_KEY**",
+      "HUNTRESS_API_SECRET": "**HUNTRESS_API_SECRET**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "HUNTRESS_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The Huntress API Key for authenticating requests."
+    },
+    "HUNTRESS_API_SECRET": {
+      "type": "string",
+      "required": true,
+      "description": "The Huntress API Secret Key for securing requests."
+    }
+  }
+}

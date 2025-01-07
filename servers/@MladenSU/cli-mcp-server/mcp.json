@@ -1,0 +1,60 @@
+{
+  "id": "@MladenSU/cli-mcp-server",
+  "title": "Cli-Mcp-Server",
+  "description": "A secure CLI MCP server implementation offering strict command execution controls and robust security features for enabling protected command-line operations.",
+  "categories": ["Security", "Developer Tools"],
+  "tags": [
+    "CLI",
+    "security",
+    "MCP"
+  ],
+  "creator": "MladenSU",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:56:02Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/MladenSU/cli-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "cli-mcp-server"
+    ],
+    "env": {
+      "ALLOWED_DIR": "**ALLOWED_DIR**",
+      "ALLOWED_COMMANDS": "**ALLOWED_COMMANDS**",
+      "ALLOWED_FLAGS": "**ALLOWED_FLAGS**",
+      "MAX_COMMAND_LENGTH": "**MAX_COMMAND_LENGTH**",
+      "COMMAND_TIMEOUT": "**COMMAND_TIMEOUT**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "ALLOWED_DIR": {
+      "type": "string",
+      "required": true,
+      "description": "Base directory for command execution."
+    },
+    "ALLOWED_COMMANDS": {
+      "type": "string",
+      "required": true,
+      "description": "Comma-separated list of allowed commands or 'all'."
+    },
+    "ALLOWED_FLAGS": {
+      "type": "string",
+      "required": true,
+      "description": "Comma-separated list of allowed flags or 'all'."
+    },
+    "MAX_COMMAND_LENGTH": {
+      "type": "string",
+      "required": true,
+      "description": "Maximum command string length."
+    },
+    "COMMAND_TIMEOUT": {
+      "type": "string",
+      "required": true,
+      "description": "Command execution timeout (in seconds)."
+    }
+  }
+}

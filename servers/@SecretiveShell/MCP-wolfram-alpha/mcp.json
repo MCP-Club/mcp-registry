@@ -1,0 +1,38 @@
+{
+  "id": "@SecretiveShell/MCP-wolfram-alpha",
+  "title": "Mcp-Wolfram-Alpha",
+  "description": "An MCP server that connects to the Wolfram Alpha API for querying and advanced computations.",
+  "tags": [
+    "MCP",
+    "Wolfram Alpha",
+    "API"
+  ],
+  "creator": "SecretiveShell",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:09:48Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/SecretiveShell/MCP-wolfram-alpha"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "/full/path/to/MCP-wolfram-alpha",
+      "run",
+      "MCP-wolfram-alpha"
+    ],
+    "env": {
+      "WOLFRAM_API_KEY": "**WOLFRAM_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "WOLFRAM_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Your Wolfram Alpha API key for authenticating requests."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "@Tomatio13/mcp-server-tavily",
+  "title": "Mcp-Server-Tavily",
+  "description": "A server project that uses the Tavily API to perform web searches and return AI responses along with related data.",
+  "tags": [
+    "search",
+    "API",
+    "Docker"
+  ],
+  "creator": "Tomatio13",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:12:10Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/Tomatio13/mcp-server-tavily"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "C:\\your_path\\mcp-server-tavily",
+      "run",
+      "tavily-search"
+    ],
+    "env": {
+      "TAVILY_API_KEY": "**TAVILY_API_KEY**",
+      "PYTHONIOENCODING": "utf-8"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "TAVILY_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The API key required to authorize the Tavily API."
+    },
+    "PYTHONIOENCODING": {
+      "type": "string",
+      "required": true,
+      "description": "Specifies the encoding type for I/O operations (default is utf-8)."
+    }
+  }
+}

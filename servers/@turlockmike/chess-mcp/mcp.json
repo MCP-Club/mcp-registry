@@ -1,0 +1,27 @@
+{
+  "id": "@turlockmike/chess-mcp",
+  "title": "Chess-Mcp",
+  "description": "This tool integrates chess analysis capabilities into Claude Desktop, enabling features like position evaluation, visual board representation, and access to master game databases using the Stockfish engine.",
+  "tags": [
+    "chess",
+    "Claude Desktop",
+    "Stockfish"
+  ],
+  "creator": "turlockmike",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:00:41Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/turlockmike/chess-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "chess-mcp"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

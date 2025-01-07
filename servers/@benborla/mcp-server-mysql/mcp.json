@@ -1,0 +1,60 @@
+{
+  "id": "@benborla/mcp-server-mysql",
+  "title": "Mysql",
+  "description": "MCP server for providing read-only access to MySQL databases, enabling schema inspection and query execution.",
+  "tags": [
+    "NodeJS",
+    "MySQL",
+    "MCP"
+  ],
+  "creator": "benborla",
+  "logoUrl": "https://www.svgrepo.com/show/303251/mysql-logo.svg",
+  "publishDate": "2024-12-24T09:35:16Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/benborla/mcp-server-mysql"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@benborla29/mcp-server-mysql"
+    ],
+    "env": {
+      "MYSQL_HOST": "**MYSQL_HOST**",
+      "MYSQL_PORT": "**MYSQL_PORT**",
+      "MYSQL_USER": "**MYSQL_USER**",
+      "MYSQL_PASS": "**MYSQL_PASS**",
+      "MYSQL_DB": "**MYSQL_DB**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "MYSQL_HOST": {
+      "type": "string",
+      "required": true,
+      "description": "The hostname or IP address of the MySQL server."
+    },
+    "MYSQL_PORT": {
+      "type": "string",
+      "required": true,
+      "description": "The port number on which the MySQL server is running."
+    },
+    "MYSQL_USER": {
+      "type": "string",
+      "required": true,
+      "description": "The username for the MySQL database connection."
+    },
+    "MYSQL_PASS": {
+      "type": "string",
+      "required": true,
+      "description": "The password for the MySQL database connection."
+    },
+    "MYSQL_DB": {
+      "type": "string",
+      "required": true,
+      "description": "The name of the MySQL database to connect to."
+    }
+  }
+}

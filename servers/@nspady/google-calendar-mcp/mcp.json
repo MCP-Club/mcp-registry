@@ -1,0 +1,35 @@
+{
+  "id": "@nspady/google-calendar-mcp",
+  "title": "Google-Calendar-Mcp",
+  "description": "A Model Context Protocol (MCP) server for integrating with Google Calendar to read, create, and manage calendar events.",
+  "tags": [
+    "Node.js",
+    "TypeScript",
+    "Google Calendar"
+  ],
+  "creator": "nspady",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:47:51Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/nspady/google-calendar-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "path/to/build/index.js"
+    ],
+    "env": {
+      "GOOGLE_OAUTH_CREDENTIALS": "**GOOGLE_OAUTH_CREDENTIALS**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "GOOGLE_OAUTH_CREDENTIALS": {
+      "type": "string",
+      "required": true,
+      "description": "Path to the Google OAuth credentials file downloaded from the Google Cloud Console."
+    }
+  }
+}

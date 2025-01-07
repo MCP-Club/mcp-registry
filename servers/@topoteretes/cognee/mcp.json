@@ -1,0 +1,71 @@
+{
+  "id": "@topoteretes/cognee",
+  "title": "Cognee",
+  "description": "Cognee implements modular pipelines for scalable AI data layer operations, including vector and graph storage for conversational, document, and transcription analysis.",
+  "tags": [
+    "AI",
+    "data-layer",
+    "knowledge-graph"
+  ],
+  "creator": "topoteretes",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:51:33Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/topoteretes/cognee"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "docker-compose",
+    "args": [
+      "up"
+    ],
+    "env": {
+      "DB_PROVIDER": "**DB_PROVIDER**",
+      "LLM_API_KEY": "**LLM_API_KEY**",
+      "DB_HOST": "**DB_HOST**",
+      "DB_PORT": "**DB_PORT**",
+      "DB_NAME": "**DB_NAME**",
+      "DB_USERNAME": "**DB_USERNAME**",
+      "DB_PASSWORD": "**DB_PASSWORD**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "DB_PROVIDER": {
+      "type": "string",
+      "required": true,
+      "description": "The database provider to use, e.g., postgres."
+    },
+    "LLM_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The API key for the selected LLM (e.g., OpenAI)."
+    },
+    "DB_HOST": {
+      "type": "string",
+      "required": true,
+      "description": "Hostname or IP address of the database server."
+    },
+    "DB_PORT": {
+      "type": "string",
+      "required": true,
+      "description": "Port number for the database server connection."
+    },
+    "DB_NAME": {
+      "type": "string",
+      "required": true,
+      "description": "Name of the database to connect to."
+    },
+    "DB_USERNAME": {
+      "type": "string",
+      "required": true,
+      "description": "Username for database authentication."
+    },
+    "DB_PASSWORD": {
+      "type": "string",
+      "required": true,
+      "description": "Password for database authentication."
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "@iskakaushik/mcp-clickhouse",
+  "title": "Mcp-Clickhouse",
+  "description": "An MCP server designed for executing SQL queries, listing databases, and listing tables on a ClickHouse cluster.",
+  "tags": [
+    "ClickHouse",
+    "MCP server",
+    "SQL"
+  ],
+  "creator": "iskakaushik",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:06:31Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/iskakaushik/mcp-clickhouse"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "fastmcp",
+    "args": [
+      "install",
+      "mcp_clickhouse/mcp_server.py",
+      "-f",
+      "**ENV_FILE_PATH**"
+    ],
+    "env": {
+      "CLICKHOUSE_HOST": "**CLICKHOUSE_HOST**",
+      "CLICKHOUSE_PORT": "**CLICKHOUSE_PORT**",
+      "CLICKHOUSE_USER": "**CLICKHOUSE_USER**",
+      "CLICKHOUSE_PASSWORD": "**CLICKHOUSE_PASSWORD**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "CLICKHOUSE_HOST": {
+      "type": "string",
+      "required": true,
+      "description": "The host address of the ClickHouse server."
+    },
+    "CLICKHOUSE_PORT": {
+      "type": "string",
+      "required": true,
+      "description": "The port for connecting to the ClickHouse server."
+    },
+    "CLICKHOUSE_USER": {
+      "type": "string",
+      "required": true,
+      "description": "The username for authenticating with ClickHouse."
+    },
+    "CLICKHOUSE_PASSWORD": {
+      "type": "string",
+      "required": true,
+      "description": "The password for authenticating with ClickHouse."
+    },
+    "ENV_FILE_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Path to the .env file containing configuration for the server."
+    }
+  }
+}

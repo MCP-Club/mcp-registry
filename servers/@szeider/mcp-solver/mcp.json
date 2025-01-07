@@ -1,0 +1,36 @@
+{
+  "id": "@szeider/mcp-solver",
+  "title": "Mcp-Solver",
+  "description": "An MCP server that enables integration of MiniZinc constraint solving capabilities with Large Language Models.",
+  "tags": [
+    "MCP",
+    "MiniZinc",
+    "constraint-solving"
+  ],
+  "creator": "szeider",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:09:30Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/szeider/mcp-solver"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "**MCP_SOLVER_PATH**",
+      "run",
+      "mcp-solver"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "MCP_SOLVER_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "The absolute file path to the MCP Solver directory."
+    }
+  }
+}

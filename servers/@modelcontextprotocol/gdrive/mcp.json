@@ -1,0 +1,56 @@
+{
+  "id": "@modelcontextprotocol/gdrive",
+  "title": "Google Drive",
+  "description": "MCP server for Google Drive integration, providing file management and sharing capabilities",
+  "tags": [
+    "storage",
+    "files",
+    "google",
+    "cloud"
+  ],
+  "categories": [
+    "Databases & Storage",
+    "Integration & Delivery"
+  ],
+  "creator": "modelcontextprotocol",
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg",
+  "publishDate": "2024-01-17T00:00:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive",
+    "npm": "https://www.npmjs.com/package/@modelcontextprotocol/server-gdrive"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive"
+    ],
+    "env": {
+      "GOOGLE_CLIENT_ID": "<YOUR_CLIENT_ID>",
+      "GOOGLE_CLIENT_SECRET": "<YOUR_CLIENT_SECRET>",
+      "GOOGLE_REFRESH_TOKEN": "<YOUR_REFRESH_TOKEN>"
+    }
+  },
+  "parameters": {
+    "GOOGLE_CLIENT_ID": {
+      "type": "string",
+      "required": true,
+      "description": "Google OAuth 2.0 client ID",
+      "argTemplate": "--client-id={value}"
+    },
+    "GOOGLE_CLIENT_SECRET": {
+      "type": "string",
+      "required": true,
+      "description": "Google OAuth 2.0 client secret",
+      "argTemplate": "--client-secret={value}"
+    },
+    "GOOGLE_REFRESH_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Google OAuth 2.0 refresh token for long-term access",
+      "argTemplate": "--refresh-token={value}"
+    }
+  }
+}

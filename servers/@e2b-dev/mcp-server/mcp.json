@@ -1,0 +1,31 @@
+{
+  "id": "@e2b-dev/mcp-server",
+  "title": "E2B",
+  "description": "The E2B MCP server enables code interpreting capabilities for Claude Desktop apps through the E2B Sandbox.",
+  "tags": [
+    "JavaScript",
+    "Python",
+    "MCP server"
+  ],
+  "creator": "e2b-dev",
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/E2b.svg/2048px-E2b.svg.png",
+  "publishDate": "2024-12-24T09:15:21Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/e2b-dev/mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "@smithery/cli",
+      "install",
+      "e2b",
+      "--client",
+      "claude"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

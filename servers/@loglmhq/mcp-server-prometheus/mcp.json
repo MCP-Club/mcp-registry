@@ -1,0 +1,33 @@
+{
+  "id": "@loglmhq/mcp-server-prometheus",
+  "title": "Mcp-Server-Prometheus",
+  "description": "A TypeScript-based MCP server that integrates with Prometheus to provide metrics and data through the Model Context Protocol (MCP).",
+  "tags": [
+    "Prometheus",
+    "TypeScript",
+    "MCP"
+  ],
+  "creator": "loglmhq",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:13:21Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/loglmhq/mcp-server-prometheus"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "/path/to/mcp-server-prometheus/build/index.js",
+    "args": [],
+    "env": {
+      "PROMETHEUS_URL": "**PROMETHEUS_URL**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PROMETHEUS_URL": {
+      "type": "string",
+      "required": true,
+      "description": "The base URL of your Prometheus instance"
+    }
+  }
+}

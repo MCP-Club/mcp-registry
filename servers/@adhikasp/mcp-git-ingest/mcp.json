@@ -1,0 +1,29 @@
+{
+  "id": "@adhikasp/mcp-git-ingest",
+  "title": "Mcp-Git-Ingest",
+  "description": "A Model Context Protocol (MCP) server for reading GitHub repository structures and important files.",
+  "tags": [
+    "MCP",
+    "Git",
+    "Python"
+  ],
+  "creator": "adhikasp",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:09:37Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/adhikasp/mcp-git-ingest"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "--from",
+      "git+https://github.com/adhikasp/mcp-git-ingest",
+      "mcp-git-ingest"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

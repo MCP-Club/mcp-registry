@@ -1,0 +1,33 @@
+{
+  "id": "@PhialsBasement/CMD-MCP-Server",
+  "title": "Cmd-Mcp-Server",
+  "description": "A cross-platform Model Context Protocol (MCP) server for executing CMD commands, supporting both Windows/Linux and SSH connections.",
+  "categories": ["Operating Systems", "Developer Tools"],
+  "tags": [
+    "MCP",
+    "TypeScript",
+    "command-line"
+  ],
+  "creator": "PhialsBasement",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:10:53Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/PhialsBasement/CMD-MCP-Server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@smithery/cli",
+      "install",
+      "server-cmd",
+      "--client",
+      "claude"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

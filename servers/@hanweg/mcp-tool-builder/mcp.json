@@ -1,0 +1,37 @@
+{
+  "id": "@hanweg/mcp-tool-builder",
+  "title": "Mcp-Tool-Builder",
+  "description": "An MCP server that enables LLMs to dynamically create new tools for usage through clients like Claude Desktop by describing them in natural language.",
+  "categories": ["Developer Tools", "Machine Learning & AI"],
+  "tags": [
+    "Python",
+    "LLM",
+    "Tool-Creation"
+  ],
+  "creator": "hanweg",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:59:55Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/hanweg/mcp-tool-builder"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "**TOOL_BUILDER_PATH**",
+      "run",
+      "tool-builder"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "TOOL_BUILDER_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "The directory path of the MCP Tool Builder repository."
+    }
+  }
+}

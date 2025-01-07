@@ -1,0 +1,27 @@
+{
+  "id": "@tumf/mcp-text-editor",
+  "title": "Mcp-Text-Editor",
+  "description": "An MCP server for line-oriented text editing with optimized API for LLM tools, supporting partial file access to minimize token usage.",
+  "tags": [
+    "MCP",
+    "text-editing",
+    "LLM-integration"
+  ],
+  "creator": "tumf",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:07:40Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/tumf/mcp-text-editor"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-text-editor"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

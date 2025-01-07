@@ -1,0 +1,71 @@
+{
+  "id": "@sergehuber/inoyu-mcp-unomi-server",
+  "title": "Inoyu Apache Unomi",
+  "description": "An MCP server for integrating Claude Desktop with Apache Unomi, enabling user context management through profile lookup, creation, and updates.",
+  "tags": [
+    "MCP",
+    "Apache Unomi",
+    "Claude Desktop"
+  ],
+  "creator": "sergehuber",
+  "logoUrl": "https://i.pinimg.com/originals/f8/27/ab/f827ab5d75c54f1c3580056e7d90ccad.png",
+  "publishDate": "2024-12-24T09:30:15Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/sergehuber/inoyu-mcp-unomi-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "@inoyu/mcp-unomi-server"
+    ],
+    "env": {
+      "UNOMI_BASE_URL": "**UNOMI_BASE_URL**",
+      "UNOMI_USERNAME": "**UNOMI_USERNAME**",
+      "UNOMI_PASSWORD": "**UNOMI_PASSWORD**",
+      "UNOMI_PROFILE_ID": "**UNOMI_PROFILE_ID**",
+      "UNOMI_KEY": "**UNOMI_KEY**",
+      "UNOMI_EMAIL": "**UNOMI_EMAIL**",
+      "UNOMI_SOURCE_ID": "**UNOMI_SOURCE_ID**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "UNOMI_BASE_URL": {
+      "type": "string",
+      "required": true,
+      "description": "Base URL of your Apache Unomi server."
+    },
+    "UNOMI_USERNAME": {
+      "type": "string",
+      "required": true,
+      "description": "Username for authentication with Apache Unomi."
+    },
+    "UNOMI_PASSWORD": {
+      "type": "string",
+      "required": true,
+      "description": "Password for authentication with Apache Unomi."
+    },
+    "UNOMI_PROFILE_ID": {
+      "type": "string",
+      "required": true,
+      "description": "Profile ID for identifying user profiles in Apache Unomi."
+    },
+    "UNOMI_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Authorization key for interactions with protected Unomi events."
+    },
+    "UNOMI_EMAIL": {
+      "type": "string",
+      "required": true,
+      "description": "Email address of the user for profile lookup or creation."
+    },
+    "UNOMI_SOURCE_ID": {
+      "type": "string",
+      "required": true,
+      "description": "Source ID for identifying the tool (e.g., Claude Desktop) that is interacting with Unomi."
+    }
+  }
+}

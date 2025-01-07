@@ -1,0 +1,38 @@
+{
+  "id": "@YUZongmin/semantic-scholar-fastmcp-mcp-server",
+  "title": "Semantic-Scholar-Fastmcp-Mcp-Server",
+  "description": "A FastMCP server implementation for accessing academic paper data, author profiles, and citation networks via the Semantic Scholar API.",
+  "tags": [
+    "FastMCP",
+    "Semantic Scholar",
+    "API"
+  ],
+  "creator": "YUZongmin",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:48:13Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/YUZongmin/semantic-scholar-fastmcp-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "fastmcp",
+    "args": [
+      "install",
+      "semantic-scholar-server.py",
+      "--name",
+      "Semantic Scholar",
+      "-e",
+      "**SEMANTIC_SCHOLAR_API_KEY**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "SEMANTIC_SCHOLAR_API_KEY": {
+      "type": "string",
+      "required": false,
+      "description": "Your Semantic Scholar API key to access the API at higher rate limits."
+    }
+  }
+}

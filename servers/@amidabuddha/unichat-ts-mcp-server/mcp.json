@@ -1,0 +1,42 @@
+{
+  "id": "@amidabuddha/unichat-ts-mcp-server",
+  "title": "Unichat-Ts-Mcp-Server",
+  "description": "Unichat MCP Server enables sending requests to various AI models (e.g., OpenAI, Anthropic) using the MCP protocol, supporting both STDIO and SSE mechanisms.",
+  "tags": [
+    "MCP",
+    "TypeScript",
+    "AI"
+  ],
+  "creator": "amidabuddha",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:57:35Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/amidabuddha/unichat-ts-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "unichat-ts-mcp-server"
+    ],
+    "env": {
+      "UNICHAT_MODEL": "**UNICHAT_MODEL**",
+      "UNICHAT_API_KEY": "**UNICHAT_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "UNICHAT_MODEL": {
+      "type": "string",
+      "required": true,
+      "description": "The preferred AI model name to use."
+    },
+    "UNICHAT_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Vendor API key required to authenticate requests."
+    }
+  }
+}

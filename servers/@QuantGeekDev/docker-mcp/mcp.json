@@ -1,0 +1,28 @@
+{
+  "id": "@QuantGeekDev/docker-mcp",
+  "title": "Docker-Mcp",
+  "description": "A Model Context Protocol (MCP) server for managing Docker containers and Docker Compose stacks, designed for integration with the Claude Desktop app.",
+  "categories": ["Integration & Delivery", "Developer Tools"],
+  "tags": [
+    "Docker",
+    "Model Context Protocol",
+    "Claude Desktop"
+  ],
+  "creator": "QuantGeekDev",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:08:10Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/QuantGeekDev/docker-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "docker-mcp"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

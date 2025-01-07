@@ -1,0 +1,33 @@
+{
+  "id": "@pskill9/website-downloader",
+  "title": "Website-Downloader",
+  "description": "This MCP server downloads entire websites by leveraging wget, preserving structure and enabling local navigation.",
+  "tags": [
+    "node.js",
+    "wget",
+    "web-scraping"
+  ],
+  "creator": "pskill9",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:01:46Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/pskill9/website-downloader"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/website-downloader/build/index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "url": {
+      "type": "string",
+      "required": true,
+      "description": "The URL of the website to download."
+    }
+  }
+}

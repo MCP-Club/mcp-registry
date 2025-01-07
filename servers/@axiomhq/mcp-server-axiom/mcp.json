@@ -1,0 +1,66 @@
+{
+  "id": "@axiomhq/mcp-server-axiom",
+  "title": "Axiom",
+  "description": "MCP server for querying data using Axiom Processing Language (APL) with support for dataset operations and APL queries",
+  "tags": [
+    "database",
+    "query",
+    "apl",
+    "datasets"
+  ],
+  "categories": [
+    "Databases & Storage",
+    "Data Science"
+  ],
+  "creator": "axiomhq",
+  "verified": false,
+  "logoUrl": "https://app.mcphub.net/server-configuration/image/axiom.svg",
+  "publishDate": "2024-01-17T00:00:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/axiomhq/mcp-server-axiom"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "axiom-mcp",
+    "args": [
+      "-token **AXIOM_TOKEN**",
+      "-url https://api.axiom.co",
+      "-query-rate **QUERY_RATE**",
+      "-query-burst **QUERY_BURST**",
+      "-datasets-rate **DATASETS_RATE**",
+      "-datasets-burst **DATASETS_BURST**"
+    ]
+  },
+  "parameters": {
+    "AXIOM_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Axiom API token for authentication"
+    },
+    "QUERY_RATE": {
+      "type": "number",
+      "required": false,
+      "default": 1,
+      "description": "Query rate limit"
+    },
+    "QUERY_BURST": {
+      "type": "number",
+      "required": false,
+      "default": 1,
+      "description": "Query burst limit"
+    },
+    "DATASETS_RATE": {
+      "type": "number",
+      "required": false,
+      "default": 1,
+      "description": "Datasets rate limit"
+    },
+    "DATASETS_BURST": {
+      "type": "number",
+      "required": false,
+      "default": 1,
+      "description": "Datasets burst limit"
+    }
+  }
+}

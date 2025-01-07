@@ -1,0 +1,27 @@
+{
+  "id": "@pskill9/hn-server",
+  "title": "Hn-Server",
+  "description": "An MCP server that fetches and parses structured data from Hacker News, including top, new, ask, show, and jobs stories, with configurable limits and tool integration.",
+  "tags": [
+    "MCP",
+    "TypeScript",
+    "Hacker News"
+  ],
+  "creator": "pskill9",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:50:14Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/pskill9/hn-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/hn-server/build/index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

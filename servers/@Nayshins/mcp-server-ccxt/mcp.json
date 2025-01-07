@@ -1,0 +1,28 @@
+{
+  "id": "@Nayshins/mcp-server-ccxt",
+  "title": "Mcp-Server-Ccxt",
+  "description": "An MCP server providing real-time and historical cryptocurrency market data, enabling LLMs like Claude to fetch market prices and analyze trends.",
+  "categories": ["Data Science", "Web Analytics"],
+  "tags": [
+    "cryptocurrency",
+    "MCP",
+    "CCXT"
+  ],
+  "creator": "Nayshins",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:54:42Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/Nayshins/mcp-server-ccxt"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "python",
+    "args": [
+      "/path/to/crypto_server.py"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

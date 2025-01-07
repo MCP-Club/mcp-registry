@@ -1,0 +1,54 @@
+{
+  "id": "@macrat/mcp-server-kintone",
+  "title": "Mcp-Server-Kintone",
+  "description": "MCP server for kintone to enable AI tools like Claude Desktop to interact with kintone data.",
+  "categories": ["Databases & Storage", "Machine Learning & AI"],
+  "tags": [
+    "MCP",
+    "kintone",
+    "AI"
+  ],
+  "creator": "macrat",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:01:32Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/macrat/mcp-server-kintone"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "C:\\path\\to\\mcp-server-kintone.exe",
+    "args": [
+      "C:\\path\\to\\configuration.json"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "url": {
+      "type": "string",
+      "required": true,
+      "description": "URL of your kintone domain."
+    },
+    "username": {
+      "type": "string",
+      "required": true,
+      "description": "Username for login (only required if token is not used)."
+    },
+    "password": {
+      "type": "string",
+      "required": true,
+      "description": "Password for login (only required if token is not used)."
+    },
+    "token": {
+      "type": "string",
+      "required": true,
+      "description": "App tokens for login (only required if username and password are not used)."
+    },
+    "apps": {
+      "type": "array",
+      "required": true,
+      "description": "List of apps to access, including IDs and permissions."
+    }
+  }
+}

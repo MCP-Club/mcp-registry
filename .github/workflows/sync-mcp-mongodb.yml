@@ -1,0 +1,56 @@
+name: Sync MCP JSON to MongoDB
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - prod
+    
+jobs:
+  sync-to-mongodb:
+    # Only run when PR is merged, not when it's just closed
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install mongodb
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v39
+        with:
+          files: |
+            **/mcp.json
+
+      - name: Sync changed MCP files to MongoDB
+        if: steps.changed-files.outputs.any_changed == 'true'
+        env:
+          MONGODB_URI: "mongodb+srv://admin:${{ secrets.MONGODB_PASSWORD }}@mcp.pcnej.mongodb.net/?retryWrites=true&w=majority&appName=mcp"
+        run: |
+          # Process added files
+          if [[ -n "${{ steps.changed-files.outputs.added_files }}" ]]; then
+            echo "Processing newly added mcp.json files:"
+            for file in ${{ steps.changed-files.outputs.added_files }}; do
+              echo "Adding new file: $file"
+              node scripts/sync-to-mongodb.js "$file"
+            done
+          fi
+          
+          # Process modified files
+          if [[ -n "${{ steps.changed-files.outputs.modified_files }}" ]]; then
+            echo "Processing modified mcp.json files:"
+            for file in ${{ steps.changed-files.outputs.modified_files }}; do
+              echo "Updating modified file: $file"
+              node scripts/sync-to-mongodb.js "$file"
+            done
+          fi

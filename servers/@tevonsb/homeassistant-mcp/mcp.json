@@ -1,0 +1,41 @@
+{
+  "id": "@tevonsb/homeassistant-mcp",
+  "title": "Homeassistant-Mcp",
+  "description": "A Model Context Protocol server designed to share access to a local Home Assistant instance with an LLM application like Claude Desktop.",
+  "tags": [
+    "MCP",
+    "Home Assistant",
+    "LLM"
+  ],
+  "creator": "tevonsb",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:51:59Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/tevonsb/homeassistant-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/Users/tevonsb/Desktop/mcp/dist/index.js"
+    ],
+    "env": {
+      "TOKEN": "**TOKEN**",
+      "BASE_URL": "**BASE_URL**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "The long-lived personal access token for accessing the Home Assistant API."
+    },
+    "BASE_URL": {
+      "type": "string",
+      "required": true,
+      "description": "The base URL of the Home Assistant instance."
+    }
+  }
+}

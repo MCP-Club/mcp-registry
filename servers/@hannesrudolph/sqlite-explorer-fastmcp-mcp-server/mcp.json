@@ -1,0 +1,40 @@
+{
+  "id": "@hannesrudolph/sqlite-explorer-fastmcp-mcp-server",
+  "title": "Sqlite-Explorer-Fastmcp-Mcp-Server",
+  "description": "An MCP server providing safe, read-only access to SQLite databases with integrated safety validations and query sanitization.",
+  "tags": [
+    "SQLite",
+    "MCP",
+    "FastMCP"
+  ],
+  "creator": "hannesrudolph",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:13:30Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "run",
+      "--with",
+      "fastmcp",
+      "fastmcp",
+      "run",
+      "/path/to/repo/sqlite_explorer.py"
+    ],
+    "env": {
+      "SQLITE_DB_PATH": "**SQLITE_DB_PATH**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "SQLITE_DB_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Full path to the SQLite database file to be accessed."
+    }
+  }
+}

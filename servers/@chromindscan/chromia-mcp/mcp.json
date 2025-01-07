@@ -1,0 +1,21 @@
+{
+  "id": "@chromindscan/chromia-mcp",
+  "title": "Chromia-Mcp",
+  "description": "",
+  "tags": [],
+  "creator": "chromindscan",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:06:22Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/chromindscan/chromia-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "",
+    "args": [],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

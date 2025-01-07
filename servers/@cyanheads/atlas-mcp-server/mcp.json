@@ -1,0 +1,59 @@
+{
+  "id": "@cyanheads/atlas-mcp-server",
+  "title": "Atlas-Mcp-Server",
+  "description": "ATLAS MCP Server is a Model Context Protocol server that enables hierarchical task management and communication between LLMs and external systems.",
+  "tags": [
+    "TypeScript",
+    "MCP",
+    "Task Management"
+  ],
+  "creator": "cyanheads",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:47:38Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/cyanheads/atlas-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/atlas-mcp-server/build/index.js"
+    ],
+    "env": {
+      "ATLAS_STORAGE_DIR": "**ATLAS_STORAGE_DIR**",
+      "ATLAS_LOG_LEVEL": "**ATLAS_LOG_LEVEL**",
+      "ATLAS_DB_MAX_RETRIES": "**ATLAS_DB_MAX_RETRIES**",
+      "ATLAS_DB_RETRY_DELAY": "**ATLAS_DB_RETRY_DELAY**",
+      "ATLAS_DB_BUSY_TIMEOUT": "**ATLAS_DB_BUSY_TIMEOUT**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "ATLAS_STORAGE_DIR": {
+      "type": "string",
+      "required": true,
+      "description": "Directory path for storing database files and other storage-related resources."
+    },
+    "ATLAS_LOG_LEVEL": {
+      "type": "string",
+      "required": true,
+      "description": "Log level for system operations, such as 'info', 'debug', or 'error'."
+    },
+    "ATLAS_DB_MAX_RETRIES": {
+      "type": "string",
+      "required": true,
+      "description": "Maximum number of retry attempts for database connections."
+    },
+    "ATLAS_DB_RETRY_DELAY": {
+      "type": "string",
+      "required": true,
+      "description": "Time delay in milliseconds between database connection retry attempts."
+    },
+    "ATLAS_DB_BUSY_TIMEOUT": {
+      "type": "string",
+      "required": true,
+      "description": "Timeout in milliseconds for handling database busy states."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "@isaacwasserman/mcp-vegalite-server",
+  "title": "Mcp-Vegalite-Server",
+  "description": "A Model Context Protocol (MCP) server enabling data visualization through data tables and Vega-Lite specifications.",
+  "categories": ["Data Science", "Developer Tools"],
+  "tags": [
+    "MCP",
+    "data visualization",
+    "Vega-Lite"
+  ],
+  "creator": "isaacwasserman",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:11:01Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/isaacwasserman/mcp-vegalite-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "**SERVER_DIRECTORY**",
+      "run",
+      "mcp_server_datavis",
+      "--output_type",
+      "**OUTPUT_TYPE**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "SERVER_DIRECTORY": {
+      "type": "string",
+      "required": true,
+      "description": "Absolute path to the root directory of the MCP Data Visualization server."
+    },
+    "OUTPUT_TYPE": {
+      "type": "string",
+      "required": true,
+      "description": "Output format for the visualization ('png' or 'text')."
+    }
+  }
+}

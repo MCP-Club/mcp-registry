@@ -1,0 +1,48 @@
+{
+  "id": "@MarkusPfundstein/mcp-gsuite",
+  "title": "Mcp-Gsuite",
+  "description": "MCP server to integrate with Gmail and Google Calendar for managing emails and calendar events programmatically using OAuth2.",
+  "categories": ["Integration & Delivery", "API Management"],
+  "tags": [
+    "MCP",
+    "OAuth2",
+    "Google API"
+  ],
+  "creator": "MarkusPfundstein",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:55:21Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/MarkusPfundstein/mcp-gsuite"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-gsuite"
+    ],
+    "env": {
+      "UV_PUBLISH_TOKEN": "**UV_PUBLISH_TOKEN**",
+      "UV_PUBLISH_USERNAME": "**UV_PUBLISH_USERNAME**",
+      "UV_PUBLISH_PASSWORD": "**UV_PUBLISH_PASSWORD**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "UV_PUBLISH_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "PyPI authentication token for publishing packages."
+    },
+    "UV_PUBLISH_USERNAME": {
+      "type": "string",
+      "required": true,
+      "description": "PyPI username for publishing packages."
+    },
+    "UV_PUBLISH_PASSWORD": {
+      "type": "string",
+      "required": true,
+      "description": "PyPI password for publishing packages."
+    }
+  }
+}

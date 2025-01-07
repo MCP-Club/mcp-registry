@@ -1,0 +1,36 @@
+{
+  "id": "@5ajaki/veri5ight",
+  "title": "Veri5Ight",
+  "description": "Veri5ight acts as a bridge between Claude and Ethereum nodes, enabling seamless interaction with ENS, smart contracts, and transactions.",
+  "categories": ["Integration & Delivery", "Security"],
+  "tags": [
+    "Ethereum",
+    "MCP",
+    "Smart Contracts"
+  ],
+  "creator": "5ajaki",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:10:30Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/5ajaki/veri5ight"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/veri5ight/dist/index.js"
+    ],
+    "env": {
+      "ETH_NODE_URL": "**ETH_NODE_URL**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "ETH_NODE_URL": {
+      "type": "string",
+      "required": true,
+      "description": "The URL of your Ethereum node."
+    }
+  }
+}

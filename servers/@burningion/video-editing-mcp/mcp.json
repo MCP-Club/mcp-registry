@@ -1,0 +1,41 @@
+{
+  "id": "@burningion/video-editing-mcp",
+  "title": "Video-Editing-Mcp",
+  "description": "A server that allows uploading, editing, searching, and generating video content using Video Jungle API and Claude Desktop integration.",
+  "tags": [
+    "video-editing",
+    "MCP-server",
+    "Claude-desktop"
+  ],
+  "creator": "burningion",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:13:06Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/burningion/video-editing-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "video-editor-mcp",
+      "**YOURAPIKEY**"
+    ],
+    "env": {
+      "LOAD_PHOTOS_DB": "**LOAD_PHOTOS_DB**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "YOURAPIKEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key for authenticating with the Video Jungle API."
+    },
+    "LOAD_PHOTOS_DB": {
+      "type": "boolean",
+      "required": false,
+      "description": "Enable local Photos app access for searching videos on MacOS."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "@designcomputer/mysql_mcp_server",
+  "title": "Mysql_Mcp_Server",
+  "description": "A secure MySQL MCP server that enables AI assistants to interact with MySQL databases for table listing, data reading, and SQL query execution in a controlled manner.",
+  "tags": [
+    "MySQL",
+    "AI",
+    "Server"
+  ],
+  "creator": "designcomputer",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:54:12Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/designcomputer/mysql_mcp_server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "path/to/mysql_mcp_server",
+      "run",
+      "mysql_mcp_server"
+    ],
+    "env": {
+      "MYSQL_HOST": "**MYSQL_HOST**",
+      "MYSQL_USER": "**MYSQL_USER**",
+      "MYSQL_PASSWORD": "**MYSQL_PASSWORD**",
+      "MYSQL_DATABASE": "**MYSQL_DATABASE**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "MYSQL_HOST": {
+      "type": "string",
+      "required": true,
+      "description": "The hostname for the MySQL database."
+    },
+    "MYSQL_USER": {
+      "type": "string",
+      "required": true,
+      "description": "The username to authenticate with the MySQL database."
+    },
+    "MYSQL_PASSWORD": {
+      "type": "string",
+      "required": true,
+      "description": "The password to authenticate with the MySQL database."
+    },
+    "MYSQL_DATABASE": {
+      "type": "string",
+      "required": true,
+      "description": "The name of the MySQL database to connect to."
+    }
+  }
+}

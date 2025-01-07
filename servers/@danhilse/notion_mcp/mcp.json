@@ -1,0 +1,42 @@
+{
+  "id": "@danhilse/notion_mcp",
+  "title": "Notion_Mcp",
+  "description": "A simple MCP server to manage a minimalist todo list in Notion using Claude.",
+  "tags": [
+    "Python",
+    "Notion API",
+    "MCP server"
+  ],
+  "creator": "danhilse",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:00:51Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/danhilse/notion_mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "/path/to/your/.venv/bin/python",
+    "args": [
+      "-m",
+      "notion_mcp"
+    ],
+    "env": {
+      "NOTION_API_KEY": "**NOTION_API_KEY**",
+      "NOTION_DATABASE_ID": "**NOTION_DATABASE_ID**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "NOTION_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key for the Notion integration"
+    },
+    "NOTION_DATABASE_ID": {
+      "type": "string",
+      "required": true,
+      "description": "Notion database ID where tasks are stored"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "@angheljf/nyt",
+  "title": "Nyt",
+  "description": "A TypeScript-based MCP server that enables searching for New York Times articles from the last 30 days using a keyword.",
+  "categories": ["API Management", "Content Management System"],
+  "tags": [
+    "TypeScript",
+    "MCP server",
+    "NYTimes API"
+  ],
+  "creator": "angheljf",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:56:31Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/angheljf/nyt"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "build/index.js"
+    ],
+    "env": {
+      "NYTIMES_API_KEY": "**NYTIMES_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "NYTIMES_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Your New York Times API key to authenticate requests."
+    }
+  }
+}

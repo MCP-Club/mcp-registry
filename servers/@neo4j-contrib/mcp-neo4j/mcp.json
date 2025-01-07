@@ -1,0 +1,55 @@
+{
+  "id": "@neo4j-contrib/mcp-neo4j",
+  "title": "Neo4J",
+  "description": "MCP servers for interacting with Neo4j and Aura accounts using natural language to create and query knowledge graphs.",
+  "categories": ["Databases & Storage", "Machine Learning & AI"],
+  "tags": [
+    "Neo4j",
+    "MCP",
+    "Knowledge Graph"
+  ],
+  "creator": "neo4j-contrib",
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmOZuTqPb6LhxyTyEUio8xxNxspa0gm-NncQ&s",
+  "publishDate": "2024-12-24T09:20:50Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/neo4j-contrib/mcp-neo4j"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/mcp-neo4j-cypher",
+      "-e",
+      "**NEO4J_URI**",
+      "-e",
+      "**NEO4J_USERNAME**",
+      "-e",
+      "**NEO4J_PASSWORD**"
+    ],
+    "env": {
+      "NEO4J_URI": "**NEO4J_URI**",
+      "NEO4J_USERNAME": "**NEO4J_USERNAME**",
+      "NEO4J_PASSWORD": "**NEO4J_PASSWORD**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "NEO4J_URI": {
+      "type": "string",
+      "required": true,
+      "description": "URI or connection string for the Neo4j database."
+    },
+    "NEO4J_USERNAME": {
+      "type": "string",
+      "required": true,
+      "description": "Username for authenticating with the Neo4j database."
+    },
+    "NEO4J_PASSWORD": {
+      "type": "string",
+      "required": true,
+      "description": "Password for authenticating with the Neo4j database."
+    }
+  }
+}

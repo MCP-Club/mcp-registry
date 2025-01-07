@@ -1,0 +1,35 @@
+{
+  "id": "@Sunwood-ai-labs/luma-mcp-server",
+  "title": "Luma-Mcp-Server",
+  "description": "Luma MCP Server provides functionality to generate, extend, and interpolate videos using Luma AI's video generation API via a Model Context Protocol (MCP) interface.",
+  "tags": [
+    "Luma AI",
+    "MCP Server",
+    "Video Generation"
+  ],
+  "creator": "Sunwood-ai-labs",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:55:12Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/Sunwood-ai-labs/luma-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "luma-mcp-server"
+    ],
+    "env": {
+      "LUMA_API_KEY": "**LUMA_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "LUMA_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key obtained from the Luma AI Developer Portal"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "@QuantGeekDev/coincap-mcp",
+  "title": "Coincap-Mcp",
+  "description": "This server allows querying cryptocurrency information from Coincap's public API without requiring API keys or registration.",
+  "categories": ["Data Science", "API Management"],
+  "tags": [
+    "Node.js",
+    "cryptocurrency",
+    "API"
+  ],
+  "creator": "QuantGeekDev",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:00:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/QuantGeekDev/coincap-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "coincap-mcp"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

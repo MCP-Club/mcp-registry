@@ -1,0 +1,45 @@
+{
+  "id": "@hanweg/mcp-discord",
+  "title": "Mcp-Discord",
+  "description": "A Model Context Protocol (MCP) server for integrating Discord functionalities into MCP clients like Claude Desktop.",
+  "categories": ["API Management", "Integration & Delivery"],
+  "tags": [
+    "Discord",
+    "MCP",
+    "integration"
+  ],
+  "creator": "hanweg",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:58:54Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/hanweg/mcp-discord"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "**PATH_TO_REPO**",
+      "run",
+      "-m",
+      "discord_mcp.server"
+    ],
+    "env": {
+      "DISCORD_TOKEN": "**DISCORD_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "DISCORD_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "The API token for your Discord bot."
+    },
+    "PATH_TO_REPO": {
+      "type": "string",
+      "required": true,
+      "description": "The local path to the 'mcp-discord' repository."
+    }
+  }
+}

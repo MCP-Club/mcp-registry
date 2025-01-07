@@ -1,0 +1,36 @@
+{
+  "id": "@jsonallen/perplexity-mcp",
+  "title": "Perplexity-Mcp",
+  "description": "A Model Context Protocol (MCP) server that provides web search capabilities using Perplexity AI's API, designed for integration with the Claude desktop client.",
+  "tags": [
+    "MCP",
+    "web search",
+    "Perplexity AI"
+  ],
+  "creator": "jsonallen",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:53:58Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/jsonallen/perplexity-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "run",
+      "perplexity-mcp"
+    ],
+    "env": {
+      "PERPLEXITY_API_KEY": "**PERPLEXITY_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PERPLEXITY_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Your Perplexity AI API key, required for accessing the Perplexity API."
+    }
+  }
+}

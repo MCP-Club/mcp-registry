@@ -1,0 +1,37 @@
+{
+  "id": "@shaneholloman/mcp-knowledge-graph",
+  "title": "Mcp-Knowledge-Graph",
+  "description": "A server implementation utilizing a local knowledge graph for persistent memory to enable Claude AI to retain information about users across interactions.",
+  "tags": [
+    "knowledge graph",
+    "persistent memory",
+    "server"
+  ],
+  "creator": "shaneholloman",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:08:15Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/shaneholloman/mcp-knowledge-graph"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--",
+      "--memory-path",
+      "**MEMORY_PATH**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "MEMORY_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "The custom path to the memory file used for storing the knowledge graph."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "@webcoderz/MCP-Geo",
+  "title": "Mcp-Geo",
+  "description": "A geocoding MCP server built with FastMCP and GeoPy, providing tools for geocoding, reverse geocoding, and distance calculations.",
+  "tags": [
+    "geocoding",
+    "python",
+    "FastMCP"
+  ],
+  "creator": "webcoderz",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:08:56Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/webcoderz/MCP-Geo"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "run",
+      "--with",
+      "fastmcp",
+      "fastmcp",
+      "run",
+      "MCP-Geo/geo.py"
+    ],
+    "env": {
+      "NOMINATIM_URL": "**NOMINATIM_URL**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "GEOCODER_PROVIDER": {
+      "type": "string",
+      "required": false,
+      "description": "The geocoding provider to use ('nominatim', 'arcgis', or 'bing')."
+    },
+    "NOMINATIM_URL": {
+      "type": "string",
+      "required": true,
+      "description": "Domain for Nominatim geocoding service."
+    },
+    "SCHEME": {
+      "type": "string",
+      "required": false,
+      "description": "The connection scheme to use (http/https)."
+    },
+    "ARC_USERNAME": {
+      "type": "string",
+      "required": false,
+      "description": "Username for ArcGIS provider."
+    },
+    "ARC_PASSWORD": {
+      "type": "string",
+      "required": false,
+      "description": "Password for ArcGIS provider."
+    },
+    "BING_API_KEY": {
+      "type": "string",
+      "required": false,
+      "description": "API key for Bing Maps provider."
+    }
+  }
+}

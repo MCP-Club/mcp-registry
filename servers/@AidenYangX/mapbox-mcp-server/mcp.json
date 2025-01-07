@@ -1,0 +1,36 @@
+{
+  "id": "@AidenYangX/mapbox-mcp-server",
+  "title": "Mapbox-Mcp-Server",
+  "description": "A server providing MCP (Model Context Protocol) integration for Mapbox APIs, including tools for directions, matrices, and geocoding.",
+  "categories": ["API Management", "Integration & Delivery"],
+  "tags": [
+    "Mapbox",
+    "Node.js",
+    "API"
+  ],
+  "creator": "AidenYangX",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:59:17Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/AidenYangX/mapbox-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/absolute/path/to/mapbox-mcp-server/build/index.js"
+    ],
+    "env": {
+      "MAPBOX_ACCESS_TOKEN": "**MAPBOX_ACCESS_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "MAPBOX_ACCESS_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Your Mapbox API key necessary for authenticating API requests."
+    }
+  }
+}

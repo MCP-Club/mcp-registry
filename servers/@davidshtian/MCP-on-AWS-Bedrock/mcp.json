@@ -1,0 +1,52 @@
+{
+  "id": "@davidshtian/MCP-on-AWS-Bedrock",
+  "title": "Mcp-On-Aws-Bedrock",
+  "description": "A project to implement and interact with Anthropic's Model Context Protocol (MCP) using AWS Bedrock.",
+  "tags": [
+    "AWS Bedrock",
+    "MCP",
+    "Python"
+  ],
+  "creator": "davidshtian",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:58:42Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/davidshtian/MCP-on-AWS-Bedrock"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "run",
+      "mcp-simple-tool",
+      "--transport",
+      "sse",
+      "--port",
+      "8000"
+    ],
+    "env": {
+      "AWS_ACCESS_KEY_ID": "**AWS_ACCESS_KEY_ID**",
+      "AWS_SECRET_ACCESS_KEY": "**AWS_SECRET_ACCESS_KEY**",
+      "AWS_REGION": "**AWS_REGION**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "AWS_ACCESS_KEY_ID": {
+      "type": "string",
+      "required": true,
+      "description": "The AWS access key ID used for authentication."
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The AWS secret access key used for authentication."
+    },
+    "AWS_REGION": {
+      "type": "string",
+      "required": true,
+      "description": "The AWS region where Bedrock is accessible."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "@LinkupPlatform/python-mcp-server",
+  "title": "Python-Mcp-Server",
+  "description": "Linkup for Claude enhances Claude AI by providing internet access for real-time knowledge updates and premium content access.",
+  "categories": ["Machine Learning & AI", "Web Analytics"],
+  "tags": [
+    "AI",
+    "real-time search",
+    "knowledge enhancement"
+  ],
+  "creator": "LinkupPlatform",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:00:21Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/LinkupPlatform/python-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "-e",
+      "**MCP_SERVER_URL**"
+    ],
+    "env": {
+      "MCP_SERVER_URL": "**MCP_SERVER_URL**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "MCP_SERVER_URL": {
+      "type": "string",
+      "required": true,
+      "description": "The URL of the MCP server that connects Linkup for Claude to real-time knowledge and premium content."
+    }
+  }
+}

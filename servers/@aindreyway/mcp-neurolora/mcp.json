@@ -1,0 +1,37 @@
+{
+  "id": "@aindreyway/mcp-neurolora",
+  "title": "Mcp-Neurolora",
+  "description": "MCP Neurolora is an intelligent MCP server that integrates with OpenAI API for code analysis, code collection, and documentation generation.",
+  "tags": [
+    "Node.js",
+    "OpenAI",
+    "code analysis"
+  ],
+  "creator": "aindreyway",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:49:59Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/aindreyway/mcp-neurolora"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@aindreyway/mcp-neurolora@latest"
+    ],
+    "env": {
+      "NODE_OPTIONS": "--max-old-space-size=256",
+      "OPENAI_API_KEY": "**OPENAI_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "OPENAI_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Your OpenAI API key for accessing the OpenAI API."
+    }
+  }
+}

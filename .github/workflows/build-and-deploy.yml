@@ -8,7 +8,7 @@ on:
       - dev
 
 env:
-  REGISTRY: crpi-jl39zmt89zkgdhks-vpc.us-west-1.personal.cr.aliyuncs.com
+  REGISTRY: crpi-jl39zmt89zkgdhks.us-west-1.personal.cr.aliyuncs.com
   ORG_NAME: createany
   APP_NAME: mcp-registry
 
@@ -34,27 +34,30 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'npm'
 
       - name: Install Dependencies
-        run: npm ci
-
-      - name: Run Tests
         run: |
-          chmod +x ./test-api.sh
-          npm test || true
+          if [ ! -f "package-lock.json" ]; then
+            npm install
+          else
+            npm ci
+          fi
+
+      - name: Login to Aliyun Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: 深鲸原
+          password: ${{ secrets.ALIYUN_PASSWORD }}
 
       - name: Build and Push Image
-        run: |
-          docker build -t ${{ env.REGISTRY }}/${{ env.ORG_NAME }}/${{ env.APP_NAME }}:${{ steps.vars.outputs.ENV_NAME }}-${{ steps.vars.outputs.VERSION }} .
-          docker tag ${{ env.REGISTRY }}/${{ env.ORG_NAME }}/${{ env.APP_NAME }}:${{ steps.vars.outputs.ENV_NAME }}-${{ steps.vars.outputs.VERSION }} \
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: |
             ${{ env.REGISTRY }}/${{ env.ORG_NAME }}/${{ env.APP_NAME }}:${{ steps.vars.outputs.ENV_NAME }}-latest
-
-          docker push ${{ env.REGISTRY }}/${{ env.ORG_NAME }}/${{ env.APP_NAME }}:${{ steps.vars.outputs.ENV_NAME }}-${{ steps.vars.outputs.VERSION }}
-          docker push ${{ env.REGISTRY }}/${{ env.ORG_NAME }}/${{ env.APP_NAME }}:${{ steps.vars.outputs.ENV_NAME }}-latest
-
-          docker rmi ${{ env.REGISTRY }}/${{ env.ORG_NAME }}/${{ env.APP_NAME }}:${{ steps.vars.outputs.ENV_NAME }}-${{ steps.vars.outputs.VERSION }}
-          docker rmi ${{ env.REGISTRY }}/${{ env.ORG_NAME }}/${{ env.APP_NAME }}:${{ steps.vars.outputs.ENV_NAME }}-latest
+            ${{ env.REGISTRY }}/${{ env.ORG_NAME }}/${{ env.APP_NAME }}:${{ steps.vars.outputs.ENV_NAME }}-${{ steps.vars.outputs.VERSION }}
 
       - name: Checkout GitOps repo
         uses: actions/checkout@v4

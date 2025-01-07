@@ -1,0 +1,39 @@
+{
+  "id": "@kiliczsh/mcp-mongo-server",
+  "title": "MongoDB",
+  "description": "MCP server for executing MongoDB queries and managing MongoDB databases with local connection support",
+  "tags": [
+    "database",
+    "query",
+    "nosql",
+    "mongodb"
+  ],
+  "categories": [
+    "Databases & Storage"
+  ],
+  "creator": "kiliczsh",
+  "verified": false,
+  "logoUrl": "https://cdn.iconscout.com/icon/free/png-256/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175140.png?f=webp",
+  "publishDate": "2024-01-17T00:00:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/kiliczsh/mcp-mongo-server",
+    "npm": "https://www.npmjs.com/package/mcp-mongo-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-mongo-server",
+      "**MONGODB_URL**"
+    ]
+  },
+  "parameters": {
+    "MONGODB_URL": {
+      "type": "string",
+      "required": true,
+      "description": "MongoDB url like mongodb://muhammed:kilic@mongodb.localhost/namespace "
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "@varunneal/spotify-mcp",
+  "title": "Spotify",
+  "description": "MCP server for integrating Claude with Spotify, enabling control over playback, search, and Spotify queue management.",
+  "tags": [
+    "Spotify",
+    "MCP",
+    "API integration"
+  ],
+  "creator": "varunneal",
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png",
+  "publishDate": "2024-12-24T09:28:59Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/varunneal/spotify-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "/path/to/spotify_mcp",
+      "run",
+      "spotify-mcp"
+    ],
+    "env": {
+      "SPOTIFY_CLIENT_ID": "**SPOTIFY_CLIENT_ID**",
+      "SPOTIFY_CLIENT_SECRET": "**SPOTIFY_CLIENT_SECRET**",
+      "SPOTIFY_REDIRECT_URI": "**SPOTIFY_REDIRECT_URI**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "SPOTIFY_CLIENT_ID": {
+      "type": "string",
+      "required": true,
+      "description": "Your Spotify Developer Client ID, obtained from the Spotify Developer Dashboard."
+    },
+    "SPOTIFY_CLIENT_SECRET": {
+      "type": "string",
+      "required": true,
+      "description": "Your Spotify Developer Client Secret, obtained from the Spotify Developer Dashboard."
+    },
+    "SPOTIFY_REDIRECT_URI": {
+      "type": "string",
+      "required": true,
+      "description": "The redirect URI specified during Spotify app creation, typically 'http://localhost:8888'."
+    }
+  }
+}

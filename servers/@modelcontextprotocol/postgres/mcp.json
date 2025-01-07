@@ -1,0 +1,39 @@
+{
+  "id": "@modelcontextprotocol/postgres",
+  "name": "PostgreSQL Server",
+  "title": "PostgreSQL",
+  "description": "MCP server for PostgreSQL database operations with support for queries, transactions, and schema management",
+  "tags": [
+    "database",
+    "sql",
+    "postgresql",
+    "relational"
+  ],
+  "categories": [
+    "Databases & Storage"
+  ],
+  "creator": "modelcontextprotocol",
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png",
+  "publishDate": "2024-01-17T00:00:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres",
+    "npm": "https://www.npmjs.com/package/@modelcontextprotocol/server-postgres"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "**POSTGRESQL_URL**"
+    ]
+  },
+  "parameters": {
+    "POSTGRESQL_URI": {
+      "type": "string",
+      "required": true,
+      "description": "PostgreSQL url like postgresql://user:password@host:port/db-name"
+    }
+  }
+}

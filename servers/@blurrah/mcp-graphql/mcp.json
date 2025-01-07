@@ -1,0 +1,35 @@
+{
+  "id": "@blurrah/mcp-graphql",
+  "title": "Mcp-Graphql",
+  "description": "A Model Context Protocol server designed for interacting with GraphQL servers via schema introspection and query execution.",
+  "tags": [
+    "GraphQL",
+    "MCP",
+    "server"
+  ],
+  "creator": "blurrah",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:48:47Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/blurrah/mcp-graphql"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "mcp-graphql",
+      "--endpoint",
+      "**GRAPHQL_ENDPOINT**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "GRAPHQL_ENDPOINT": {
+      "type": "string",
+      "required": true,
+      "description": "The endpoint URL of the GraphQL server."
+    }
+  }
+}

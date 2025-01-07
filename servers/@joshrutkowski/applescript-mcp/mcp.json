@@ -1,0 +1,43 @@
+{
+  "id": "@joshrutkowski/applescript-mcp",
+  "title": "Applescript-Mcp",
+  "description": "A Model Context Protocol (MCP) server for AI applications to interact with macOS through AppleScript, providing control over system functions, file management, notifications, and more.",
+  "tags": [
+    "Node.js",
+    "macOS",
+    "AppleScript"
+  ],
+  "creator": "joshrutkowski",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:06:16Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/joshrutkowski/applescript-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "@modelcontextprotocol/inspector",
+      "node",
+      "path/to/server/index.js",
+      "**ARGS_FROM_INSPECTOR**"
+    ],
+    "env": {
+      "DEBUG": "**DEBUG**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "ARGS_FROM_INSPECTOR": {
+      "type": "string",
+      "required": true,
+      "description": "Arguments to be passed to the server for configuring the MCP Inspector"
+    },
+    "DEBUG": {
+      "type": "string",
+      "required": true,
+      "description": "Enable debug logging for better tracing and troubleshooting"
+    }
+  }
+}

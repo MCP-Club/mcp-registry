@@ -1,0 +1,43 @@
+{
+  "id": "@adhikasp/mcp-linkedin",
+  "title": "Mcp-Linkedin",
+  "description": "An MCP server leveraging an unofficial LinkedIn API to interact with LinkedIn's Feeds and Job API.",
+  "tags": [
+    "LinkedIn",
+    "API",
+    "MCP"
+  ],
+  "creator": "adhikasp",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:13:14Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/adhikasp/mcp-linkedin"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "--from",
+      "https+git://github.com/adhikasp/mcp-linkedin",
+      "mcp-linkedin"
+    ],
+    "env": {
+      "LINKEDIN_EMAIL": "**LINKEDIN_EMAIL**",
+      "LINKEDIN_PASSWORD": "**LINKEDIN_PASSWORD**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "LINKEDIN_EMAIL": {
+      "type": "string",
+      "required": true,
+      "description": "Your LinkedIn account email address."
+    },
+    "LINKEDIN_PASSWORD": {
+      "type": "string",
+      "required": true,
+      "description": "Your LinkedIn account password."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "@evalstate/mcp-hfspace",
+  "title": "Hfspace",
+  "description": "A minimal setup MCP server for integrating Hugging Face Spaces with Claude Desktop, enabling tasks like image generation, text-to-speech, and speech-to-text.",
+  "tags": [
+    "Hugging Face Spaces",
+    "Image Generation",
+    "Claude Desktop"
+  ],
+  "creator": "evalstate",
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Adobe_Firefly_Logo.svg/800px-Adobe_Firefly_Logo.svg.png",
+  "publishDate": "2024-12-24T09:58:30Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/evalstate/mcp-hfspace"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@llmindset/mcp-hfspace",
+      "--work-dir=~/mcp-files/",
+      "--HF_TOKEN = HF_**HF_TOKEN**"
+    ]
+  },
+  "defVersion": "1",
+  "parameters": {
+    "HF_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Hugging Face API token for accessing private spaces and managing quotas."
+    }
+  }
+}

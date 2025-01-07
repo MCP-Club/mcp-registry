@@ -1,0 +1,48 @@
+{
+  "id": "@GongRzhe/Calendar-MCP-Server",
+  "title": "Calendar-Mcp-Server",
+  "description": "A Model Context Protocol (MCP) server for Google Calendar integration in Claude Desktop, enabling AI assistants to manage Google Calendar events through natural language interactions.",
+  "categories": ["API Management", "Integration & Delivery"],
+  "tags": [
+    "MCP",
+    "Google Calendar",
+    "AI Assistant"
+  ],
+  "creator": "GongRzhe",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:52:24Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/GongRzhe/Calendar-MCP-Server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "@gongrzhe/server-calendar-mcp"
+    ],
+    "env": {
+      "GOOGLE_CLIENT_ID": "**GOOGLE_CLIENT_ID**",
+      "GOOGLE_CLIENT_SECRET": "**GOOGLE_CLIENT_SECRET**",
+      "GOOGLE_REFRESH_TOKEN": "**GOOGLE_REFRESH_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "GOOGLE_CLIENT_ID": {
+      "type": "string",
+      "required": true,
+      "description": "Google OAuth 2.0 Client ID obtained from the Google Cloud Console."
+    },
+    "GOOGLE_CLIENT_SECRET": {
+      "type": "string",
+      "required": true,
+      "description": "Google OAuth 2.0 Client Secret obtained from the Google Cloud Console."
+    },
+    "GOOGLE_REFRESH_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "OAuth 2.0 Refresh Token obtained from the Google OAuth Playground for accessing the Calendar API."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "@anaisbetts/mcp-installer",
+  "title": "Mcp Installer",
+  "description": "mcp-installer is a server that simplifies the installation of other MCP servers using commands executed via npx for Node.js or uv for Python environments.",
+  "tags": [
+    "MCP",
+    "server installation",
+    "npx"
+  ],
+  "creator": "anaisbetts",
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSThTollASWWwPMZAAwgTxIuPUmvh3POT-dcQ&s",
+  "publishDate": "2024-12-24T09:26:41Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/anaisbetts/mcp-installer"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "@anaisbetts/mcp-installer"
+    ],
+    "env": {
+      "GITHUB_PERSONAL_ACCESS_TOKEN": "**GITHUB_PERSONAL_ACCESS_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "GITHUB_PERSONAL_ACCESS_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "GitHub personal access token needed to install certain GitHub-hosted MCP servers."
+    }
+  }
+}

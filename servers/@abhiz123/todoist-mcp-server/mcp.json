@@ -1,0 +1,38 @@
+{
+  "id": "@abhiz123/todoist-mcp-server",
+  "title": "Todoist",
+  "description": "Interact with Todoist to manage your tasks.",
+  "tags": [
+    "todoist"
+  ],
+  "categories": [
+    "API Management",
+    "Content Management System"
+  ],
+  "creator": "abhiz123",
+  "logoUrl": "https://app.mcphub.net/server-configuration/image/todoist.svg",
+  "publishDate": "2024-12-13T12:00:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/abhiz123/todoist-mcp-server",
+    "npm": "https://www.npmjs.com/package/@abhiz123/todoist-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@abhiz123/todoist-mcp-server"
+    ],
+    "env": {
+      "TODOIST_API_TOKEN": "**TODOIST_API_TOKEN**"
+    }
+  },
+  "parameters": {
+    "TODOIST_API_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "API token for Todoist authentication"
+    }
+  }
+}

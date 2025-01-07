@@ -1,0 +1,34 @@
+{
+  "id": "@RafalWilinski/mcp-apple-notes",
+  "title": "Mcp-Apple-Notes",
+  "description": "An MCP server for semantic search and AI-assisted Retrieval Augmented Generation (RAG) over Apple Notes, enabling local, private, and secure interaction with your notes through Claude Desktop.",
+  "categories": ["Content Management System", "Machine Learning & AI"],
+  "tags": [
+    "MCP",
+    "semantic search",
+    "Apple Notes"
+  ],
+  "creator": "RafalWilinski",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:49:38Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/RafalWilinski/mcp-apple-notes"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "/Users/**USER_NAME**/.bun/bin/bun",
+    "args": [
+      "/Users/**USER_NAME**/apple-notes-mcp/index.ts"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "USER_NAME": {
+      "type": "string",
+      "required": true,
+      "description": "The username of the local machine where the MCP server is being configured."
+    }
+  }
+}

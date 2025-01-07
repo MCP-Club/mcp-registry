@@ -1,0 +1,41 @@
+{
+  "id": "@knmurphy/glide-api-mcp-server",
+  "title": "Glide-Api-Mcp-Server",
+  "description": "A Model Context Protocol (MCP) server that provides type-safe, secure interaction capabilities with the Glide API (v1 & v2).",
+  "tags": [
+    "MCP",
+    "TypeScript",
+    "Glide API"
+  ],
+  "creator": "knmurphy",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:09:58Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/knmurphy/glide-api-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "path/to/build/index.js"
+    ],
+    "env": {
+      "GLIDE_API_KEY": "**GLIDE_API_KEY**",
+      "GLIDE_API_VERSION": "**GLIDE_API_VERSION**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "GLIDE_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The API key to authenticate with the Glide API server."
+    },
+    "GLIDE_API_VERSION": {
+      "type": "string",
+      "required": true,
+      "description": "The version of the Glide API to use (e.g., 'v1' or 'v2')."
+    }
+  }
+}

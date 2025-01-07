@@ -1,0 +1,37 @@
+{
+  "id": "@JetBrains/mcp-jetbrains",
+  "title": "Jetbrains",
+  "description": "The JetBrains MCP Proxy Server proxies requests from clients to JetBrains IDEs and can be integrated with Claude Desktop for multi-IDE support.",
+  "categories": ["Developer Tools", "Integration & Delivery"],
+  "tags": [
+    "JetBrains",
+    "proxy",
+    "npx"
+  ],
+  "creator": "JetBrains",
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/JetBrains_beam_logo.svg/2048px-JetBrains_beam_logo.svg.png",
+  "publishDate": "2024-12-24T09:17:33Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/JetBrains/mcp-jetbrains"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@jetbrains/mcp-proxy"
+    ],
+    "env": {
+      "IDE_PORT": "**IDE_PORT**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "IDE_PORT": {
+      "type": "string",
+      "required": true,
+      "description": "Specifies the port of the built-in webserver for a specific IDE."
+    }
+  }
+}

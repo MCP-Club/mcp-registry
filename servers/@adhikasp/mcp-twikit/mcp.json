@@ -1,0 +1,49 @@
+{
+  "id": "@adhikasp/mcp-twikit",
+  "title": "Mcp-Twikit",
+  "description": "A Model Context Protocol (MCP) server designed for interacting with Twitter for sentiment analysis, timeline retrieval, and more.",
+  "tags": [
+    "MCP",
+    "Twitter Integration",
+    "Sentiment Analysis"
+  ],
+  "creator": "adhikasp",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:11:27Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/adhikasp/mcp-twikit"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "--from",
+      "git+https://github.com/adhikasp/mcp-twikit",
+      "mcp-twikit"
+    ],
+    "env": {
+      "TWITTER_USERNAME": "**TWITTER_USERNAME**",
+      "TWITTER_EMAIL": "**TWITTER_EMAIL**",
+      "TWITTER_PASSWORD": "**TWITTER_PASSWORD**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "TWITTER_USERNAME": {
+      "type": "string",
+      "required": true,
+      "description": "The Twitter username to log into the MCP server."
+    },
+    "TWITTER_EMAIL": {
+      "type": "string",
+      "required": true,
+      "description": "The email address associated with the Twitter account."
+    },
+    "TWITTER_PASSWORD": {
+      "type": "string",
+      "required": true,
+      "description": "The password for the Twitter account."
+    }
+  }
+}

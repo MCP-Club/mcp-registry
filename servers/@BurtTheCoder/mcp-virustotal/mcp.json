@@ -1,0 +1,34 @@
+{
+  "id": "@BurtTheCoder/mcp-virustotal",
+  "title": "Mcp-Virustotal",
+  "description": "A Model Context Protocol (MCP) server for querying the VirusTotal API to provide comprehensive security analysis and automatic relationship data fetching.",
+  "categories": ["Security", "API Management"],
+  "tags": [
+    "VirusTotal",
+    "MCP",
+    "security"
+  ],
+  "creator": "BurtTheCoder",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:55:42Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/BurtTheCoder/mcp-virustotal"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "mcp-virustotal",
+    "args": [],
+    "env": {
+      "VIRUSTOTAL_API_KEY": "**VIRUSTOTAL_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "VIRUSTOTAL_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "A valid API key from VirusTotal used to authenticate requests to the VirusTotal API."
+    }
+  }
+}

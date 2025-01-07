@@ -1,0 +1,34 @@
+{
+  "id": "@BurtTheCoder/mcp-maigret",
+  "title": "Mcp-Maigret",
+  "description": "A Model Context Protocol (MCP) server for Maigret, enabling username search across social networks and URL analysis with integration for MCP-compatible applications like Claude Desktop.",
+  "categories": ["Security", "Web Analytics"],
+  "tags": [
+    "Node.js",
+    "Docker",
+    "OSINT"
+  ],
+  "creator": "BurtTheCoder",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:58:07Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/BurtTheCoder/mcp-maigret"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "mcp-maigret",
+    "args": [],
+    "env": {
+      "MAIGRET_REPORTS_DIR": "**MAIGRET_REPORTS_DIR**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "MAIGRET_REPORTS_DIR": {
+      "type": "string",
+      "required": true,
+      "description": "Directory where reports will be stored and written by the application."
+    }
+  }
+}

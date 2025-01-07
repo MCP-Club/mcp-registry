@@ -1,0 +1,34 @@
+{
+  "id": "@snaggle-ai/openapi-mcp-server",
+  "title": "OpenAPI",
+  "description": "An OpenAPI MCP server that acts as a proxy for OpenAPI v3.1-compliant APIs, enabling seamless interaction with APIs through Claude Desktop.",
+  "tags": [
+    "OpenAPI",
+    "Claude Desktop",
+    "API Proxy"
+  ],
+  "creator": "snaggle-ai",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/openapi-1.svg",
+  "publishDate": "2024-12-24T09:54:44Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/snaggle-ai/openapi-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "openapi-mcp-server",
+      "**OPENAPI_SPEC_PATH**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "OPENAPI_SPEC_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Absolute path to the OpenAPI v3.1 specification JSON file."
+    }
+  }
+}

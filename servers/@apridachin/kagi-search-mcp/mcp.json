@@ -1,0 +1,38 @@
+{
+  "id": "@apridachin/kagi-search-mcp",
+  "title": "Kagi-Search-Mcp",
+  "description": "MCP server enabling web searches using the Kagi API with tools for web and news enrichment.",
+  "tags": [
+    "MCP",
+    "Kagi API",
+    "web enrichment"
+  ],
+  "creator": "apridachin",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:11:40Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/apridachin/kagi-search-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "path_to_project",
+      "run",
+      "kagi-mcp"
+    ],
+    "env": {
+      "KAGI_API_KEY": "**KAGI_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "KAGI_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key to authenticate requests to the Kagi API"
+    }
+  }
+}

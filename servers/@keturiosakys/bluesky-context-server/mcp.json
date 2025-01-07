@@ -1,0 +1,41 @@
+{
+  "id": "@keturiosakys/bluesky-context-server",
+  "title": "Bluesky-Context-Server",
+  "description": "A simple MCP server that allows Claude Desktop to query Bluesky instances.",
+  "tags": [
+    "MCP",
+    "Bluesky",
+    "server"
+  ],
+  "creator": "keturiosakys",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:53:18Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/keturiosakys/bluesky-context-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "/Users/laurynas-fp/.bun/bin/bun",
+    "args": [
+      "<path_to_this_directory>/bluesky-context-server/index.ts"
+    ],
+    "env": {
+      "BLUESKY_APP_KEY": "**BLUESKY_APP_KEY**",
+      "BLUESKY_IDENTIFIER": "**BLUESKY_IDENTIFIER**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "BLUESKY_APP_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key to authenticate with the Bluesky platform."
+    },
+    "BLUESKY_IDENTIFIER": {
+      "type": "string",
+      "required": true,
+      "description": "User identifier for connecting to the Bluesky instance."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "@ZeparHyfar/mcp-datetime",
+  "title": "Mcp-Datetime",
+  "description": "A datetime formatting MCP server for the Claude Desktop App, supporting various datetime formats and optimized timezone handling.",
+  "tags": [
+    "datetime",
+    "MCP",
+    "Python"
+  ],
+  "creator": "ZeparHyfar",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:54:19Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/ZeparHyfar/mcp-datetime"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-datetime"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PYTHON": {
+      "type": "string",
+      "required": true,
+      "description": "Path to the Python interpreter to be used."
+    }
+  }
+}

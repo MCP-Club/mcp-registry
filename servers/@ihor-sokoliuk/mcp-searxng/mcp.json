@@ -1,0 +1,36 @@
+{
+  "id": "@ihor-sokoliuk/mcp-searxng",
+  "title": "Mcp-Searxng",
+  "description": "An MCP server implementation that integrates with the SearxNG API, providing web search capabilities with pagination.",
+  "tags": [
+    "MCP",
+    "SearxNG",
+    "web search"
+  ],
+  "creator": "ihor-sokoliuk",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:06:38Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/ihor-sokoliuk/mcp-searxng"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "<full path to mcp-searxng repo>/"
+    ],
+    "env": {
+      "SEARXNG_URL": "**SEARXNG_URL**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "SEARXNG_URL": {
+      "type": "string",
+      "required": true,
+      "description": "The URL of the SearxNG instance to use for web search requests."
+    }
+  }
+}

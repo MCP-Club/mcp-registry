@@ -1,0 +1,58 @@
+{
+  "id": "@turlockmike/apple-notifier-mcp",
+  "title": "Apple-Notifier-Mcp",
+  "description": "A macOS-native MCP server to send notifications, interact with dialogs, and utilize system features like text-to-speech and file selection through MCP-compatible clients.",
+  "tags": [
+    "macOS",
+    "MCP",
+    "notifications"
+  ],
+  "creator": "turlockmike",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:09:10Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/turlockmike/apple-notifier-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@smithery/cli",
+      "install",
+      "apple-notifier-mcp",
+      "--client",
+      "claude"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "The title of the notification"
+    },
+    "message": {
+      "type": "string",
+      "required": true,
+      "description": "The main message content"
+    },
+    "path": {
+      "type": "string",
+      "required": true,
+      "description": "Path where to save the screenshot"
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "description": "Type of screenshot ('fullscreen', 'window', or 'selection')"
+    },
+    "text": {
+      "type": "string",
+      "required": true,
+      "description": "Text to speak"
+    }
+  }
+}

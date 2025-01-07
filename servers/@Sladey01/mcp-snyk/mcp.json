@@ -1,0 +1,36 @@
+{
+  "id": "@Sladey01/mcp-snyk",
+  "title": "Mcp-Snyk",
+  "description": "A standalone Model Context Protocol server for Snyk security scanning functionality, supporting repository and project vulnerability scans.",
+  "tags": [
+    "security",
+    "snyk",
+    "mcp"
+  ],
+  "creator": "Sladey01",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:08:37Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/Sladey01/mcp-snyk"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "github:Sladey01/mcp-snyk"
+    ],
+    "env": {
+      "SNYK_API_KEY": "**SNYK_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "SNYK_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Your Snyk API token to authenticate requests."
+    }
+  }
+}

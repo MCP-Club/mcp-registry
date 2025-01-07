@@ -1,0 +1,28 @@
+{
+  "id": "@liuyoshio/mcp-compass",
+  "title": "Mcp-Compass",
+  "description": "MCP Compass is a discovery and recommendation service helping AI assistants find and understand MCP servers using natural language queries.",
+  "tags": [
+    "MCP",
+    "AI Discovery",
+    "Service Integration"
+  ],
+  "creator": "liuyoshio",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:50:04Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/liuyoshio/mcp-compass"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@liuyoshio/mcp-compass"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

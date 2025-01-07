@@ -1,0 +1,36 @@
+{
+  "id": "@RafalWilinski/aws-mcp",
+  "title": "Aws-Mcp",
+  "description": "A Model Context Protocol (MCP) server that enables natural language querying and management of AWS resources using Claude Desktop.",
+  "categories": ["Integration & Delivery", "Machine Learning & AI"],
+  "tags": [
+    "AWS",
+    "MCP",
+    "AI"
+  ],
+  "creator": "RafalWilinski",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:48:33Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/RafalWilinski/aws-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npm",
+    "args": [
+      "--prefix",
+      "**PROJECT_PATH**",
+      "start"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PROJECT_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "The absolute path to the aws-mcp project directory."
+    }
+  }
+}

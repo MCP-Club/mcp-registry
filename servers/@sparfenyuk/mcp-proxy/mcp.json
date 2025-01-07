@@ -1,0 +1,42 @@
+{
+  "id": "@sparfenyuk/mcp-proxy",
+  "title": "Mcp-Proxy",
+  "description": "A proxy server to connect Claude Desktop with MCP servers that run on SSE transport.",
+  "tags": [
+    "proxy",
+    "MCP",
+    "SSE"
+  ],
+  "creator": "sparfenyuk",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:09:53Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/sparfenyuk/mcp-proxy"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "tool",
+      "install",
+      "git+https://github.com/sparfenyuk/mcp-proxy"
+    ],
+    "env": {
+      "SSE_URL": "**SSE_URL**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "SSE_URL": {
+      "type": "string",
+      "required": true,
+      "description": "The MCP server SSE endpoint to connect to, e.g., http://example.io/sse"
+    },
+    "API_ACCESS_TOKEN": {
+      "type": "string",
+      "required": false,
+      "description": "The token added as a Bearer token in the Authorization header of the HTTP request"
+    }
+  }
+}

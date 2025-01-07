@@ -1,0 +1,42 @@
+{
+  "id": "@GongRzhe/Calendar-Autoauth-MCP-Server",
+  "title": "Calendar-Autoauth-Mcp-Server",
+  "description": "An MCP server for Google Calendar integration with auto authentication, enabling AI assistants to manage calendar events using natural language.",
+  "categories": ["API Management", "Integration & Delivery"],
+  "tags": [
+    "Google Calendar",
+    "OAuth2",
+    "MCP Server"
+  ],
+  "creator": "GongRzhe",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:01:56Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/GongRzhe/Calendar-Autoauth-MCP-Server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "@gongrzhe/server-calendar-autoauth-mcp"
+    ],
+    "env": {
+      "CALENDAR_OAUTH_PATH": "**CALENDAR_OAUTH_PATH**",
+      "CALENDAR_CREDENTIALS_PATH": "**CALENDAR_CREDENTIALS_PATH**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "CALENDAR_OAUTH_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Path to the Google Cloud Platform OAuth credentials JSON file."
+    },
+    "CALENDAR_CREDENTIALS_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Path to store the authenticated credentials JSON file."
+    }
+  }
+}

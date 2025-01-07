@@ -1,0 +1,42 @@
+{
+  "id": "@Rickyyy1116/mcp-youtube-sheets",
+  "title": "Mcp-Youtube-Sheets",
+  "description": "An MCP server to search YouTube videos using the YouTube Data API v3 and save results to Google Sheets.",
+  "categories": ["API Management", "Data Science"],
+  "tags": [
+    "YouTube Data API",
+    "Google Sheets API",
+    "Node.js"
+  ],
+  "creator": "Rickyyy1116",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:52:33Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/Rickyyy1116/mcp-youtube-sheets"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "path/to/youtube-sheets-server/build/index.js"
+    ],
+    "env": {
+      "YOUTUBE_API_KEY": "**YOUTUBE_API_KEY**",
+      "SPREADSHEET_ID": "**SPREADSHEET_ID**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "YOUTUBE_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Your YouTube Data API v3 key for making API requests."
+    },
+    "SPREADSHEET_ID": {
+      "type": "string",
+      "required": true,
+      "description": "The Google Spreadsheet ID where the YouTube search results will be saved."
+    }
+  }
+}

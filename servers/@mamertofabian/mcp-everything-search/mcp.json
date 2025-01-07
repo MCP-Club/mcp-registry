@@ -1,0 +1,35 @@
+{
+  "id": "@mamertofabian/mcp-everything-search",
+  "title": "Mcp-Everything-Search",
+  "description": "An MCP server providing fast file searching capabilities using Everything SDK on Windows, Spotlight on macOS, and locate/plocate on Linux.",
+  "tags": [
+    "file-search",
+    "MCP-server",
+    "multi-platform"
+  ],
+  "creator": "mamertofabian",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:11:11Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/mamertofabian/mcp-everything-search"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-everything-search"
+    ],
+    "env": {
+      "EVERYTHING_SDK_PATH": "**EVERYTHING_SDK_PATH**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "EVERYTHING_SDK_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Path to Everything SDK DLL (required for Windows only)."
+    }
+  }
+}

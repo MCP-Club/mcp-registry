@@ -1,0 +1,49 @@
+{
+  "id": "@kunwarVivek/mcp-github-project-manager",
+  "title": "Mcp-Github-Project-Manager",
+  "description": "A Model Context Protocol (MCP) server for GitHub project, milestone, and sprint management with features like kanban workflows, sprint planning, and custom field integration.",
+  "tags": [
+    "GitHub",
+    "project-management",
+    "MCP"
+  ],
+  "creator": "kunwarVivek",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:12:32Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/kunwarVivek/mcp-github-project-manager"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "build/index.js",
+      "--port",
+      "3000"
+    ],
+    "env": {
+      "GITHUB_TOKEN": "**GITHUB_TOKEN**",
+      "GITHUB_OWNER": "**GITHUB_OWNER**",
+      "GITHUB_REPO": "**GITHUB_REPO**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "GITHUB_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Your GitHub Personal Access Token with the required permissions."
+    },
+    "GITHUB_OWNER": {
+      "type": "string",
+      "required": true,
+      "description": "The GitHub repository owner."
+    },
+    "GITHUB_REPO": {
+      "type": "string",
+      "required": true,
+      "description": "The GitHub repository name."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "@qpd-v/mcp-image-downloader",
+  "title": "Mcp-Image-Downloader",
+  "description": "An MCP server for downloading images from URLs with features for resizing, quality adjustment, and format conversion.",
+  "tags": [
+    "Node.js",
+    "MCP",
+    "image-optimization"
+  ],
+  "creator": "qpd-v",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:53:03Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/qpd-v/mcp-image-downloader"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/mcp-image-downloader/build/index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

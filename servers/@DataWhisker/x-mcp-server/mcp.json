@@ -1,0 +1,54 @@
+{
+  "id": "@DataWhisker/x-mcp-server",
+  "title": "X-Mcp-Server",
+  "description": "A Model Context Protocol (MCP) server for integrating with X (Twitter), allowing reading timelines, posting tweets, and replying with rate limit handling.",
+  "categories": ["API Management", "Web Analytics"],
+  "tags": [
+    "Node.js",
+    "Twitter API",
+    "MCP Server"
+  ],
+  "creator": "DataWhisker",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:00:33Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/DataWhisker/x-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "%USERPROFILE%/Projects/MCP Basket/x-server/build/index.js"
+    ],
+    "env": {
+      "TWITTER_API_KEY": "**TWITTER_API_KEY**",
+      "TWITTER_API_SECRET": "**TWITTER_API_SECRET**",
+      "TWITTER_ACCESS_TOKEN": "**TWITTER_ACCESS_TOKEN**",
+      "TWITTER_ACCESS_SECRET": "**TWITTER_ACCESS_SECRET**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "TWITTER_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The Twitter API Key (Consumer Key) for application authentication."
+    },
+    "TWITTER_API_SECRET": {
+      "type": "string",
+      "required": true,
+      "description": "The Twitter API Key Secret (Consumer Secret) for application authentication."
+    },
+    "TWITTER_ACCESS_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "The Access Token for authenticating as the user."
+    },
+    "TWITTER_ACCESS_SECRET": {
+      "type": "string",
+      "required": true,
+      "description": "The Access Token Secret for authenticating as the user."
+    }
+  }
+}

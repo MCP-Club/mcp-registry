@@ -1,0 +1,33 @@
+{
+  "id": "@PhialsBasement/Pagespeed-MCP-Server",
+  "title": "Pagespeed-Mcp-Server",
+  "description": "A Model Context Protocol (MCP) server that integrates PageSpeed Insights functionality, enabling AI assistants to perform detailed web performance analysis.",
+  "categories": ["Web Analytics", "Developer Tools"],
+  "tags": [
+    "AI",
+    "PageSpeed Insights",
+    "Server"
+  ],
+  "creator": "PhialsBasement",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:01:04Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/PhialsBasement/Pagespeed-MCP-Server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@smithery/cli",
+      "install",
+      "mcp-pagespeed-server",
+      "--client",
+      "claude"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

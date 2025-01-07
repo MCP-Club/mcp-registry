@@ -1,0 +1,40 @@
+{
+  "id": "@aallsbury/qb-time-mcp-server",
+  "title": "Qb-Time-Mcp-Server",
+  "description": "A combined MCP server providing a unified interface for QuickBooks Time API functionality, integrating tools for job codes, reports, timesheets, and user management.",
+  "tags": [
+    "QuickBooks",
+    "API",
+    "Python"
+  ],
+  "creator": "aallsbury",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:59:11Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/aallsbury/qb-time-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "python",
+    "args": [
+      "./qb-time-mcp-server/main.py"
+    ],
+    "env": {
+      "QB_TIME_ACCESS_TOKEN": "**QB_TIME_ACCESS_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "QB_TIME_ACCESS_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "QuickBooks Time API access token used to authenticate requests."
+    },
+    "NODE_ENV": {
+      "type": "string",
+      "required": false,
+      "description": "Defines the environment mode, e.g., 'development', 'production'."
+    }
+  }
+}

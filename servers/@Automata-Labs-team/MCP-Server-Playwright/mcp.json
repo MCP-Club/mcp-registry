@@ -1,0 +1,29 @@
+{
+  "id": "@Automata-Labs-team/MCP-Server-Playwright",
+  "title": "Mcp-Server-Playwright",
+  "description": "An MCP server using Playwright to enable browser automation with capabilities like navigation, screenshot capture, and JavaScript execution for LLMs.",
+  "categories": ["Developer Tools", "Machine Learning & AI"],
+  "tags": [
+    "playwright",
+    "browser-automation",
+    "mcp-server"
+  ],
+  "creator": "Automata-Labs-team",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:07:32Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/Automata-Labs-team/MCP-Server-Playwright"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@automatalabs/mcp-server-playwright"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

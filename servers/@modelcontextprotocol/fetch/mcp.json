@@ -1,0 +1,31 @@
+{
+  "id": "@modelcontextprotocol/fetch",
+  "title": "Fetch",
+  "description": "HTTP request server for making API calls",
+  "tags": [
+    "http",
+    "api",
+    "networking"
+  ],
+  "categories": [
+    "API Management",
+    "Networking"
+  ],
+  "creator": "modelcontextprotocol",
+  "logoUrl": "https://app.mcphub.net/server-configuration/image/fetch.svg",
+  "publishDate": "2024-12-17T12:49:12Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
+    "npm": "https://www.npmjs.com/package/@modelcontextprotocol/server-fetch"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-fetch"
+    ],
+    "env": {}
+  },
+  "parameters": {}
+}

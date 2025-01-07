@@ -1,0 +1,47 @@
+{
+  "id": "@epaproditus/google-workspace-mcp-server",
+  "title": "Google-Workspace-Mcp-Server",
+  "description": "A Model Context Protocol (MCP) server to interact programmatically with Gmail and Google Calendar APIs, supporting email and calendar event management.",
+  "tags": [
+    "Node.js",
+    "Google API",
+    "MCP"
+  ],
+  "creator": "epaproditus",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:59:02Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/epaproditus/google-workspace-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/google-workspace-server/build/index.js"
+    ],
+    "env": {
+      "GOOGLE_CLIENT_ID": "**GOOGLE_CLIENT_ID**",
+      "GOOGLE_CLIENT_SECRET": "**GOOGLE_CLIENT_SECRET**",
+      "GOOGLE_REFRESH_TOKEN": "**GOOGLE_REFRESH_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "GOOGLE_CLIENT_ID": {
+      "type": "string",
+      "required": true,
+      "description": "OAuth Client ID for Google APIs"
+    },
+    "GOOGLE_CLIENT_SECRET": {
+      "type": "string",
+      "required": true,
+      "description": "OAuth Client Secret for Google APIs"
+    },
+    "GOOGLE_REFRESH_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "OAuth Refresh Token for authenticating API requests"
+    }
+  }
+}

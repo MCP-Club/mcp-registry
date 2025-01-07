@@ -1,0 +1,38 @@
+{
+  "id": "@austinlparker/hny-mcp",
+  "title": "Hny-Mcp",
+  "description": "A Model Context Protocol server for enabling Claude or other LLMs to analyze and query Honeycomb datasets across multiple environments.",
+  "tags": [
+    "Node.js",
+    "Honeycomb",
+    "observability"
+  ],
+  "creator": "austinlparker",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:53:43Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/austinlparker/hny-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/build/index.mjs"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API Key required to authenticate with the Honeycomb API."
+    },
+    "BASE_URL": {
+      "type": "string",
+      "required": false,
+      "description": "Optional base URL to specify a custom API endpoint if not using the default Honeycomb API."
+    }
+  }
+}

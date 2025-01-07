@@ -1,0 +1,47 @@
+{
+  "id": "@rados10/youtube-watchlater-mcp",
+  "title": "Youtube-Watchlater-Mcp",
+  "description": "An MCP server that retrieves URLs of videos added to a specified YouTube playlist within a configurable timeframe using OAuth2 for secure access.",
+  "tags": [
+    "YouTube",
+    "TypeScript",
+    "OAuth2"
+  ],
+  "creator": "rados10",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:06:10Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/rados10/youtube-watchlater-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/youtube-watchlater/build/index.js"
+    ],
+    "env": {
+      "OAUTH_CLIENT_ID": "**OAUTH_CLIENT_ID**",
+      "OAUTH_CLIENT_SECRET": "**OAUTH_CLIENT_SECRET**",
+      "OAUTH_REFRESH_TOKEN": "**OAUTH_REFRESH_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "OAUTH_CLIENT_ID": {
+      "type": "string",
+      "required": true,
+      "description": "OAuth2 client ID from Google Cloud credentials."
+    },
+    "OAUTH_CLIENT_SECRET": {
+      "type": "string",
+      "required": true,
+      "description": "OAuth2 client secret from Google Cloud credentials."
+    },
+    "OAUTH_REFRESH_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Refresh token obtained from Google OAuth2 flow."
+    }
+  }
+}

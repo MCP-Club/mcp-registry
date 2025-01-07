@@ -1,0 +1,27 @@
+{
+  "id": "@SecretiveShell/MCP-timeserver",
+  "title": "Mcp-Timeserver",
+  "description": "A simple MCP server that provides current date and time information via a custom datetime:// URI scheme and a tool for local time retrieval.",
+  "tags": [
+    "MCP",
+    "datetime",
+    "server"
+  ],
+  "creator": "SecretiveShell",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:49:45Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/SecretiveShell/MCP-timeserver"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "MCP-timeserver"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

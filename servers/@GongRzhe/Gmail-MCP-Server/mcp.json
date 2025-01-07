@@ -1,0 +1,42 @@
+{
+  "id": "@GongRzhe/Gmail-MCP-Server",
+  "title": "Gmail-Mcp-Server",
+  "description": "A Model Context Protocol (MCP) server for integrating Gmail in Claude Desktop, supporting natural language-driven email management and auto-authentication.",
+  "categories": ["API Management", "Integration & Delivery"],
+  "tags": [
+    "MCP",
+    "Gmail API",
+    "OAuth2"
+  ],
+  "creator": "GongRzhe",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:49:11Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/GongRzhe/Gmail-MCP-Server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "@gongrzhe/server-gmail-autoauth-mcp"
+    ],
+    "env": {
+      "GMAIL_OAUTH_PATH": "**GMAIL_OAUTH_PATH**",
+      "GMAIL_CREDENTIALS_PATH": "**GMAIL_CREDENTIALS_PATH**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "GMAIL_OAUTH_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Path to the OAuth keys JSON file used for Gmail API authentication."
+    },
+    "GMAIL_CREDENTIALS_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Path where the generated credentials.json file will be stored after authentication."
+    }
+  }
+}

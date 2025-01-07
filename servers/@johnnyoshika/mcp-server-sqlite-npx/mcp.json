@@ -1,0 +1,48 @@
+{
+  "id": "@johnnyoshika/mcp-server-sqlite-npx",
+  "title": "Mcp-Server-Sqlite-Npx",
+  "description": "A Node.js-based SQLite server implementation of the Model Context Protocol, designed to work with Claude Desktop and serve as an alternative to the Python reference implementation.",
+  "tags": [
+    "Node.js",
+    "SQLite",
+    "MCP"
+  ],
+  "creator": "johnnyoshika",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:58:12Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/johnnyoshika/mcp-server-sqlite-npx"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-server-sqlite-npx",
+      "**DATABASE_PATH**"
+    ],
+    "env": {
+      "PATH": "**EXECUTABLES_PATH**",
+      "NODE_PATH": "**NODE_MODULES_PATH**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "DATABASE_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Absolute path to the SQLite database file."
+    },
+    "EXECUTABLES_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Absolute path to your executables folder that includes required binaries."
+    },
+    "NODE_MODULES_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Absolute path to the Node.js modules directory."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "@ryanjoachim/mcp-rtfm",
+  "title": "Mcp-Rtfm",
+  "description": "MCP-RTFM helps transform unreadable or non-existent documentation into an organized, intelligent knowledge base with metadata and advanced search capabilities.",
+  "tags": [
+    "Documentation",
+    "Metadata",
+    "Search"
+  ],
+  "creator": "ryanjoachim",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:06:26Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/ryanjoachim/mcp-rtfm"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "<path-to-mcp-rtfm>/build/index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

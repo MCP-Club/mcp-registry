@@ -1,0 +1,25 @@
+{
+  "id": "@Flux159/mcp-server-kubernetes",
+  "title": "Kubernetes",
+  "description": "Connect to Kubernetes cluster and manage pods, deployments, and services.",
+  "categories": ["Integration & Delivery", "Operating Systems"],
+  "tags": [
+    "kubernetes"
+  ],
+  "creator": "Flux159",
+  "verified": false,
+  "logoUrl": "https://app.mcphub.net/server-configuration/image/kubernetes.svg",
+  "publishDate": "2024-12-13T12:00:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/Flux159/mcp-server-kubernetes",
+    "npm": "https://www.npmjs.com/package/mcp-server-kubernetes"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "mcp-server-kubernetes"
+    ]
+  }
+}

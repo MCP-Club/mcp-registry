@@ -1,0 +1,41 @@
+{
+  "id": "@heltonteixeira/openrouterai",
+  "title": "Openrouterai",
+  "description": "An MCP server providing seamless access to OpenRouter.ai's AI models with features like caching, rate limiting, and robust error handling.",
+  "tags": [
+    "MCP",
+    "TypeScript",
+    "AI"
+  ],
+  "creator": "heltonteixeira",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:09:18Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/heltonteixeira/openrouterai"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "@mcpservers/openrouterai"
+    ],
+    "env": {
+      "OPENROUTER_API_KEY": "**OPENROUTER_API_KEY**",
+      "OPENROUTER_DEFAULT_MODEL": "**OPENROUTER_DEFAULT_MODEL**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "OPENROUTER_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key for authentication with OpenRouter.ai."
+    },
+    "OPENROUTER_DEFAULT_MODEL": {
+      "type": "string",
+      "required": false,
+      "description": "Optional default model used for requests."
+    }
+  }
+}

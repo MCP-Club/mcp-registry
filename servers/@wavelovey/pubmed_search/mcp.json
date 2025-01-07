@@ -1,0 +1,47 @@
+{
+  "id": "@wavelovey/pubmed_search",
+  "title": "Pubmed_Search",
+  "description": "An MCP server for searching PubMed and managing notes with summarization and note addition capabilities.",
+  "tags": [
+    "MCP",
+    "PubMed",
+    "notes"
+  ],
+  "creator": "wavelovey",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:10:04Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/wavelovey/pubmed_search"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "pubmed_search"
+    ],
+    "env": {
+      "UV_PUBLISH_TOKEN": "**UV_PUBLISH_TOKEN**",
+      "UV_PUBLISH_USERNAME": "**UV_PUBLISH_USERNAME**",
+      "UV_PUBLISH_PASSWORD": "**UV_PUBLISH_PASSWORD**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "UV_PUBLISH_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Token for publishing the package to PyPI."
+    },
+    "UV_PUBLISH_USERNAME": {
+      "type": "string",
+      "required": true,
+      "description": "Username for publishing the package to PyPI."
+    },
+    "UV_PUBLISH_PASSWORD": {
+      "type": "string",
+      "required": true,
+      "description": "Password for publishing the package to PyPI."
+    }
+  }
+}

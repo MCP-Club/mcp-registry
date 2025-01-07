@@ -1,0 +1,35 @@
+{
+  "id": "@dazeb/MCP-Github-Mapper",
+  "title": "Mcp-Github-Mapper",
+  "description": "GitHub Mapper MCP Server is a tool for mapping and analyzing GitHub repositories, providing detailed repository structures and summary statistics.",
+  "tags": [
+    "Node.js",
+    "GitHub",
+    "MCP"
+  ],
+  "creator": "dazeb",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:54:24Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/dazeb/MCP-Github-Mapper"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/home/user/Documents/Cline/MCP/github-mapper/build/index.js"
+    ],
+    "env": {
+      "GITHUB_TOKEN": "**GITHUB_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "GITHUB_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "A GitHub Personal Access Token with 'repo' scope permissions for authenticating requests."
+    }
+  }
+}

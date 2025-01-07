@@ -1,0 +1,28 @@
+{
+  "id": "@anaisbetts/mcp-youtube",
+  "title": "Mcp-Youtube",
+  "description": "This project uses yt-dlp to download subtitles from YouTube and integrates it with Claude AI via the Model Context Protocol to enable summarization of YouTube videos.",
+  "categories": ["Machine Learning & AI", "Content Management System"],
+  "tags": [
+    "yt-dlp",
+    "ModelContextProtocol",
+    "ClaudeAI"
+  ],
+  "creator": "anaisbetts",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:55:17Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/anaisbetts/mcp-youtube"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "@anaisbetts/mcp-youtube"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

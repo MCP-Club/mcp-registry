@@ -1,0 +1,27 @@
+{
+  "id": "@g0t4/mcp-server-commands",
+  "title": "Mcp-Server-Commands",
+  "description": "This project provides a server to execute commands and scripts safely in the Claude Desktop environment using the MCP protocol.",
+  "tags": [
+    "LLM",
+    "Node.js",
+    "MCP"
+  ],
+  "creator": "g0t4",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:11:07Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/g0t4/mcp-server-commands"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "mcp-server-commands"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

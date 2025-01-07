@@ -1,0 +1,29 @@
+{
+  "id": "@SeanMcLoughlin/mcp-vcd",
+  "title": "Mcp-Vcd",
+  "description": "An MCP server for handling Value Change Dump (VCD) waveforms, useful for extracting signal changes within specified time ranges.",
+  "categories": ["Data Science", "Developer Tools"],
+  "tags": [
+    "MCP",
+    "VCD",
+    "waveforms"
+  ],
+  "creator": "SeanMcLoughlin",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:51:10Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/SeanMcLoughlin/mcp-vcd"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "run",
+      "mcp-vcd"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

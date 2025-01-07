@@ -1,0 +1,37 @@
+{
+  "id": "@xBlueCode/findata-mcp-server",
+  "title": "Findata-Mcp-Server",
+  "description": "An MCP server that integrates with the Alpha Vantage API to provide stock data, including current quotes and historical data, for use with LLMs.",
+  "categories": ["Data Science", "API Management"],
+  "tags": [
+    "MCP",
+    "API",
+    "finance"
+  ],
+  "creator": "xBlueCode",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:09:42Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/xBlueCode/findata-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "findata-mcp-server"
+    ],
+    "env": {
+      "ALPHA_VANTAGE_API_KEY": "**ALPHA_VANTAGE_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "ALPHA_VANTAGE_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The API key from Alpha Vantage to authenticate requests."
+    }
+  }
+}

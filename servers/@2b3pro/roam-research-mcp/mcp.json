@@ -1,0 +1,42 @@
+{
+  "id": "@2b3pro/roam-research-mcp",
+  "title": "Roam-Research-Mcp",
+  "description": "A Model Context Protocol (MCP) server that provides comprehensive access to Roam Research's API functionality, enabling AI tools to interact with Roam Research graphs through a standardized interface.",
+  "categories": ["API Management", "Machine Learning & AI"],
+  "tags": [
+    "TypeScript",
+    "API",
+    "Roam Research"
+  ],
+  "creator": "2b3pro",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:12:38Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/2b3pro/roam-research-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/roam-research/build/index.js"
+    ],
+    "env": {
+      "ROAM_API_TOKEN": "**ROAM_API_TOKEN**",
+      "ROAM_GRAPH_NAME": "**ROAM_GRAPH_NAME**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "ROAM_API_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "The API token generated from Roam Research's graph settings for authentication."
+    },
+    "ROAM_GRAPH_NAME": {
+      "type": "string",
+      "required": true,
+      "description": "The name of the Roam Research graph to operate on."
+    }
+  }
+}

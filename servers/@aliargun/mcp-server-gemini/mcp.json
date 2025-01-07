@@ -1,0 +1,36 @@
+{
+  "id": "@aliargun/mcp-server-gemini",
+  "title": "Mcp-Server-Gemini",
+  "description": "This is a Model Context Protocol (MCP) server implementation for enabling Claude Desktop to interact with Google's Gemini AI models.",
+  "tags": [
+    "MCP",
+    "TypeScript",
+    "Gemini"
+  ],
+  "creator": "aliargun",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:07:14Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/aliargun/mcp-server-gemini"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "github:aliargun/mcp-server-gemini"
+    ],
+    "env": {
+      "GEMINI_API_KEY": "**GEMINI_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "GEMINI_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key for authenticating with the Gemini AI models. Obtain it from Google AI Studio."
+    }
+  }
+}

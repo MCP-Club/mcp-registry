@@ -1,0 +1,27 @@
+{
+  "id": "@hrmeetsingh/mcp-browser-automation",
+  "title": "Mcp-Browser-Automation",
+  "description": "A demo project implementing the Model Context Protocol (MCP) to automate browsing tasks using Playwright, integrated with Claude Desktop.",
+  "tags": [
+    "Playwright",
+    "MCP",
+    "Automation"
+  ],
+  "creator": "hrmeetsingh",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:50:09Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/hrmeetsingh/mcp-browser-automation"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/mcp-browser-automation/dist/index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

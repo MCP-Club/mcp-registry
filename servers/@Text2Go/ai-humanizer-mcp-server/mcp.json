@@ -1,0 +1,28 @@
+{
+  "id": "@Text2Go/ai-humanizer-mcp-server",
+  "title": "Ai-Humanizer-Mcp-Server",
+  "description": "A Model Context Protocol (MCP) server that enhances AI-generated content to sound more natural and human-like, with features like AI detection and text refinement.",
+  "tags": [
+    "AI Detection",
+    "Natural Language Processing",
+    "Text Enhancement"
+  ],
+  "creator": "Text2Go",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:57:30Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/Text2Go/ai-humanizer-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "ai-humanizer-mcp-server"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

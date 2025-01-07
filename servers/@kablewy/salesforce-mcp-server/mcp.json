@@ -1,0 +1,53 @@
+{
+  "id": "@kablewy/salesforce-mcp-server",
+  "title": "Salesforce-Mcp-Server",
+  "description": "A Model Context Protocol server implementation for interacting with Salesforce via its REST API, supporting SOQL queries, object metadata retrieval, and CRUD operations.",
+  "tags": [
+    "Salesforce",
+    "REST API",
+    "Node.js"
+  ],
+  "creator": "kablewy",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:51:26Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/kablewy/salesforce-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npm",
+    "args": [
+      "start"
+    ],
+    "env": {
+      "SALESFORCE_USER": "**SALESFORCE_USER**",
+      "SALESFORCE_PASSWORD": "**SALESFORCE_PASSWORD**",
+      "SALESFORCE_TOKEN": "**SALESFORCE_TOKEN**",
+      "SALESFORCE_URL": "**SALESFORCE_URL**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "SALESFORCE_USER": {
+      "type": "string",
+      "required": true,
+      "description": "The username of your Salesforce account."
+    },
+    "SALESFORCE_PASSWORD": {
+      "type": "string",
+      "required": true,
+      "description": "The password of your Salesforce account."
+    },
+    "SALESFORCE_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "The security token for accessing your Salesforce instance."
+    },
+    "SALESFORCE_URL": {
+      "type": "string",
+      "required": true,
+      "description": "The base URL of your Salesforce instance."
+    }
+  }
+}

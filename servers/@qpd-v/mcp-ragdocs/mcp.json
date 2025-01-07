@@ -1,0 +1,59 @@
+{
+  "id": "@qpd-v/mcp-ragdocs",
+  "title": "Mcp-Ragdocs",
+  "description": "An MCP server enabling semantic search and retrieval of documentation using a Qdrant vector database.",
+  "tags": [
+    "MCP",
+    "Qdrant",
+    "semantic search"
+  ],
+  "creator": "qpd-v",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:54:47Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/qpd-v/mcp-ragdocs"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\npm\\node_modules\\@qpd-v/mcp-server-ragdocs\\build\\index.js"
+    ],
+    "env": {
+      "QDRANT_URL": "**QDRANT_URL**",
+      "EMBEDDING_PROVIDER": "**EMBEDDING_PROVIDER**",
+      "OLLAMA_URL": "**OLLAMA_URL**",
+      "OPENAI_API_KEY": "**OPENAI_API_KEY**",
+      "QDRANT_API_KEY": "**QDRANT_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "QDRANT_URL": {
+      "type": "string",
+      "required": true,
+      "description": "URL of the Qdrant instance, either local or cloud."
+    },
+    "EMBEDDING_PROVIDER": {
+      "type": "string",
+      "required": true,
+      "description": "Provider for embeddings, choose between 'ollama' or 'openai'."
+    },
+    "OLLAMA_URL": {
+      "type": "string",
+      "required": false,
+      "description": "URL of the Ollama instance (if using Ollama as the embedding provider)."
+    },
+    "OPENAI_API_KEY": {
+      "type": "string",
+      "required": false,
+      "description": "API key for OpenAI (if using OpenAI as the embedding provider)."
+    },
+    "QDRANT_API_KEY": {
+      "type": "string",
+      "required": false,
+      "description": "API key for Qdrant, required when using a Qdrant Cloud instance."
+    }
+  }
+}

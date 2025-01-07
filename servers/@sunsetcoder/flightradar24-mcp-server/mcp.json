@@ -1,0 +1,41 @@
+{
+  "id": "@sunsetcoder/flightradar24-mcp-server",
+  "title": "Flightradar24",
+  "description": "A Claude Desktop MCP server to track flights in real-time using Flightradar24 data.",
+  "tags": [
+    "Claude Desktop",
+    "Flightradar24",
+    "real-time tracking"
+  ],
+  "creator": "sunsetcoder",
+  "logoUrl": "https://www.svgrepo.com/show/516345/flightradar24.svg",
+  "publishDate": "2024-12-24T10:02:10Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/sunsetcoder/flightradar24-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "**FULL_PATH_TO_SERVER**/flightradar24-mcp-server/dist/index.js"
+    ],
+    "env": {
+      "FR24_API_KEY": "**FR24_API_KEY**",
+      "FR24_API_URL": "https://fr24api.flightradar24.com"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "FR24_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Your Flightradar24 API key for authenticating requests."
+    },
+    "FR24_API_URL": {
+      "type": "string",
+      "required": true,
+      "description": "The API base URL for Flightradar24 (e.g., https://fr24api.flightradar24.com)."
+    }
+  }
+}

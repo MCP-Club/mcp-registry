@@ -1,0 +1,39 @@
+{
+  "id": "@mark3labs/mcp-filesystem-server",
+  "title": "Mcp-Filesystem-Server",
+  "description": "A Go-based server implementing the Model Context Protocol for performing filesystem operations, including reading, writing, searching files, and managing directories.",
+  "tags": [
+    "go",
+    "filesystem",
+    "server"
+  ],
+  "creator": "mark3labs",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:49:05Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/mark3labs/mcp-filesystem-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "mcp-filesystem-server",
+    "args": [
+      "**ALLOWED_DIRECTORY_1**",
+      "**ALLOWED_DIRECTORY_2**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "ALLOWED_DIRECTORY_1": {
+      "type": "string",
+      "required": true,
+      "description": "The first directory the server is allowed to access for read/write operations."
+    },
+    "ALLOWED_DIRECTORY_2": {
+      "type": "string",
+      "required": true,
+      "description": "The second directory the server is allowed to access for read/write operations."
+    }
+  }
+}

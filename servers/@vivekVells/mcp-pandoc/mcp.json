@@ -1,0 +1,47 @@
+{
+  "id": "@vivekVells/mcp-pandoc",
+  "title": "Pandoc",
+  "description": "A MCP server for converting documents between various formats using pandoc, currently supporting plain text, Markdown, and HTML.",
+  "tags": [
+    "MCP",
+    "document conversion",
+    "pandoc"
+  ],
+  "creator": "vivekVells",
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbWY7jEv8gYqMJjsverz_Z-UUWrfOOT_7qFQ&s",
+  "publishDate": "2024-12-24T09:55:57Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/vivekVells/mcp-pandoc"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-pandoc"
+    ],
+    "env": {
+      "UV_PUBLISH_TOKEN": "**UV_PUBLISH_TOKEN**",
+      "UV_PUBLISH_USERNAME": "**UV_PUBLISH_USERNAME**",
+      "UV_PUBLISH_PASSWORD": "**UV_PUBLISH_PASSWORD**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "UV_PUBLISH_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "PyPI token for publishing the package."
+    },
+    "UV_PUBLISH_USERNAME": {
+      "type": "string",
+      "required": true,
+      "description": "Username for PyPI authentication if a token is not used."
+    },
+    "UV_PUBLISH_PASSWORD": {
+      "type": "string",
+      "required": true,
+      "description": "Password for PyPI authentication if a token is not used."
+    }
+  }
+}

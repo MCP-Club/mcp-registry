@@ -1,0 +1,36 @@
+{
+  "id": "@vrknetha/mcp-server-firecrawl",
+  "title": "Firecrawl",
+  "description": "An MCP server implementation integrating with FireCrawl for advanced web scraping capabilities.",
+  "tags": [
+    "web scraping",
+    "JavaScript rendering",
+    "batch processing"
+  ],
+  "creator": "vrknetha",
+  "logoUrl": "https://www.svgrepo.com/show/13210/flame.svg",
+  "publishDate": "2024-12-24T09:49:56Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/vrknetha/mcp-server-firecrawl"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-server-firecrawl"
+    ],
+    "env": {
+      "FIRE_CRAWL_API_KEY": "**FIRE_CRAWL_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "FIRE_CRAWL_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key for authenticating with FireCrawl."
+    }
+  }
+}

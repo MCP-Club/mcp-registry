@@ -1,0 +1,27 @@
+{
+  "id": "@modelcontextprotocol/time",
+  "title": "Time",
+  "description": "Time and timezone conversion capabilities",
+  "tags": [
+    "time"
+  ],
+  "categories": [
+    "Developer Tools"
+  ],
+  "creator": "modelcontextprotocol",
+  "verified": false,
+  "logoUrl": "https://app.mcphub.net/server-configuration/image/time.svg",
+  "publishDate": "2024-12-13T12:00:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/modelcontextprotocol/servers/tree/main/src/time",
+    "npm": "https://www.npmjs.com/package/@modelcontextprotocol/server-time"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-time"
+    ]
+  }
+}

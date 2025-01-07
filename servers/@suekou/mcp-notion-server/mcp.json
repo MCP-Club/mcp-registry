@@ -1,0 +1,36 @@
+{
+  "id": "@suekou/mcp-notion-server",
+  "title": "Notion",
+  "description": "MCP Server for the Notion API, allowing Claude to interact with Notion workspaces.",
+  "tags": [
+    "Notion",
+    "API",
+    "Claude"
+  ],
+  "creator": "suekou",
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/1024px-Notion-logo.svg.png",
+  "publishDate": "2024-12-24T10:15:15Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/suekou/mcp-notion-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@suekou/mcp-notion-server"
+    ],
+    "env": {
+      "NOTION_API_TOKEN": "**NOTION_API_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "NOTION_API_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "The internal integration token retrieved from the Notion integration used for authentication."
+    }
+  }
+}

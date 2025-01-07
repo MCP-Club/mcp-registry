@@ -1,0 +1,38 @@
+{
+  "id": "@blazickjp/arxiv-mcp-server",
+  "title": "Arxiv-Mcp-Server",
+  "description": "The ArXiv MCP Server allows AI assistants to search, access, and manage arXiv papers programmatically through a Message Control Protocol (MCP) interface.",
+  "tags": [
+    "AI",
+    "arXiv",
+    "MCP Server"
+  ],
+  "creator": "blazickjp",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:48:01Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/blazickjp/arxiv-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "run",
+      "arxiv-mcp-server",
+      "--storage-path",
+      "**ARXIV_STORAGE_PATH**"
+    ],
+    "env": {
+      "ARXIV_STORAGE_PATH": "**ARXIV_STORAGE_PATH**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "ARXIV_STORAGE_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Path to store downloaded arXiv papers"
+    }
+  }
+}

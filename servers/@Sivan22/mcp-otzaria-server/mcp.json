@@ -1,0 +1,43 @@
+{
+  "id": "@Sivan22/mcp-otzaria-server",
+  "title": "Mcp-Otzaria-Server",
+  "description": "An MCP server for full-text search and advanced query capabilities across Jewish texts and literature, facilitating integration with Large Language Models.",
+  "tags": [
+    "MCP",
+    "full-text search",
+    "Python"
+  ],
+  "creator": "Sivan22",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:12:44Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/Sivan22/mcp-otzaria-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "**DIRECTORY_PATH**",
+      "run",
+      "jewish_library"
+    ],
+    "env": {
+      "PYTHONIOENCODING": "**PYTHONIOENCODING**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "DIRECTORY_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Path to the directory containing the Jewish library index."
+    },
+    "PYTHONIOENCODING": {
+      "type": "string",
+      "required": true,
+      "description": "Specifies the Python IO encoding to ensure UTF-8 compatibility."
+    }
+  }
+}

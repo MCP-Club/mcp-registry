@@ -1,0 +1,36 @@
+{
+  "id": "@arjunkmrm/mcp-minecraft",
+  "title": "Mcp-Minecraft",
+  "description": "A Model Context Protocol (MCP) integration for Minecraft that enables AI assistants to observe and interact with the Minecraft world.",
+  "tags": [
+    "Minecraft",
+    "AI",
+    "MCP"
+  ],
+  "creator": "arjunkmrm",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:00:14Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/arjunkmrm/mcp-minecraft"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-minecraft@latest",
+      "--server-jar",
+      "**SERVER_JAR_PATH**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "SERVER_JAR_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "The absolute path to the Minecraft server.jar file"
+    }
+  }
+}

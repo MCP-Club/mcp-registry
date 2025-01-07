@@ -1,0 +1,38 @@
+{
+  "id": "@RamXX/mcp-tavily",
+  "title": "Tavily",
+  "description": "A Model Context Protocol server enabling AI-powered web searches, direct Q&A, and recent news retrieval using Tavily's API.",
+  "categories": ["Web Analytics", "Machine Learning & AI"],
+  "tags": [
+    "AI",
+    "web-search",
+    "MCP-server"
+  ],
+  "creator": "RamXX",
+  "logoUrl": "https://raw.githubusercontent.com/ComposioHQ/open-logos/4e05709037f0326f21918b95020a953e397926f8/tavily.svg",
+  "publishDate": "2024-12-24T09:41:18Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/RamXX/mcp-tavily"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "@modelcontextprotocol/inspector",
+      "uvx",
+      "mcp-server-tavily"
+    ],
+    "env": {
+      "TAVILY_API_KEY": "**TAVILY_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "TAVILY_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The API key required to authenticate with Tavily's services."
+    }
+  }
+}

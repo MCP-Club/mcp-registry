@@ -1,0 +1,59 @@
+{
+  "id": "@qdrant/mcp-server-qdrant",
+  "title": "Qdrant",
+  "description": "A Model Context Protocol (MCP) server for interacting with the Qdrant vector search engine, providing semantic memory storage and retrieval functionality.",
+  "tags": [
+    "MCP",
+    "Qdrant",
+    "semantic-memory"
+  ],
+  "creator": "qdrant",
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS44vBaJwhpFQNxadXQUdRquyHjUA3gim8INg&s",
+  "publishDate": "2024-12-24T09:24:14Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/qdrant/mcp-server-qdrant"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-qdrant",
+      "--qdrant-url",
+      "**QDRANT_URL**",
+      "--qdrant-api-key",
+      "**QDRANT_API_KEY**",
+      "--collection-name",
+      "**COLLECTION_NAME**"
+    ],
+    "env": {
+      "QDRANT_URL": "**QDRANT_URL**",
+      "QDRANT_API_KEY": "**QDRANT_API_KEY**",
+      "COLLECTION_NAME": "**COLLECTION_NAME**",
+      "FASTEMBED_MODEL_NAME": "**FASTEMBED_MODEL_NAME**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "QDRANT_URL": {
+      "type": "string",
+      "required": true,
+      "description": "URL of the Qdrant server, e.g., `http://localhost:6333`"
+    },
+    "QDRANT_API_KEY": {
+      "type": "string",
+      "required": false,
+      "description": "API key for the Qdrant server (optional, but recommended for security)."
+    },
+    "COLLECTION_NAME": {
+      "type": "string",
+      "required": true,
+      "description": "Name of the collection for storing and retrieving vector data."
+    },
+    "FASTEMBED_MODEL_NAME": {
+      "type": "string",
+      "required": false,
+      "description": "The name of the FastEmbed model used for encoding memories. Defaults to `sentence-transformers/all-MiniLM-L6-v2`."
+    }
+  }
+}

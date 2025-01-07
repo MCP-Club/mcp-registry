@@ -1,0 +1,34 @@
+{
+  "id": "@Cheffromspace/nutjs-windows-control",
+  "title": "Nutjs-Windows-Control",
+  "description": "A Windows control server leveraging nut.js and Model Context Protocol to provide programmatic control over mouse, keyboard, windows, and other system operations.",
+  "categories": ["Operating Systems", "Developer Tools"],
+  "tags": [
+    "Windows",
+    "automation",
+    "MCP"
+  ],
+  "creator": "Cheffromspace",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:59:39Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/Cheffromspace/nutjs-windows-control"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "C:\\Program Files\\nodejs\\node.exe",
+    "args": [
+      "**INSTALL_PATH**\\nutjs-windows-control\\build\\index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "INSTALL_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "The installation path where the nutjs-windows-control project is located."
+    }
+  }
+}

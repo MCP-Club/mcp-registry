@@ -1,0 +1,28 @@
+{
+  "id": "@bigcodegen/mcp-neovim-server",
+  "title": "Mcp-Neovim-Server",
+  "description": "A proof of concept integration between Claude Desktop and Neovim using the Model Context Protocol for lightweight code assistance.",
+  "tags": [
+    "Neovim",
+    "Node.js",
+    "MCP"
+  ],
+  "creator": "bigcodegen",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:58:31Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/bigcodegen/mcp-neovim-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-neovim-server"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

@@ -1,0 +1,29 @@
+{
+  "id": "@cyberchitta/llm-context.py",
+  "title": "Llm-Context.Py",
+  "description": "LLM Context is a tool for injecting relevant project content into Large Language Model chat interfaces, with support for smart file selection using `.gitignore` patterns and streamlined workflows via CLI and native integration with Claude Desktop.",
+  "tags": [
+    "AI tools",
+    "MCP protocol",
+    "developer tools"
+  ],
+  "creator": "cyberchitta",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:10:38Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/cyberchitta/llm-context.py"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "--from",
+      "llm-context",
+      "lc-mcp"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

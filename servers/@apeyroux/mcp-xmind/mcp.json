@@ -1,0 +1,35 @@
+{
+  "id": "@apeyroux/mcp-xmind",
+  "title": "Xmind",
+  "description": "A server for analyzing and querying XMind mind maps with powerful features like fuzzy search, hierarchical navigation, and task tracking.",
+  "tags": [
+    "XMind",
+    "mind maps",
+    "analysis"
+  ],
+  "creator": "apeyroux",
+  "logoUrl": "https://c0.klipartz.com/pngpicture/106/303/gratis-png-software-de-mapas-mentales-clave-de-producto-xmind-grietas-macos-icono-de-palabra-thumbnail.png",
+  "publishDate": "2024-12-24T10:07:22Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/apeyroux/mcp-xmind"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@41px/mcp-xmind",
+      "**ALLOWED_DIRECTORY**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "ALLOWED_DIRECTORY": {
+      "type": "string",
+      "required": true,
+      "description": "The directory or path that the server is allowed to access and operate on."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "@twolven/mcp-codesavant",
+  "title": "Mcp-Codesavant",
+  "description": "CodeSavant is an MCP server that enables AI assistants to manipulate, execute, and version control code in a controlled environment.",
+  "tags": [
+    "MCP",
+    "Python",
+    "version-control"
+  ],
+  "creator": "twolven",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:01:28Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/twolven/mcp-codesavant"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "python",
+    "args": [
+      "path/to/codesavant.py"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

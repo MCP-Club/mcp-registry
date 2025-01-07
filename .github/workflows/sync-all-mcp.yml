@@ -1,0 +1,24 @@
+name: Sync All MCP JSON to MongoDB
+
+on:
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  sync-all-to-mongodb:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install mongodb glob
+
+      - name: Run sync script
+        env:
+          MONGODB_URI: mongodb+srv://admin:${{ secrets.MONGODB_PASSWORD }}@mcp.pcnej.mongodb.net/?retryWrites=true&w=majority&appName=mcp
+        run: node scripts/sync-all-to-mongodb.js

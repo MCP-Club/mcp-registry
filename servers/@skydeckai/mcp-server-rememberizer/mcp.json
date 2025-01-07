@@ -1,0 +1,35 @@
+{
+  "id": "@skydeckai/mcp-server-rememberizer",
+  "title": "Rememberizer",
+  "description": "An MCP (Model Context Protocol) server enabling Large Language Models to interact with Rememberizer's document and knowledge management API for search, retrieval, and integration management.",
+  "tags": [
+    "MCP",
+    "LLM",
+    "Knowledge Management"
+  ],
+  "creator": "skydeckai",
+  "logoUrl": "https://cryptologos.cc/logos/stellar-xlm-logo.png",
+  "publishDate": "2024-12-24T10:00:57Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/skydeckai/mcp-server-rememberizer"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-rememberizer"
+    ],
+    "env": {
+      "REMEMBERIZER_API_TOKEN": "**REMEMBERIZER_API_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "REMEMBERIZER_API_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Your Rememberizer API token to authenticate with the Rememberizer API."
+    }
+  }
+}

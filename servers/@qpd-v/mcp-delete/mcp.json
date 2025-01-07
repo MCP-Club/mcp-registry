@@ -1,0 +1,27 @@
+{
+  "id": "@qpd-v/mcp-delete",
+  "title": "Mcp-Delete",
+  "description": "A Model Context Protocol (MCP) server that helps safely delete files, with smart path resolution and file existence checks.",
+  "tags": [
+    "MCP",
+    "file management",
+    "Claude"
+  ],
+  "creator": "qpd-v",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:48:28Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/qpd-v/mcp-delete"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "@qpd-v/mcp-delete"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

@@ -1,0 +1,35 @@
+{
+  "id": "@tanigami/mcp-server-perplexity",
+  "title": "Mcp-Server-Perplexity",
+  "description": "MCP Server for interacting with the Perplexity API, supporting chat completion with citations.",
+  "tags": [
+    "MCP Server",
+    "API",
+    "Claude Desktop"
+  ],
+  "creator": "tanigami",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:59:22Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/tanigami/mcp-server-perplexity"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-perplexity"
+    ],
+    "env": {
+      "PERPLEXITY_API_KEY": "**PERPLEXITY_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PERPLEXITY_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key required to authenticate with the Perplexity API"
+    }
+  }
+}

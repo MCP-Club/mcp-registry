@@ -1,0 +1,32 @@
+{
+  "id": "@modelcontextprotocol/puppeteer",
+  "title": "Puppeteer Server",
+  "description": "Browser automation server using Puppeteer",
+  "tags": [
+    "browser automation",
+    "web scraping",
+    "testing"
+  ],
+  "categories": [
+    "Developer Tools",
+    "Web Servers"
+  ],
+  "creator": "modelcontextprotocol",
+  "verified": false,
+  "logoUrl": "https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png",
+  "publishDate": "2024-12-17T12:49:12Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer",
+    "npm": "https://www.npmjs.com/package/@modelcontextprotocol/server-puppeteer"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer"
+    ]
+  },
+  "parameters": {}
+}

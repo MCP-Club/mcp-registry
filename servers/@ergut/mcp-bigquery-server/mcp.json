@@ -1,0 +1,49 @@
+{
+  "id": "@ergut/mcp-bigquery-server",
+  "title": "BigQuery",
+  "description": "A server that enables secure and efficient communication between Claude Desktop and BigQuery, allowing users to query data in plain English without writing SQL.",
+  "categories": ["Databases & Storage", "Machine Learning & AI"],
+  "tags": [
+    "BigQuery",
+    "AI Integration",
+    "Node.js"
+  ],
+  "creator": "ergut",
+  "logoUrl": "https://www.svgrepo.com/show/375551/bigquery.svg",
+  "publishDate": "2024-12-24T09:38:09Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/ergut/mcp-bigquery-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@ergut/mcp-bigquery-server",
+      "--project-id",
+      "**PROJECT_ID**",
+      "--location",
+      "**BIGQUERY_LOCATION**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PROJECT_ID": {
+      "type": "string",
+      "required": true,
+      "description": "Your Google Cloud project ID for BigQuery."
+    },
+    "BIGQUERY_LOCATION": {
+      "type": "string",
+      "required": false,
+      "description": "The BigQuery location, with a default value of 'us-central1'."
+    },
+    "KEY_FILE": {
+      "type": "string",
+      "required": false,
+      "description": "The path to a service account key JSON file for authentication in production environments."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "@kaliaboi/mcp-zotero",
+  "title": "Mcp-Zotero",
+  "description": "A Model Context Protocol server for integrating Claude with a Zotero library to enable interaction and library management.",
+  "tags": [
+    "Model Context Protocol",
+    "Zotero",
+    "integration"
+  ],
+  "creator": "kaliaboi",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:51:53Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/kaliaboi/mcp-zotero"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "mcp-zotero"
+    ],
+    "env": {
+      "ZOTERO_API_KEY": "**ZOTERO_API_KEY**",
+      "ZOTERO_USER_ID": "**ZOTERO_USER_ID**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "ZOTERO_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The API key generated from Zotero to authenticate requests."
+    },
+    "ZOTERO_USER_ID": {
+      "type": "string",
+      "required": true,
+      "description": "The user ID fetched from Zotero's API using your API key."
+    }
+  }
+}

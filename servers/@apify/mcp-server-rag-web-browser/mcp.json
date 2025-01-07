@@ -1,0 +1,35 @@
+{
+  "id": "@apify/mcp-server-rag-web-browser",
+  "title": "RAG Web Browser",
+  "description": "MCP server for the RAG Web Browser Actor, allowing AI assistants to perform web searches and fetch cleaned web content.",
+  "tags": [
+    "MCP",
+    "Node.js",
+    "Web Browser"
+  ],
+  "creator": "apify",
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNkEBbkN5ZD37Q9m1y2rdtOmz-fE643miQyg&s",
+  "publishDate": "2024-12-24T10:06:06Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/apify/mcp-server-rag-web-browser"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "/path/to/mcp-server-rag-web-browser/build/index.js"
+    ],
+    "env": {
+      "APIFY_API_TOKEN": "**APIFY_API_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "APIFY_API_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Your Apify API token for authenticating server requests."
+    }
+  }
+}

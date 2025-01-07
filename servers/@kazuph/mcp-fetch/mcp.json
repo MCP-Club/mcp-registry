@@ -1,0 +1,28 @@
+{
+  "id": "@kazuph/mcp-fetch",
+  "title": "Mcp-Fetch",
+  "description": "MCP Fetch is a tool for fetching web content and processing images, designed for integration with Claude Desktop.",
+  "tags": [
+    "Node.js",
+    "macOS",
+    "web-content-processing"
+  ],
+  "creator": "kazuph",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:00:58Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/kazuph/mcp-fetch"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@kazuph/mcp-fetch"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

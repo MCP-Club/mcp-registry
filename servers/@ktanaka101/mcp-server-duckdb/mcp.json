@@ -1,0 +1,35 @@
+{
+  "id": "@ktanaka101/mcp-server-duckdb",
+  "title": "Mcp-Server-Duckdb",
+  "description": "An MCP server for interacting with a DuckDB database, capable of performing queries, schema inspection, and table management.",
+  "tags": [
+    "DuckDB",
+    "MCP server",
+    "Database"
+  ],
+  "creator": "ktanaka101",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:51:04Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/ktanaka101/mcp-server-duckdb"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-duckdb",
+      "--db-path",
+      "**DB_PATH**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "DB_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Path to the DuckDB database file. The server will create the database if it doesn't exist."
+    }
+  }
+}

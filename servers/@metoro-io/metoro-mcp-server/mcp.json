@@ -1,0 +1,39 @@
+{
+  "id": "@metoro-io/metoro-mcp-server",
+  "title": "Metoro-Mcp-Server",
+  "description": "The Metoro MCP Server enables interaction with Kubernetes clusters through the Claude Desktop App using the Model Context Protocol (MCP).",
+  "tags": [
+    "golang",
+    "MCP",
+    "Kubernetes"
+  ],
+  "creator": "metoro-io",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:12:58Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/metoro-io/metoro-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "<path-to-executable>/metoro-mcp-server",
+    "args": [],
+    "env": {
+      "METORO_AUTH_TOKEN": "**METORO_AUTH_TOKEN**",
+      "METORO_API_URL": "**METORO_API_URL**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "METORO_AUTH_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Authentication token for accessing Metoro APIs."
+    },
+    "METORO_API_URL": {
+      "type": "string",
+      "required": true,
+      "description": "Base URL for the Metoro API endpoint."
+    }
+  }
+}

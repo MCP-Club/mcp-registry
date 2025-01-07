@@ -1,0 +1,41 @@
+{
+  "id": "@amidabuddha/unichat-mcp-server",
+  "title": "Unichat-Mcp-Server",
+  "description": "Unichat MCP Server allows sending requests to various AI models using the MCP protocol with tool integrations and predefined prompts.",
+  "tags": [
+    "MCP protocol",
+    "AI integration",
+    "Python"
+  ],
+  "creator": "amidabuddha",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:58:36Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/amidabuddha/unichat-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "unichat-mcp-server"
+    ],
+    "env": {
+      "UNICHAT_MODEL": "**UNICHAT_MODEL**",
+      "UNICHAT_API_KEY": "**UNICHAT_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "UNICHAT_MODEL": {
+      "type": "string",
+      "required": true,
+      "description": "The AI model to be used for the Unichat server, e.g., gpt-4o-mini."
+    },
+    "UNICHAT_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Vendor's API key for accessing the selected AI model."
+    }
+  }
+}

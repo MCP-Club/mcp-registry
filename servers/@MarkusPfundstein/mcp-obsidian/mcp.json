@@ -1,0 +1,36 @@
+{
+  "id": "@MarkusPfundstein/mcp-obsidian",
+  "title": "Mcp-Obsidian",
+  "description": "MCP server to interact with Obsidian via the Local REST API, offering tools for file handling, search, and content operations.",
+  "categories": ["Content Management System", "API Management"],
+  "tags": [
+    "MCP",
+    "Obsidian",
+    "Local REST API"
+  ],
+  "creator": "MarkusPfundstein",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:07:04Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/MarkusPfundstein/mcp-obsidian"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-obsidian"
+    ],
+    "env": {
+      "OBSIDIAN_API_KEY": "**OBSIDIAN_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "OBSIDIAN_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API Key for the Obsidian REST API plugin to authenticate requests."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "@neondatabase/mcp-server-neon",
+  "title": "Mcp-Server-Neon",
+  "description": "The Neon MCP Server allows Claude Desktop or other MCP clients to interact with Neon for managing databases and running migrations using natural language commands.",
+  "tags": [
+    "MCP",
+    "Neon",
+    "Node.js"
+  ],
+  "creator": "neondatabase",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/neon-4.svg",
+  "publishDate": "2024-12-24T09:19:45Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/neondatabase/mcp-server-neon"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "@neondatabase/mcp-server-neon",
+      "init",
+      "**NEON_API_KEY**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "NEON_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The Neon API Key used for authenticating with the Neon platform."
+    }
+  }
+}

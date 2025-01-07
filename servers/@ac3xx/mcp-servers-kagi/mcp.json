@@ -1,0 +1,39 @@
+{
+  "id": "@ac3xx/mcp-servers-kagi",
+  "title": "Mcp-Servers-Kagi",
+  "description": "A TypeScript-based MCP server for integrating Kagi's API, enabling search functionality through Claude Desktop.",
+  "tags": [
+    "TypeScript",
+    "Kagi API",
+    "MCP Server"
+  ],
+  "creator": "ac3xx",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:51:21Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/ac3xx/mcp-servers-kagi"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "@smithery/cli",
+      "install",
+      "kagi-server",
+      "--client",
+      "claude"
+    ],
+    "env": {
+      "KAGI_API_KEY": "**KAGI_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "KAGI_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The API key required to authenticate requests to the Kagi API."
+    }
+  }
+}

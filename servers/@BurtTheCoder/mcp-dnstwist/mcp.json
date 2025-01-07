@@ -1,0 +1,28 @@
+{
+  "id": "@BurtTheCoder/mcp-dnstwist",
+  "title": "Mcp-Dnstwist",
+  "description": "A Model Context Protocol (MCP) server for the dnstwist DNS fuzzing tool, designed to analyze domain permutations and identify potentially malicious domains.",
+  "categories": ["Security", "Networking"],
+  "tags": [
+    "Node.js",
+    "Docker",
+    "DNS"
+  ],
+  "creator": "BurtTheCoder",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:12:28Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/BurtTheCoder/mcp-dnstwist"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "mcp-dnstwist"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

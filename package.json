@@ -1,18 +1,33 @@
 {
   "name": "mcp-registry",
   "version": "1.0.0",
-  "description": "Model Context Protocol Registry API",
-  "main": "server.js",
+  "description": "MCP Registry Server",
+  "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src/server.ts --format esm --dts",
+    "start": "node dist/server.js",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\""
   },
   "dependencies": {
-    "fastify": "^4.24.3",
     "@fastify/cors": "^8.4.1",
-    "dotenv": "^16.3.1"
+    "@xenova/transformers": "^2.17.2",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "openai": "^4.77.0",
+    "pg": "^8.11.3"
   },
   "devDependencies": {
-    "nodemon": "^3.0.2"
-  }
+    "@types/node": "^20.10.0",
+    "@types/pg": "^8.10.9",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0",
+    "tsup": "^8.3.5",
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.2"
+  },
+  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
 }

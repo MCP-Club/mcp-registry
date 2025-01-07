@@ -1,0 +1,41 @@
+{
+  "id": "@2b3pro/markdown2pdf-mcp",
+  "title": "Markdown2Pdf-Mcp",
+  "description": "An MCP server for converting Markdown documents to PDF with syntax highlighting, custom styling, and optional watermarking.",
+  "categories": ["Content Management System", "Developer Tools"],
+  "tags": [
+    "markdown",
+    "pdf",
+    "mcp"
+  ],
+  "creator": "2b3pro",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:10:47Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/2b3pro/markdown2pdf-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "path/to/markdown2pdf-mcp/build/index.js"
+    ],
+    "env": {
+      "M2P_OUTPUT_DIR": "**M2P_OUTPUT_DIR**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "M2P_OUTPUT_DIR": {
+      "type": "string",
+      "required": false,
+      "description": "Directory path where generated PDF files will be saved."
+    },
+    "markdown": {
+      "type": "string",
+      "required": true,
+      "description": "Markdown content to be converted into a PDF."
+    }
+  }
+}

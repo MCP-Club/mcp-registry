@@ -1,0 +1,41 @@
+{
+  "id": "@robdodson/ollama-mcp-db",
+  "title": "Ollama-Mcp-Db",
+  "description": "An interactive chat interface that uses Ollama's LLM and PostgreSQL integration via MCP for natural language to SQL query generation.",
+  "tags": [
+    "Node.js",
+    "PostgreSQL",
+    "LLM"
+  ],
+  "creator": "robdodson",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:00:26Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/robdodson/ollama-mcp-db"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npm",
+    "args": [
+      "start"
+    ],
+    "env": {
+      "DATABASE_URL": "**DATABASE_URL**",
+      "OLLAMA_MODEL": "**OLLAMA_MODEL**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "DATABASE_URL": {
+      "type": "string",
+      "required": true,
+      "description": "PostgreSQL connection string in the format postgresql://user:password@host:port/dbname"
+    },
+    "OLLAMA_MODEL": {
+      "type": "string",
+      "required": false,
+      "description": "The Ollama model to use for generating SQL queries (default is qwen2.5-coder:7b-instruct)"
+    }
+  }
+}

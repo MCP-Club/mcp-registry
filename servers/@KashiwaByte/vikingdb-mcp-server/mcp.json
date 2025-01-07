@@ -1,0 +1,71 @@
+{
+  "id": "@KashiwaByte/vikingdb-mcp-server",
+  "title": "Vikingdb-Mcp-Server",
+  "description": "An MCP server for VikingDB, a high-performance vector database by ByteDance, used for storing and searching information.",
+  "categories": ["Databases & Storage", "Machine Learning & AI"],
+  "tags": [
+    "MCP",
+    "VikingDB",
+    "server"
+  ],
+  "creator": "KashiwaByte",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:59:47Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/KashiwaByte/vikingdb-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-vikingdb",
+      "--vikingdb-host",
+      "**VIKINGDB_HOST**",
+      "--vikingdb-region",
+      "**VIKINGDB_REGION**",
+      "--vikingdb-ak",
+      "**VIKINGDB_AK**",
+      "--vikingdb-sk",
+      "**VIKINGDB_SK**",
+      "--collection-name",
+      "**COLLECTION_NAME**",
+      "--index-name",
+      "**INDEX_NAME**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "VIKINGDB_HOST": {
+      "type": "string",
+      "required": true,
+      "description": "The host to use for the VikingDB server."
+    },
+    "VIKINGDB_REGION": {
+      "type": "string",
+      "required": true,
+      "description": "The region to use for the VikingDB server."
+    },
+    "VIKINGDB_AK": {
+      "type": "string",
+      "required": true,
+      "description": "The Access Key to use for the VikingDB server."
+    },
+    "VIKINGDB_SK": {
+      "type": "string",
+      "required": true,
+      "description": "The Secret Key to use for the VikingDB server."
+    },
+    "COLLECTION_NAME": {
+      "type": "string",
+      "required": true,
+      "description": "The name of the collection to use."
+    },
+    "INDEX_NAME": {
+      "type": "string",
+      "required": true,
+      "description": "The name of the index to use."
+    }
+  }
+}

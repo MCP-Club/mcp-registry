@@ -1,0 +1,27 @@
+{
+  "id": "@th3w1zard1/cedarscript-mcp",
+  "title": "Cedarscript-Mcp",
+  "description": "A TypeScript-based MCP server implementing CEDARScript for SQL-like code manipulation features like file-level operations and complex pattern matching.",
+  "tags": [
+    "TypeScript",
+    "MCP Server",
+    "Code Manipulation"
+  ],
+  "creator": "th3w1zard1",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:52:15Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/th3w1zard1/cedarscript-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/cedardiff/build/index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

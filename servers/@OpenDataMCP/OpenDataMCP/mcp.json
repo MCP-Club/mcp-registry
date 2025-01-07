@@ -1,0 +1,36 @@
+{
+  "id": "@OpenDataMCP/OpenDataMCP",
+  "title": "Opendatamcp",
+  "description": "Open Data MCP enables seamless access to public datasets and easy integration with LLM applications through CLI tools and MCP servers.",
+  "categories": ["Data Science", "Integration & Delivery"],
+  "tags": [
+    "open-data",
+    "CLI",
+    "LLM"
+  ],
+  "creator": "OpenDataMCP",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:49:17Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/OpenDataMCP/OpenDataMCP"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "odmcp",
+      "setup",
+      "**PROVIDER_NAME**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PROVIDER_NAME": {
+      "type": "string",
+      "required": true,
+      "description": "The name of the data provider to set up the MCP server."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "@Jacck/mcp-reasoner",
+  "title": "Mcp-Reasoner",
+  "description": "A systematic reasoning MCP server implementation for Claude Desktop with beam search, thought evaluation, and tree-based reasoning capabilities.",
+  "categories": ["Machine Learning & AI", "Developer Tools"],
+  "tags": [
+    "MCP",
+    "beam search",
+    "reasoning"
+  ],
+  "creator": "Jacck",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:08:52Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/Jacck/mcp-reasoner"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "path/to/mcp-reasoner/dist/index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

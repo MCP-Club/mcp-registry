@@ -1,0 +1,42 @@
+{
+  "id": "@pierrebrunelle/mcp-server-openai",
+  "title": "Mcp-Server-Openai",
+  "description": "A server implementation using the MCP protocol to query OpenAI models from Claude.",
+  "tags": [
+    "OpenAI",
+    "Python",
+    "MCP"
+  ],
+  "creator": "pierrebrunelle",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:49:22Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/pierrebrunelle/mcp-server-openai"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "python",
+    "args": [
+      "-m",
+      "src.mcp_server_openai.server"
+    ],
+    "env": {
+      "PYTHONPATH": "**PYTHONPATH**",
+      "OPENAI_API_KEY": "**OPENAI_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PYTHONPATH": {
+      "type": "string",
+      "required": true,
+      "description": "The file path to the local `mcp-server-openai` source code."
+    },
+    "OPENAI_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The API key to authenticate requests to the OpenAI service."
+    }
+  }
+}

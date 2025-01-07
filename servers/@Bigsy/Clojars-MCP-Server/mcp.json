@@ -1,0 +1,28 @@
+{
+  "id": "@Bigsy/Clojars-MCP-Server",
+  "title": "Clojars-Mcp-Server",
+  "description": "A Model Context Protocol (MCP) server that provides tools for fetching dependency version information from Clojars, the Clojure artifact repository.",
+  "categories": ["Languages & Frameworks", "Developer Tools"],
+  "tags": [
+    "MCP",
+    "Clojure",
+    "Dependency Management"
+  ],
+  "creator": "Bigsy",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:53:48Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/Bigsy/Clojars-MCP-Server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/clojars-deps-server/build/index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

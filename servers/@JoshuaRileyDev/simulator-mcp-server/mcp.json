@@ -1,0 +1,29 @@
+{
+  "id": "@JoshuaRileyDev/simulator-mcp-server",
+  "title": "Simulator-Mcp-Server",
+  "description": "An MCP server for programmatically controlling iOS simulators, supporting features like listing, booting, and managing apps on simulators.",
+  "categories": ["Developer Tools", "Operating Systems"],
+  "tags": [
+    "iOS",
+    "MCP",
+    "simulator"
+  ],
+  "creator": "JoshuaRileyDev",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:56:10Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/JoshuaRileyDev/simulator-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@joshuarileydev/simulator-mcp-server"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

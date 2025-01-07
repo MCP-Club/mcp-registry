@@ -1,0 +1,42 @@
+{
+  "id": "@aindreyway/mcp-codex-keeper",
+  "title": "Mcp-Codex-Keeper",
+  "description": "An intelligent MCP server that provides AI assistants with access to curated documentation and best practices.",
+  "tags": [
+    "Node.js",
+    "MCP",
+    "TypeScript"
+  ],
+  "creator": "aindreyway",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:08:46Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/aindreyway/mcp-codex-keeper"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@aindreyway/mcp-codex-keeper@latest"
+    ],
+    "env": {
+      "NODE_OPTIONS": "**NODE_OPTIONS**",
+      "npm_config_cache_max": "**npm_config_cache_max**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "NODE_OPTIONS": {
+      "type": "string",
+      "required": true,
+      "description": "Defines node.js runtime options, such as setting the maximum memory heap size (e.g., --max-old-space-size=256)."
+    },
+    "npm_config_cache_max": {
+      "type": "string",
+      "required": true,
+      "description": "Specifies the maximum cache size for npm."
+    }
+  }
+}

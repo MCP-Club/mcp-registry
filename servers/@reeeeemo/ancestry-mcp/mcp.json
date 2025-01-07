@@ -1,0 +1,34 @@
+{
+  "id": "@reeeeemo/ancestry-mcp",
+  "title": "Ancestry-Mcp",
+  "description": "Python server implementing the Model Context Protocol (MCP) to interact with GEDCOM files commonly used for genealogical data.",
+  "tags": [
+    "Python",
+    "MCP",
+    "GEDCOM"
+  ],
+  "creator": "reeeeemo",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:56:52Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/reeeeemo/ancestry-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "mcp-server-ancestry",
+    "args": [
+      "--gedcom-path",
+      "**GEDCOM_PATH**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "GEDCOM_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Path to the directory containing GEDCOM files to manage."
+    }
+  }
+}

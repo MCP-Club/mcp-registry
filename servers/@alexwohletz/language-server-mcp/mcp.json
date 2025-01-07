@@ -1,0 +1,28 @@
+{
+  "id": "@alexwohletz/language-server-mcp",
+  "title": "Language-Server-Mcp",
+  "description": "A TypeScript-based MCP server providing language features like hover info, code completions, and diagnostics for code editors.",
+  "categories": ["Languages & Frameworks", "Developer Tools"],
+  "tags": [
+    "TypeScript",
+    "MCP",
+    "language-server"
+  ],
+  "creator": "alexwohletz",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:58:02Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/alexwohletz/language-server-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/language-server-mcp/build/index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

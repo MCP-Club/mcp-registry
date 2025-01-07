@@ -1,0 +1,52 @@
+{
+  "id": "@9Ninety/MCPNotes",
+  "title": "Mcpnotes",
+  "description": "MCP Notes Server is an AI-powered note-taking application using MCP protocol with secure DynamoDB storage and integration with tools such as Claude Desktop.",
+  "categories": ["Machine Learning & AI", "Databases & Storage"],
+  "tags": [
+    "Node.js",
+    "MCP",
+    "DynamoDB"
+  ],
+  "creator": "9Ninety",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:57:55Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/9Ninety/MCPNotes"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "-p",
+      "mcp-notes",
+      "mcp-notes-server",
+      "--dynamodb",
+      "**DYNAMODB_URI**"
+    ],
+    "env": {
+      "AWS_ACCESS_KEY_ID": "**AWS_ACCESS_KEY_ID**",
+      "AWS_SECRET_ACCESS_KEY": "**AWS_SECRET_ACCESS_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "DYNAMODB_URI": {
+      "type": "string",
+      "required": true,
+      "description": "The connection string to the DynamoDB instance, e.g., dynamodb://access_key:secret_key@region/table"
+    },
+    "AWS_ACCESS_KEY_ID": {
+      "type": "string",
+      "required": true,
+      "description": "Your AWS access key ID for connecting to DynamoDB."
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Your AWS secret access key for connecting to DynamoDB."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "@gentoro-GT/mcp-nodejs-server",
+  "title": "Mcp-Nodejs-Server",
+  "description": "MCP Server for Gentoro services, enabling integration of Claude with Gentoro bridges and tools for managing capabilities.",
+  "tags": [
+    "Gentoro",
+    "MCP Server",
+    "Claude Integration"
+  ],
+  "creator": "gentoro-GT",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:51:15Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/gentoro-GT/mcp-nodejs-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@gentoro/mcp-nodejs-server"
+    ],
+    "env": {
+      "GENTORO_API_KEY": "**GENTORO_API_KEY**",
+      "GENTORO_BRIDGE_UID": "**GENTORO_BRIDGE_UID**",
+      "GENTORO_BASE_URL": "**GENTORO_BASE_URL**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "GENTORO_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Your Gentoro API key for authenticating with Gentoro services."
+    },
+    "GENTORO_BRIDGE_UID": {
+      "type": "string",
+      "required": true,
+      "description": "The unique identifier of the defined Gentoro bridge."
+    },
+    "GENTORO_BASE_URL": {
+      "type": "string",
+      "required": true,
+      "description": "The base URL where the Gentoro services are hosted."
+    }
+  }
+}

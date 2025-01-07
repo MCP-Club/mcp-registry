@@ -1,0 +1,42 @@
+{
+  "id": "@modelcontextprotocol/github",
+  "name": "GitHub Server",
+  "title": "GitHub",
+  "description": "MCP server for using the GitHub API",
+  "tags": [
+    "git",
+    "github",
+    "api"
+  ],
+  "categories": [
+    "API Management",
+    "Developer Tools"
+  ],
+  "creator": "modelcontextprotocol",
+  "verified": false,
+  "logoUrl": "https://app.mcphub.net/server-configuration/image/github.svg",
+  "publishDate": "2024-12-17T14:55:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/modelcontextprotocol/servers/tree/main/src/github",
+    "npm": "https://www.npmjs.com/package/@modelcontextprotocol/server-github"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github"
+    ],
+    "env": {
+      "GITHUB_PERSONAL_ACCESS_TOKEN": "**GITHUB_PERSONAL_ACCESS_TOKEN**"
+    }
+  },
+  "parameters": {
+    "GITHUB_PERSONAL_ACCESS_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "GitHub API token for authentication"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "@mzxrai/mcp-webresearch",
+  "title": "Mcp-Webresearch",
+  "description": "An MCP server that integrates Google search, webpage content extraction, and research session tracking for the Claude Desktop app.",
+  "tags": [
+    "MCP",
+    "Node.js",
+    "web-research"
+  ],
+  "creator": "mzxrai",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:50:40Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/mzxrai/mcp-webresearch"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@mzxrai/mcp-webresearch@latest"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

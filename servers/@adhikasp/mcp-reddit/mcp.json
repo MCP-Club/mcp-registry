@@ -1,0 +1,29 @@
+{
+  "id": "@adhikasp/mcp-reddit",
+  "title": "Mcp-Reddit",
+  "description": "An MCP server for fetching and analyzing Reddit content, supporting features like fetching hot threads, detailed post content, and various post types.",
+  "tags": [
+    "MCP",
+    "Reddit",
+    "web-scraping"
+  ],
+  "creator": "adhikasp",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:08:33Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/adhikasp/mcp-reddit"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "--from",
+      "git+https://github.com/adhikasp/mcp-reddit.git",
+      "mcp-reddit"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

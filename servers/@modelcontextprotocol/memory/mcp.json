@@ -1,0 +1,32 @@
+{
+  "id": "@modelcontextprotocol/memory",
+  "title": "Memory Server",
+  "description": "Memory management server for conversation history",
+  "tags": [
+    "memory",
+    "conversation history",
+    "context management"
+  ],
+  "categories": [
+    "Databases & Storage"
+  ],
+  "creator": "modelcontextprotocol",
+  "verified": false,
+  "logoUrl": "https://app.mcphub.net/server-configuration/image/memory.svg",
+  "publishDate": "2024-12-17T12:49:12Z",
+  "rating": 5,
+  "version": "latest",
+  "sources": {
+    "github": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
+    "npm": "https://www.npmjs.com/package/@modelcontextprotocol/server-memory"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory"
+    ]
+  },
+  "parameters": {}
+}

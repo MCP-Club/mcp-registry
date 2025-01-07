@@ -1,0 +1,27 @@
+{
+  "id": "@Sunwood-ai-labs/aira-mcp-server",
+  "title": "Aira-Mcp-Server",
+  "description": "A TypeScript-based MCP server for creating Git commit messages with support for Git status, Gitflow, and branch operations.",
+  "tags": [
+    "MCP server",
+    "Git",
+    "TypeScript"
+  ],
+  "creator": "Sunwood-ai-labs",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:07:45Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/Sunwood-ai-labs/aira-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "path/to/aira-mcp-server/build/index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

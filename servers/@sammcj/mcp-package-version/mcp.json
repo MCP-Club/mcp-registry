@@ -1,0 +1,28 @@
+{
+  "id": "@sammcj/mcp-package-version",
+  "title": "Mcp-Package-Version",
+  "description": "An MCP server for checking the latest stable package versions from multiple package registries including npm, PyPI, Maven, and Go Proxy.",
+  "tags": [
+    "MCP server",
+    "package management",
+    "version checking"
+  ],
+  "creator": "sammcj",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:53:13Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/sammcj/mcp-package-version"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-package-version"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

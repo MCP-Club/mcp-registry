@@ -1,0 +1,53 @@
+{
+  "id": "@ravenwits/mcp-server-arangodb",
+  "title": "Mcp-Server-Arangodb",
+  "description": "A TypeScript-based Model Context Protocol server for seamless integration and database interaction with ArangoDB.",
+  "tags": [
+    "TypeScript",
+    "ArangoDB",
+    "MCP"
+  ],
+  "creator": "ravenwits",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:59:27Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/ravenwits/mcp-server-arangodb"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "**/path/to/arango-server/build/index.js**"
+    ],
+    "env": {
+      "ARANGO_URL": "**ARANGO_URL**",
+      "ARANGO_DATABASE": "**ARANGO_DATABASE**",
+      "ARANGO_USERNAME": "**ARANGO_USERNAME**",
+      "ARANGO_PASSWORD": "**ARANGO_PASSWORD**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "ARANGO_URL": {
+      "type": "string",
+      "required": true,
+      "description": "ArangoDB server URL (default port is 8529 for local development)."
+    },
+    "ARANGO_DATABASE": {
+      "type": "string",
+      "required": true,
+      "description": "The name of the ArangoDB database to connect to."
+    },
+    "ARANGO_USERNAME": {
+      "type": "string",
+      "required": true,
+      "description": "Username for ArangoDB authentication."
+    },
+    "ARANGO_PASSWORD": {
+      "type": "string",
+      "required": true,
+      "description": "Password for the ArangoDB user."
+    }
+  }
+}

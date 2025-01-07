@@ -1,0 +1,48 @@
+{
+  "id": "@DynamicEndpoints/Automated-BOD-25-01-CISA-Microsoft-Policies-MCP",
+  "title": "Automated-Bod-25-01-Cisa-Microsoft-Policies-Mcp",
+  "description": "A Model Context Protocol (MCP) server to enforce CISA BOD 25-01 security controls for Microsoft 365 via Microsoft Graph API.",
+  "categories": ["Security", "API Management"],
+  "tags": [
+    "Node.js",
+    "Microsoft Graph API",
+    "Security"
+  ],
+  "creator": "DynamicEndpoints",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:48:52Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/DynamicEndpoints/Automated-BOD-25-01-CISA-Microsoft-Policies-MCP"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "path/to/cisa-m365/build/index.js"
+    ],
+    "env": {
+      "TENANT_ID": "**TENANT_ID**",
+      "CLIENT_ID": "**CLIENT_ID**",
+      "CLIENT_SECRET": "**CLIENT_SECRET**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "TENANT_ID": {
+      "type": "string",
+      "required": true,
+      "description": "Azure AD Tenant ID for the Microsoft 365 tenant."
+    },
+    "CLIENT_ID": {
+      "type": "string",
+      "required": true,
+      "description": "Azure AD application Client ID."
+    },
+    "CLIENT_SECRET": {
+      "type": "string",
+      "required": true,
+      "description": "Client secret for the Azure AD application."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "@lenwood/cfbd-mcp-server",
+  "title": "Cfbd-Mcp-Server",
+  "description": "An MCP server providing access to college football statistics using the College Football Data API, designed for integration with Claude Desktop.",
+  "tags": [
+    "Python",
+    "College Football Data API",
+    "MCP Server"
+  ],
+  "creator": "lenwood",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:13:35Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/lenwood/cfbd-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "/full/path/to/cfbd-mcp-server",
+      "run",
+      "cfbd-mcp-server"
+    ],
+    "env": {
+      "CFB_API_KEY": "**CFB_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "CFB_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The API key for accessing the College Football Data API."
+    }
+  }
+}

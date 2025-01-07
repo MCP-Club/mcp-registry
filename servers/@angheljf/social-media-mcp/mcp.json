@@ -1,0 +1,53 @@
+{
+  "id": "@angheljf/social-media-mcp",
+  "title": "Social-Media-Mcp",
+  "description": "A Model Context Protocol server for managing social media posts on X (formerly Twitter), supporting posting, thread creation, and listing posts.",
+  "tags": [
+    "Node.js",
+    "Twitter API",
+    "TypeScript"
+  ],
+  "creator": "angheljf",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:57:46Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/angheljf/social-media-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "index.js"
+    ],
+    "env": {
+      "TWITTER_API_KEY": "**TWITTER_API_KEY**",
+      "TWITTER_API_SECRET": "**TWITTER_API_SECRET**",
+      "TWITTER_ACCESS_TOKEN": "**TWITTER_ACCESS_TOKEN**",
+      "TWITTER_ACCESS_SECRET": "**TWITTER_ACCESS_SECRET**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "TWITTER_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Twitter API key"
+    },
+    "TWITTER_API_SECRET": {
+      "type": "string",
+      "required": true,
+      "description": "Twitter API secret key"
+    },
+    "TWITTER_ACCESS_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Twitter access token"
+    },
+    "TWITTER_ACCESS_SECRET": {
+      "type": "string",
+      "required": true,
+      "description": "Twitter access token secret"
+    }
+  }
+}

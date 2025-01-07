@@ -1,0 +1,42 @@
+{
+  "id": "@kazuph/mcp-pocket",
+  "title": "Mcp-Pocket",
+  "description": "MCP Pocket is a connector for Claude Desktop to fetch and manage saved articles from the Pocket API.",
+  "tags": [
+    "Node.js",
+    "MCP",
+    "API"
+  ],
+  "creator": "kazuph",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:49:28Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/kazuph/mcp-pocket"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@kazuph/mcp-pocket"
+    ],
+    "env": {
+      "POCKET_CONSUMER_KEY": "**POCKET_CONSUMER_KEY**",
+      "POCKET_ACCESS_TOKEN": "**POCKET_ACCESS_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "POCKET_CONSUMER_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Your Pocket API Consumer Key"
+    },
+    "POCKET_ACCESS_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Your Pocket API Access Token obtained through authentication"
+    }
+  }
+}

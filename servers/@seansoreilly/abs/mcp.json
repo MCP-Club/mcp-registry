@@ -1,0 +1,21 @@
+{
+  "id": "@seansoreilly/abs",
+  "title": "Abs",
+  "description": "",
+  "tags": [],
+  "creator": "seansoreilly",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:58:26Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/seansoreilly/abs"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "",
+    "args": [],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

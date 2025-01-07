@@ -1,0 +1,35 @@
+{
+  "id": "@jango-blockchained/homeassistant-mcp",
+  "title": "Homeassistant-Mcp",
+  "description": "A Node.js-based MCP server bridge enabling natural language control of smart home devices via Home Assistant.",
+  "tags": [
+    "Node.js",
+    "Home Assistant",
+    "MCP"
+  ],
+  "creator": "jango-blockchained",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:01:22Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/jango-blockchained/homeassistant-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "start"
+    ],
+    "env": {
+      "HASS_TOKEN": "**HASS_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "HASS_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Home Assistant long-lived access token for API authorization."
+    }
+  }
+}

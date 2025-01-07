@@ -1,0 +1,27 @@
+{
+  "id": "@aindreyway/mcp-server-neurolora-p",
+  "title": "Mcp-Server-Neurolora-P",
+  "description": "MCP Server Neurolorap provides tools for code analysis and documentation, including project structure reporting and code collection.",
+  "tags": [
+    "MCP",
+    "code-analysis",
+    "documentation"
+  ],
+  "creator": "aindreyway",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:54:03Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/aindreyway/mcp-server-neurolora-p"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-neurolorap"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

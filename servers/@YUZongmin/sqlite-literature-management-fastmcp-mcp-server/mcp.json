@@ -1,0 +1,40 @@
+{
+  "id": "@YUZongmin/sqlite-literature-management-fastmcp-mcp-server",
+  "title": "Sqlite-Literature-Management-Fastmcp-Mcp-Server",
+  "description": "A flexible system for managing and integrating sources like papers, books, and webpages with knowledge graphs.",
+  "tags": [
+    "source management",
+    "knowledge graph",
+    "data integration"
+  ],
+  "creator": "YUZongmin",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:07:52Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/YUZongmin/sqlite-literature-management-fastmcp-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "fastmcp",
+    "args": [
+      "install",
+      "source-manager-server.py",
+      "--name",
+      "Source Manager",
+      "-e",
+      "**SQLITE_DB_PATH**"
+    ],
+    "env": {
+      "SQLITE_DB_PATH": "**SQLITE_DB_PATH**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "SQLITE_DB_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Path to the SQLite database file"
+    }
+  }
+}

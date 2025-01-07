@@ -1,0 +1,36 @@
+{
+  "id": "@evalstate/mcp-miro",
+  "title": "Mcp-Miro",
+  "description": "A Model Context Protocol (MCP) server to interface with the MIRO Whiteboard app, enabling board manipulation, sticky creation, bulk actions, and more.",
+  "categories": ["API Management", "Developer Tools"],
+  "tags": [
+    "MIRO",
+    "MCP",
+    "OAuth"
+  ],
+  "creator": "evalstate",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:12:17Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/evalstate/mcp-miro"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "/path/to/mcp-miro/build/index.js",
+      "--token",
+      "**MIRO_OAUTH_KEY**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "MIRO_OAUTH_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "OAuth token for authenticating access to the MIRO API."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "@kazuph/mcp-screenshot",
+  "title": "Mcp-Screenshot",
+  "description": "An MCP server for taking screenshots and performing OCR with options for multiple formats and multi-language support.",
+  "tags": [
+    "OCR",
+    "screenshots",
+    "automation"
+  ],
+  "creator": "kazuph",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:11:21Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/kazuph/mcp-screenshot"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@kazuph/mcp-screenshot"
+    ],
+    "env": {
+      "OCR_API_URL": "**OCR_API_URL**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "OCR_API_URL": {
+      "type": "string",
+      "required": true,
+      "description": "yomitoku API base URL for OCR operations"
+    }
+  }
+}

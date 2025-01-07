@@ -1,0 +1,48 @@
+{
+  "id": "@ZubeidHendricks/azure-onenote-mcp-server",
+  "title": "Azure-Onenote-Mcp-Server",
+  "description": "A Model Context Protocol (MCP) server implementation for Microsoft OneNote, enabling AI language models to interface with OneNote for managing notebooks, sections, and pages.",
+  "tags": [
+    "MCP",
+    "OneNote",
+    "Microsoft Graph API"
+  ],
+  "creator": "ZubeidHendricks",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:56:20Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/ZubeidHendricks/azure-onenote-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-onenote"
+    ],
+    "env": {
+      "AZURE_TENANT_ID": "**AZURE_TENANT_ID**",
+      "AZURE_CLIENT_ID": "**AZURE_CLIENT_ID**",
+      "AZURE_CLIENT_SECRET": "**AZURE_CLIENT_SECRET**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "AZURE_TENANT_ID": {
+      "type": "string",
+      "required": true,
+      "description": "Your Azure tenant ID"
+    },
+    "AZURE_CLIENT_ID": {
+      "type": "string",
+      "required": true,
+      "description": "Your Azure application (client) ID"
+    },
+    "AZURE_CLIENT_SECRET": {
+      "type": "string",
+      "required": true,
+      "description": "Your Azure client secret"
+    }
+  }
+}

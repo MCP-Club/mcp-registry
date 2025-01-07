@@ -1,0 +1,27 @@
+{
+  "id": "@qpd-v/mcp-guide",
+  "title": "Mcp-Guide",
+  "description": "A beginner-friendly MCP server that provides explanations, interactive examples, and a directory of available servers to assist developers in understanding MCP concepts.",
+  "tags": [
+    "MCP",
+    "server",
+    "development"
+  ],
+  "creator": "qpd-v",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:50:57Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/qpd-v/mcp-guide"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "mcp-guide"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

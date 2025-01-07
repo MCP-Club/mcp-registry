@@ -1,0 +1,65 @@
+{
+  "id": "@sooperset/mcp-atlassian",
+  "title": "Atlassian",
+  "description": "MCP Atlassian is a Model Context Protocol server for integrating with Atlassian Cloud products such as Confluence and Jira, providing tools for searching, accessing, and managing content and issues.",
+  "tags": [
+    "Atlassian",
+    "Confluence",
+    "Jira"
+  ],
+  "creator": "sooperset",
+  "logoUrl": "https://i.pinimg.com/736x/2f/ae/07/2fae07df207a6bf91bea8d511a75fdba.jpg",
+  "publishDate": "2024-12-24T10:19:08Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/sooperset/mcp-atlassian"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-atlassian"
+    ],
+    "env": {
+      "CONFLUENCE_URL": "**CONFLUENCE_URL**",
+      "CONFLUENCE_USERNAME": "**CONFLUENCE_USERNAME**",
+      "CONFLUENCE_API_TOKEN": "**CONFLUENCE_API_TOKEN**",
+      "JIRA_URL": "**JIRA_URL**",
+      "JIRA_USERNAME": "**JIRA_USERNAME**",
+      "JIRA_API_TOKEN": "**JIRA_API_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "CONFLUENCE_URL": {
+      "type": "string",
+      "required": true,
+      "description": "The base URL of your Confluence instance (e.g., 'https://your-domain.atlassian.net/wiki')."
+    },
+    "CONFLUENCE_USERNAME": {
+      "type": "string",
+      "required": true,
+      "description": "Your Confluence username or email address used for authentication."
+    },
+    "CONFLUENCE_API_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "The API token for accessing Confluence."
+    },
+    "JIRA_URL": {
+      "type": "string",
+      "required": true,
+      "description": "The base URL of your Jira instance (e.g., 'https://your-domain.atlassian.net')."
+    },
+    "JIRA_USERNAME": {
+      "type": "string",
+      "required": true,
+      "description": "Your Jira username or email address used for authentication."
+    },
+    "JIRA_API_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "The API token for accessing Jira."
+    }
+  }
+}

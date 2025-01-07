@@ -1,0 +1,38 @@
+{
+  "id": "@DynamicEndpoints/pocketbase-mcp-server",
+  "title": "Pocketbase-Mcp-Server",
+  "description": "A sophisticated MCP server for seamless interaction with PocketBase databases, enabling advanced operations such as schema management, data manipulation, and user management.",
+  "categories": ["Databases & Storage", "API Management"],
+  "tags": [
+    "PocketBase",
+    "MCP",
+    "Database"
+  ],
+  "creator": "DynamicEndpoints",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:12:23Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/DynamicEndpoints/pocketbase-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "start",
+      "--port",
+      "**PORT**"
+    ],
+    "env": {
+      "POCKETBASE_URL": "**POCKETBASE_URL**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "POCKETBASE_URL": {
+      "type": "string",
+      "required": true,
+      "description": "The URL of your PocketBase instance (e.g., http://127.0.0.1:8090)"
+    }
+  }
+}

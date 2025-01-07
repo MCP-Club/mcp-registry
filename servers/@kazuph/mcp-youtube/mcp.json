@@ -1,0 +1,34 @@
+{
+  "id": "@kazuph/mcp-youtube",
+  "title": "Mcp-Youtube",
+  "description": "MCP server that uses `yt-dlp` to download YouTube subtitles and connects to Claude.ai for summarization via the Model Context Protocol.",
+  "tags": [
+    "youtube",
+    "MCP",
+    "yt-dlp"
+  ],
+  "creator": "kazuph",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:11:16Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/kazuph/mcp-youtube"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@kazuph/mcp-youtube"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PARAM_URL": {
+      "type": "string",
+      "required": true,
+      "description": "YouTube video URL to fetch subtitles from."
+    }
+  }
+}

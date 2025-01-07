@@ -1,0 +1,28 @@
+{
+  "id": "@wopal-cn/mcp-hotnews-server",
+  "title": "Mcp-Hotnews-Server",
+  "description": "An MCP server that provides real-time hot trending topics from 9 major Chinese social platforms and news sites with easy AI model integration.",
+  "tags": [
+    "MCP",
+    "real-time",
+    "hot-topics"
+  ],
+  "creator": "wopal-cn",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:57:40Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/wopal-cn/mcp-hotnews-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@wopal/mcp-server-hotnews"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

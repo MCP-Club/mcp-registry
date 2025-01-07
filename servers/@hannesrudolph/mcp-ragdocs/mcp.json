@@ -1,0 +1,48 @@
+{
+  "id": "@hannesrudolph/mcp-ragdocs",
+  "title": "Mcp-Ragdocs",
+  "description": "An MCP server implementation that provides tools for vector-based documentation search and retrieval, enabling real-time context augmentation for AI assistants.",
+  "tags": [
+    "AI",
+    "semantic search",
+    "documentation"
+  ],
+  "creator": "hannesrudolph",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:06:48Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/hannesrudolph/mcp-ragdocs"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@hannesrudolph/mcp-ragdocs"
+    ],
+    "env": {
+      "OPENAI_API_KEY": "**OPENAI_API_KEY**",
+      "QDRANT_URL": "**QDRANT_URL**",
+      "QDRANT_API_KEY": "**QDRANT_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "OPENAI_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Your OpenAI API key for embeddings generation"
+    },
+    "QDRANT_URL": {
+      "type": "string",
+      "required": true,
+      "description": "URL of your Qdrant vector database instance"
+    },
+    "QDRANT_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key for authenticating with Qdrant"
+    }
+  }
+}

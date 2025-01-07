@@ -1,0 +1,50 @@
+{
+  "id": "@toolhouse-community/mcp-server-toolhouse",
+  "title": "Mcp-Server-Toolhouse",
+  "description": "MCP server to connect MCP clients with Toolhouse tools, enabling seamless integration with external tools and data sources.",
+  "tags": [
+    "MCP",
+    "Toolhouse",
+    "Groq"
+  ],
+  "creator": "toolhouse-community",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:00:05Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/toolhouse-community/mcp-server-toolhouse"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "/path/to/this/folder/mcp-server-toolhouse",
+      "run",
+      "mcp-server-toolhouse"
+    ],
+    "env": {
+      "TOOLHOUSE_API_KEY": "**TOOLHOUSE_API_KEY**",
+      "GROQ_API_KEY": "**GROQ_API_KEY**",
+      "TOOLHOUSE_BUNDLE_NAME": "**TOOLHOUSE_BUNDLE_NAME**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "TOOLHOUSE_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key obtained from the Toolhouse dashboard."
+    },
+    "GROQ_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key obtained from the Groq API console."
+    },
+    "TOOLHOUSE_BUNDLE_NAME": {
+      "type": "string",
+      "required": true,
+      "description": "Name of the Toolhouse bundle created containing desired tools."
+    }
+  }
+}

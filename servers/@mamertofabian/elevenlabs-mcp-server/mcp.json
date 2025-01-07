@@ -1,0 +1,71 @@
+{
+  "id": "@mamertofabian/elevenlabs-mcp-server",
+  "title": "Elevenlabs-Mcp-Server",
+  "description": "A Model Context Protocol (MCP) server that integrates with ElevenLabs text-to-speech API for generating and managing voiceover tasks using a SQLite storage backend and a sample SvelteKit-based UI.",
+  "tags": [
+    "text-to-speech",
+    "MCP",
+    "SvelteKit"
+  ],
+  "creator": "mamertofabian",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:10:10Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/mamertofabian/elevenlabs-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "elevenlabs-mcp-server"
+    ],
+    "env": {
+      "ELEVENLABS_API_KEY": "**ELEVENLABS_API_KEY**",
+      "ELEVENLABS_VOICE_ID": "**ELEVENLABS_VOICE_ID**",
+      "ELEVENLABS_MODEL_ID": "**ELEVENLABS_MODEL_ID**",
+      "ELEVENLABS_STABILITY": "**ELEVENLABS_STABILITY**",
+      "ELEVENLABS_SIMILARITY_BOOST": "**ELEVENLABS_SIMILARITY_BOOST**",
+      "ELEVENLABS_STYLE": "**ELEVENLABS_STYLE**",
+      "ELEVENLABS_OUTPUT_DIR": "**ELEVENLABS_OUTPUT_DIR**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "ELEVENLABS_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Your ElevenLabs API key for authentication"
+    },
+    "ELEVENLABS_VOICE_ID": {
+      "type": "string",
+      "required": true,
+      "description": "The ID of the voice you want to use"
+    },
+    "ELEVENLABS_MODEL_ID": {
+      "type": "string",
+      "required": true,
+      "description": "The ElevenLabs model ID for generating voiceovers"
+    },
+    "ELEVENLABS_STABILITY": {
+      "type": "float",
+      "required": true,
+      "description": "The stability setting for ElevenLabs voice generation"
+    },
+    "ELEVENLABS_SIMILARITY_BOOST": {
+      "type": "float",
+      "required": true,
+      "description": "The similarity boost setting for ElevenLabs voice generation"
+    },
+    "ELEVENLABS_STYLE": {
+      "type": "float",
+      "required": true,
+      "description": "The style setting for ElevenLabs voice generation"
+    },
+    "ELEVENLABS_OUTPUT_DIR": {
+      "type": "string",
+      "required": true,
+      "description": "The directory where generated audio files will be saved"
+    }
+  }
+}

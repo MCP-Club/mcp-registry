@@ -1,0 +1,48 @@
+{
+  "id": "@zxkane/mcp-server-amazon-bedrock",
+  "title": "Mcp-Server-Amazon-Bedrock",
+  "description": "An MCP server integrating with Amazon Bedrock's Nova Canvas model to generate high-quality images from text descriptions.",
+  "tags": [
+    "AWS",
+    "MCP",
+    "Image Generation"
+  ],
+  "creator": "zxkane",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:48:58Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/zxkane/mcp-server-amazon-bedrock"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@zxkane/mcp-server-amazon-bedrock"
+    ],
+    "env": {
+      "AWS_ACCESS_KEY_ID": "**AWS_ACCESS_KEY_ID**",
+      "AWS_SECRET_ACCESS_KEY": "**AWS_SECRET_ACCESS_KEY**",
+      "AWS_REGION": "**AWS_REGION**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "AWS_ACCESS_KEY_ID": {
+      "type": "string",
+      "required": true,
+      "description": "Your AWS access key ID with Bedrock permissions."
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Your AWS secret access key with Bedrock permissions."
+    },
+    "AWS_REGION": {
+      "type": "string",
+      "required": true,
+      "description": "AWS region where Bedrock services are available (default: us-east-1)."
+    }
+  }
+}

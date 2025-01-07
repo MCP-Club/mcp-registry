@@ -1,0 +1,35 @@
+{
+  "id": "@apinetwork/piapi-mcp-server",
+  "title": "Piapi-Mcp-Server",
+  "description": "A TypeScript-based Model Context Protocol (MCP) server for generating media content using PiAPI integrations with various tools like Midjourney and Flux.",
+  "tags": [
+    "TypeScript",
+    "MCP",
+    "media generation"
+  ],
+  "creator": "apinetwork",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:50:34Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/apinetwork/piapi-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/absolute/path/to/piapi-mcp-server/dist/index.js"
+    ],
+    "env": {
+      "PIAPI_API_KEY": "**PIAPI_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PIAPI_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The API key for authenticating with PiAPI's services."
+    }
+  }
+}

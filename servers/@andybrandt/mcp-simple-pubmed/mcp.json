@@ -1,0 +1,43 @@
+{
+  "id": "@andybrandt/mcp-simple-pubmed",
+  "title": "Mcp-Simple-Pubmed",
+  "description": "An MCP server for searching the PubMed database, accessing abstracts, and downloading full-text for open-access articles using the Entrez API.",
+  "categories": ["Data Science", "API Management"],
+  "tags": [
+    "pubmed",
+    "api",
+    "python"
+  ],
+  "creator": "andybrandt",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:55:35Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/andybrandt/mcp-simple-pubmed"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "python",
+    "args": [
+      "-m",
+      "mcp_simple_pubmed"
+    ],
+    "env": {
+      "PUBMED_EMAIL": "**PUBMED_EMAIL**",
+      "PUBMED_API_KEY": "**PUBMED_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PUBMED_EMAIL": {
+      "type": "string",
+      "required": true,
+      "description": "Your email address required by NCBI for API access."
+    },
+    "PUBMED_API_KEY": {
+      "type": "string",
+      "required": false,
+      "description": "Optional API key for higher rate limits (10 requests/second)."
+    }
+  }
+}

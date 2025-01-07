@@ -1,0 +1,29 @@
+{
+  "id": "@JoshuaRileyDev/mac-apps-launcher",
+  "title": "Mac-Apps-Launcher",
+  "description": "A Model Context Protocol (MCP) server for managing and launching macOS applications.",
+  "categories": ["Operating Systems", "Developer Tools"],
+  "tags": [
+    "macOS",
+    "MCP",
+    "application-management"
+  ],
+  "creator": "JoshuaRileyDev",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:48:39Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/JoshuaRileyDev/mac-apps-launcher"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "y",
+      "@joshuarileydev/mac-apps-launcher-mcp-server"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

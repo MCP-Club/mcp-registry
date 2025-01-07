@@ -1,0 +1,28 @@
+{
+  "id": "@tokenizin-agency/mcp-npx-fetch",
+  "title": "Mcp-Npx-Fetch",
+  "description": "A powerful MCP server for fetching and transforming web content into various formats such as HTML, JSON, Markdown, and plain text.",
+  "tags": [
+    "TypeScript",
+    "MCP",
+    "Web Fetching"
+  ],
+  "creator": "tokenizin-agency",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:56:46Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/tokenizin-agency/mcp-npx-fetch"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@tokenizin/mcp-npx-fetch"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

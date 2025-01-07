@@ -1,0 +1,42 @@
+{
+  "id": "@Braffolk/mcp-summarization-functions",
+  "title": "Mcp-Summarization-Functions",
+  "description": "A powerful MCP server providing intelligent summarization capabilities for efficient context management in AI workflows.",
+  "categories": ["Machine Learning & AI", "Integration & Delivery"],
+  "tags": [
+    "summarization",
+    "AI",
+    "MCP server"
+  ],
+  "creator": "Braffolk",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:11:33Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/Braffolk/mcp-summarization-functions"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "path/to/summarization-functions/build/index.js"
+    ],
+    "env": {
+      "PROVIDER": "**PROVIDER**",
+      "API_KEY": "**API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PROVIDER": {
+      "type": "string",
+      "required": true,
+      "description": "AI provider to use. Supported values: ANTHROPIC, OPENAI, OPENAI-COMPATIBLE, GOOGLE."
+    },
+    "API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key for the selected AI provider."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "@meilisearch/meilisearch-mcp",
+  "title": "Meilisearch-Mcp",
+  "description": "An MCP server for interacting with Meilisearch through LLM interfaces like Claude.",
+  "tags": [
+    "Meilisearch",
+    "Python",
+    "MCP"
+  ],
+  "creator": "meilisearch",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:53:34Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/meilisearch/meilisearch-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "-n",
+      "meilisearch-mcp"
+    ],
+    "env": {
+      "MEILI_HTTP_ADDR": "**MEILI_HTTP_ADDR**",
+      "MEILI_MASTER_KEY": "**MEILI_MASTER_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "MEILI_HTTP_ADDR": {
+      "type": "string",
+      "required": true,
+      "description": "The HTTP address of the Meilisearch server."
+    },
+    "MEILI_MASTER_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The API key for Meilisearch to authenticate requests."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "@recursechat/mcp-server-apple-shortcuts",
+  "title": "Mcp-Server-Apple-Shortcuts",
+  "description": "An MCP server that allows AI assistants like Claude to interact with Apple Shortcuts for automating tasks on macOS.",
+  "tags": [
+    "MCP",
+    "AI",
+    "automation"
+  ],
+  "creator": "recursechat",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:56:26Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/recursechat/mcp-server-apple-shortcuts"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-server-apple-shortcuts"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

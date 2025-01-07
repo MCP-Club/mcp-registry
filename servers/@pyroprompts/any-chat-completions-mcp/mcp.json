@@ -1,0 +1,53 @@
+{
+  "id": "@pyroprompts/any-chat-completions-mcp",
+  "title": "Any-Chat-Completions-Mcp",
+  "description": "TypeScript-based MCP server for integrating Claude with any OpenAI SDK Compatible Chat Completion API, supporting multiple AI chat providers.",
+  "tags": [
+    "TypeScript",
+    "MCP",
+    "AI"
+  ],
+  "creator": "pyroprompts",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:06:53Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/pyroprompts/any-chat-completions-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/any-chat-completions-mcp/build/index.js"
+    ],
+    "env": {
+      "AI_CHAT_KEY": "**AI_CHAT_KEY**",
+      "AI_CHAT_NAME": "**AI_CHAT_NAME**",
+      "AI_CHAT_MODEL": "**AI_CHAT_MODEL**",
+      "AI_CHAT_BASE_URL": "**AI_CHAT_BASE_URL**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "AI_CHAT_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key for the AI chat provider to authenticate requests."
+    },
+    "AI_CHAT_NAME": {
+      "type": "string",
+      "required": true,
+      "description": "Name of the AI provider."
+    },
+    "AI_CHAT_MODEL": {
+      "type": "string",
+      "required": true,
+      "description": "Model identifier for the AI provider."
+    },
+    "AI_CHAT_BASE_URL": {
+      "type": "string",
+      "required": true,
+      "description": "Base URL for the AI provider's API."
+    }
+  }
+}

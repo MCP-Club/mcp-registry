@@ -1,0 +1,45 @@
+{
+  "id": "@modelcontextprotocol/slack",
+  "title": "Slack",
+  "description": "MCP Server for the Slack API, enabling Claude to interact with Slack workspaces.",
+  "tags": [
+    "slack"
+  ],
+  "categories": [
+    "Integration & Delivery",
+    "Message Queues"
+  ],
+  "creator": "@modelcontextprotocol",
+  "verified": false,
+  "logoUrl": "https://app.mcphub.net/server-configuration/image/slack.svg",
+  "publishDate": "2024-12-08T18:00:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
+    "npm": "https://www.npmjs.com/package/@modelcontextprotocol/server-slack"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack"
+    ],
+    "env": {
+      "SLACK_BOT_TOKEN": "**SLACK_BOT_TOKEN**",
+      "SLACK_TEAM_ID": "**SLACK_TEAM_ID**"
+    }
+  },
+  "parameters": {
+    "SLACK_BOT_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Slack bot token for authentication"
+    },
+    "SLACK_TEAM_ID": {
+      "type": "string",
+      "required": true,
+      "description": "Slack team ID"
+    }
+  }
+}

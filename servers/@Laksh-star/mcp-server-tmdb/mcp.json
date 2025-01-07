@@ -1,0 +1,36 @@
+{
+  "id": "@Laksh-star/mcp-server-tmdb",
+  "title": "The Movie Database",
+  "description": "This MCP server integrates with The Movie Database (TMDB) API to provide movie information, search capabilities, and recommendations.",
+  "categories": ["API Management", "Content Management System"],
+  "tags": [
+    "Node.js",
+    "TMDB API",
+    "MCP Server"
+  ],
+  "creator": "Laksh-star",
+  "logoUrl": "https://www.svgrepo.com/show/342296/the-movie-database.svg",
+  "publishDate": "2024-12-24T10:16:33Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/Laksh-star/mcp-server-tmdb"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/full/path/to/dist/index.js"
+    ],
+    "env": {
+      "TMDB_API_KEY": "**TMDB_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "TMDB_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Your API key for accessing TMDB API"
+    }
+  }
+}

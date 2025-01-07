@@ -1,0 +1,54 @@
+{
+  "id": "@cloudflare/mcp-server-cloudflare",
+  "title": "Cloudflare",
+  "description": "MCP server for Cloudflare API integration with support for DNS, Workers, and security services",
+  "tags": [
+    "cdn",
+    "dns",
+    "security",
+    "workers"
+  ],
+  "categories": [
+    "Security",
+    "Networking"
+  ],
+  "creator": "cloudflare",
+  "verified": false,
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Cloudflare_Logo.png/1200px-Cloudflare_Logo.png",
+  "publishDate": "2024-01-17T00:00:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/cloudflare/mcp-server-cloudflare",
+    "npm": "https://www.npmjs.com/package/@cloudflare/mcp-server-cloudflare"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@cloudflare/mcp-server-cloudflare"
+    ],
+    "env": {
+      "CLOUDFLARE_API_TOKEN": "**CLOUDFLARE_API_TOKEN**",
+      "CLOUDFLARE_ACCOUNT_ID": "**CLOUDFLARE_ACCOUNT_ID**",
+      "CLOUDFLARE_ZONE_ID": "**CLOUDFLARE_ZONE_ID**"
+    }
+  },
+  "parameters": {
+    "CLOUDFLARE_API_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Cloudflare API token with required permissions"
+    },
+    "CLOUDFLARE_ACCOUNT_ID": {
+      "type": "string",
+      "required": true,
+      "description": "Cloudflare account identifier"
+    },
+    "CLOUDFLARE_ZONE_ID": {
+      "type": "string",
+      "required": false,
+      "description": "Optional zone identifier for domain-specific operations"
+    }
+  }
+}

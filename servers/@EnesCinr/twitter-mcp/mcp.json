@@ -1,0 +1,57 @@
+{
+  "id": "@EnesCinr/twitter-mcp",
+  "title": "X(Twitter)",
+  "description": "Interact with twitter API. Post tweets and search for tweets by query.",
+  "tags": [
+    "twitter"
+  ],
+  "categories": [
+    "API Management",
+    "Integration & Delivery"
+  ],
+  "creator": "EnesCinr",
+  "verified": false,
+  "logoUrl": "https://app.mcphub.net/server-configuration/image/twitter-mcp.svg",
+  "publishDate": "2024-12-13T12:00:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/EnesCinr/twitter-mcp",
+    "npm": "https://www.npmjs.com/package/@enescinar/twitter-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@enescinar/twitter-mcp"
+    ],
+    "env": {
+      "API_KEY": "**API_KEY**",
+      "API_SECRET_KEY": "**API_SECRET_KEY**",
+      "ACCESS_TOKEN": "**ACCESS_TOKEN**",
+      "ACCESS_TOKEN_SECRET": "**ACCESS_TOKEN_SECRET**"
+    }
+  },
+  "parameters": {
+    "API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key for authentication"
+    },
+    "API_SECRET_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API secret key for authentication"
+    },
+    "ACCESS_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Access token for authentication"
+    },
+    "ACCESS_TOKEN_SECRET": {
+      "type": "string",
+      "required": true,
+      "description": "Access token secret for authentication"
+    }
+  }
+}

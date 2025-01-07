@@ -1,0 +1,49 @@
+{
+  "id": "@JoshuaRileyDev/app-store-connect-mcp-server",
+  "title": "App-Store-Connect-Mcp-Server",
+  "description": "An MCP server for interacting with the App Store Connect API, offering tools for app, beta tester, bundle ID, device, and user management.",
+  "categories": ["API Management", "Developer Tools"],
+  "tags": [
+    "App Store Connect",
+    "MCP",
+    "Server"
+  ],
+  "creator": "JoshuaRileyDev",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:07:26Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/JoshuaRileyDev/app-store-connect-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@your-org/app-store-connect-mcp-server"
+    ],
+    "env": {
+      "APP_STORE_CONNECT_KEY_ID": "**APP_STORE_CONNECT_KEY_ID**",
+      "APP_STORE_CONNECT_ISSUER_ID": "**APP_STORE_CONNECT_ISSUER_ID**",
+      "APP_STORE_CONNECT_P8_PATH": "**APP_STORE_CONNECT_P8_PATH**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "APP_STORE_CONNECT_KEY_ID": {
+      "type": "string",
+      "required": true,
+      "description": "The Key ID for the App Store Connect API"
+    },
+    "APP_STORE_CONNECT_ISSUER_ID": {
+      "type": "string",
+      "required": true,
+      "description": "The Issuer ID for the App Store Connect API"
+    },
+    "APP_STORE_CONNECT_P8_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "The file path to the .p8 private key"
+    }
+  }
+}

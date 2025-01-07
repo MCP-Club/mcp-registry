@@ -1,0 +1,40 @@
+{
+  "id": "@modelcontextprotocol/google-maps",
+  "title": "Google Maps",
+  "description": "MCP server for using the Google Maps API",
+  "tags": [
+    "maps",
+    "location",
+    "api"
+  ],
+  "categories": [
+    "API Management"
+  ],
+  "creator": "Official",
+  "verified": false,
+  "logoUrl": "https://app.mcphub.net/server-configuration/image/google-maps.svg",
+  "publishDate": "2024-12-17T14:55:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps",
+    "npm": "https://www.npmjs.com/package/@modelcontextprotocol/server-google-maps"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps"
+    ],
+    "env": {
+      "GOOGLE_MAPS_API_KEY": "**GOOGLE_MAPS_API_KEY**"
+    }
+  },
+  "parameters": {
+    "GOOGLE_MAPS_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Google Maps API key for authentication"
+    }
+  }
+}

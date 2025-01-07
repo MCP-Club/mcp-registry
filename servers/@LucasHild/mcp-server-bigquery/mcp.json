@@ -1,0 +1,43 @@
+{
+  "id": "@LucasHild/mcp-server-bigquery",
+  "title": "Mcp Server Bigquery",
+  "description": "An MCP server for accessing BigQuery, allowing LLMs to inspect database schemas and execute SQL queries.",
+  "categories": ["Databases & Storage", "Data Science"],
+  "tags": [
+    "BigQuery",
+    "MCP",
+    "SQL"
+  ],
+  "creator": "LucasHild",
+  "logoUrl": "https://www.svgrepo.com/show/375551/bigquery.svg",
+  "publishDate": "2024-12-24T09:36:56Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/LucasHild/mcp-server-bigquery"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-bigquery",
+      "--project",
+      "**GCP_PROJECT_ID**",
+      "--location",
+      "**GCP_LOCATION**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "GCP_PROJECT_ID": {
+      "type": "string",
+      "required": true,
+      "description": "The GCP Project ID."
+    },
+    "GCP_LOCATION": {
+      "type": "string",
+      "required": true,
+      "description": "The GCP location (e.g., `europe-west9`)."
+    }
+  }
+}

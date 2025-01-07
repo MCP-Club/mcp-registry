@@ -1,0 +1,28 @@
+{
+  "id": "@tokenizin-agency/mcp-nativewind",
+  "title": "Mcp-Nativewind",
+  "description": "MCP server for transforming Tailwind components to NativeWind 4, usable as a CLI tool or in Claude for Desktop.",
+  "tags": [
+    "Tailwind",
+    "NativeWind",
+    "MCP"
+  ],
+  "creator": "tokenizin-agency",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:12:06Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/tokenizin-agency/mcp-nativewind"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-nativewind"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

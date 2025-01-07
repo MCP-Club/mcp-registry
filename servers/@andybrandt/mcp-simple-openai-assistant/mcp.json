@@ -1,0 +1,37 @@
+{
+  "id": "@andybrandt/mcp-simple-openai-assistant",
+  "title": "Mcp-Simple-Openai-Assistant",
+  "description": "A simple MCP server for interacting with OpenAI assistants, enabling creation, manipulation, and messaging with AI models via the Model Context Protocol.",
+  "categories": ["Machine Learning & AI", "API Management"],
+  "tags": [
+    "MCP",
+    "OpenAI",
+    "server"
+  ],
+  "creator": "andybrandt",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:08:26Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/andybrandt/mcp-simple-openai-assistant"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "python",
+    "args": [
+      "-m",
+      "mcp_simple_openai_assistant"
+    ],
+    "env": {
+      "OPENAI_API_KEY": "**OPENAI_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "OPENAI_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The API key for authenticating with OpenAI's API."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "@Bigsy/maven-mcp-server",
+  "title": "Maven-Mcp-Server",
+  "description": "",
+  "categories": [],
+  "tags": [],
+  "creator": "Bigsy",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:56:15Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/Bigsy/maven-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "",
+    "args": [],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

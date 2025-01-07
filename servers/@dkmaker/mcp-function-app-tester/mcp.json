@@ -1,0 +1,69 @@
+{
+  "id": "@dkmaker/mcp-function-app-tester",
+  "title": "Mcp-Function-App-Tester",
+  "description": "A TypeScript-based MCP server for testing Azure Function Apps with features like HTTP method support, authentication, and detailed response handling.",
+  "tags": [
+    "TypeScript",
+    "Azure",
+    "Function Apps"
+  ],
+  "creator": "dkmaker",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:11:52Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/dkmaker/mcp-function-app-tester"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "dkmaker-mcp-function-app-tester",
+      "-e",
+      "**AUTH_BASIC_USERNAME**",
+      "-e",
+      "**AUTH_BASIC_PASSWORD**",
+      "-e",
+      "**AUTH_BEARER**",
+      "-e",
+      "**AUTH_APIKEY_HEADER_NAME**",
+      "-e",
+      "**AUTH_APIKEY_VALUE**"
+    ],
+    "env": {
+      "AUTH_BASIC_USERNAME": "**AUTH_BASIC_USERNAME**",
+      "AUTH_BASIC_PASSWORD": "**AUTH_BASIC_PASSWORD**",
+      "AUTH_BEARER": "**AUTH_BEARER**",
+      "AUTH_APIKEY_HEADER_NAME": "**AUTH_APIKEY_HEADER_NAME**",
+      "AUTH_APIKEY_VALUE": "**AUTH_APIKEY_VALUE**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "AUTH_BASIC_USERNAME": {
+      "type": "string",
+      "required": false,
+      "description": "Username for Basic Authentication"
+    },
+    "AUTH_BASIC_PASSWORD": {
+      "type": "string",
+      "required": false,
+      "description": "Password for Basic Authentication"
+    },
+    "AUTH_BEARER": {
+      "type": "string",
+      "required": false,
+      "description": "Bearer token for authentication"
+    },
+    "AUTH_APIKEY_HEADER_NAME": {
+      "type": "string",
+      "required": false,
+      "description": "Header name for API Key authentication"
+    },
+    "AUTH_APIKEY_VALUE": {
+      "type": "string",
+      "required": false,
+      "description": "API key value for API Key authentication"
+    }
+  }
+}

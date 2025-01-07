@@ -1,0 +1,33 @@
+{
+  "id": "@twolven/mcp-stockscreen",
+  "title": "Mcp-Stockscreen",
+  "description": "A Model Context Protocol (MCP) server for advanced stock screening using Yahoo Finance, offering technical, fundamental, and options-based screening capabilities alongside watchlist management.",
+  "tags": [
+    "MCP",
+    "stock screening",
+    "Yahoo Finance"
+  ],
+  "creator": "twolven",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:00:46Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/twolven/mcp-stockscreen"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "python",
+    "args": [
+      "**STOCKSCREEN_SCRIPT_PATH**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "STOCKSCREEN_SCRIPT_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Full path to the stockscreen.py script."
+    }
+  }
+}

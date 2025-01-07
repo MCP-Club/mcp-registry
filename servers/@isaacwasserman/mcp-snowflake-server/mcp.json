@@ -1,0 +1,72 @@
+{
+  "id": "@isaacwasserman/mcp-snowflake-server",
+  "title": "Snowflake",
+  "description": "A Model Context Protocol (MCP) server implementation for Snowflake to interact with databases, run SQL queries, and manage insights using Claude Desktop.",
+  "categories": ["Databases & Storage", "Data Science"],
+  "tags": [
+    "MCP server",
+    "Snowflake",
+    "SQL"
+  ],
+  "creator": "isaacwasserman",
+  "logoUrl": "https://coefficient.io/wp-content/uploads/2022/03/snowflake.png",
+  "publishDate": "2024-12-24T09:32:44Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/isaacwasserman/mcp-snowflake-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp_snowflake_server"
+    ],
+    "env": {
+      "SNOWFLAKE_WAREHOUSE": "**SNOWFLAKE_WAREHOUSE**",
+      "SNOWFLAKE_DATABASE": "**SNOWFLAKE_DATABASE**",
+      "SNOWFLAKE_ACCOUNT": "**SNOWFLAKE_ACCOUNT**",
+      "SNOWFLAKE_USER": "**SNOWFLAKE_USER**",
+      "SNOWFLAKE_ROLE": "**SNOWFLAKE_ROLE**",
+      "SNOWFLAKE_SCHEMA": "**SNOWFLAKE_SCHEMA**",
+      "SNOWFLAKE_PASSWORD": "**SNOWFLAKE_PASSWORD**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "SNOWFLAKE_WAREHOUSE": {
+      "type": "string",
+      "required": true,
+      "description": "The Snowflake virtual warehouse to be used."
+    },
+    "SNOWFLAKE_DATABASE": {
+      "type": "string",
+      "required": true,
+      "description": "The Snowflake database to connect to."
+    },
+    "SNOWFLAKE_ACCOUNT": {
+      "type": "string",
+      "required": true,
+      "description": "The Snowflake account identifier."
+    },
+    "SNOWFLAKE_USER": {
+      "type": "string",
+      "required": true,
+      "description": "The username for Snowflake authentication."
+    },
+    "SNOWFLAKE_ROLE": {
+      "type": "string",
+      "required": true,
+      "description": "The role to use for Snowflake operations."
+    },
+    "SNOWFLAKE_SCHEMA": {
+      "type": "string",
+      "required": true,
+      "description": "The schema in Snowflake to interact with."
+    },
+    "SNOWFLAKE_PASSWORD": {
+      "type": "string",
+      "required": true,
+      "description": "The password for Snowflake authentication."
+    }
+  }
+}

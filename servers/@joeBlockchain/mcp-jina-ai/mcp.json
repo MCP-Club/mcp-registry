@@ -1,0 +1,36 @@
+{
+  "id": "@joeBlockchain/mcp-jina-ai",
+  "title": "Mcp-Jina-Ai",
+  "description": "Jina AI MCP Server provides tools for web page reading, web search, and fact-checking via Jina AI's APIs, designed for integration with Claude Desktop.",
+  "tags": [
+    "MCP server",
+    "web tools",
+    "Jina AI"
+  ],
+  "creator": "joeBlockchain",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:07:19Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/joeBlockchain/mcp-jina-ai"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "jina-ai-mcp-server"
+    ],
+    "env": {
+      "JINA_API_KEY": "**JINA_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "JINA_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key for accessing Jina AI's web services."
+    }
+  }
+}

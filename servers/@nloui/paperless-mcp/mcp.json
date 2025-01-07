@@ -1,0 +1,40 @@
+{
+  "id": "@nloui/paperless-mcp",
+  "title": "Paperless-Mcp",
+  "description": "An MCP server for interacting with a Paperless-NGX API server to manage documents, tags, correspondents, and document types.",
+  "tags": [
+    "MCP",
+    "Paperless-NGX",
+    "TypeScript"
+  ],
+  "creator": "nloui",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:58:49Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/nloui/paperless-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "paperless-mcp",
+      "**PAPERLESS_URL**",
+      "**API_TOKEN**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PAPERLESS_URL": {
+      "type": "string",
+      "required": true,
+      "description": "The URL of your Paperless-NGX instance."
+    },
+    "API_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "The API token for authenticating with the Paperless-NGX server."
+    }
+  }
+}

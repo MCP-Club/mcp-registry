@@ -1,0 +1,35 @@
+{
+  "id": "@delano/postman-mcp-server",
+  "title": "Postman-Mcp-Server",
+  "description": "A TypeScript-based MCP server that integrates with the Postman API, allowing AI-driven automation of Postman collections, environments, and APIs.",
+  "tags": [
+    "TypeScript",
+    "Postman API",
+    "MCP"
+  ],
+  "creator": "delano",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:01:51Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/delano/postman-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/postman-api-server/build/index.js"
+    ],
+    "env": {
+      "POSTMAN_API_KEY": "**POSTMAN_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "POSTMAN_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The API key for authenticating with the Postman API."
+    }
+  }
+}

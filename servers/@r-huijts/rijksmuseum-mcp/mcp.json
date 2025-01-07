@@ -1,0 +1,35 @@
+{
+  "id": "@r-huijts/rijksmuseum-mcp",
+  "title": "Rijksmuseum-Mcp",
+  "description": "An MCP server to interact with the Rijksmuseum API for exploring artworks, collections, and high-resolution images from Amsterdam's Rijksmuseum.",
+  "tags": [
+    "Node.js",
+    "MCP Server",
+    "Rijksmuseum API"
+  ],
+  "creator": "r-huijts",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:50:24Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/r-huijts/rijksmuseum-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "path/to/your/server/index.js"
+    ],
+    "env": {
+      "RIJKSMUSEUM_API_KEY": "**RIJKSMUSEUM_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "RIJKSMUSEUM_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key for authenticating with the Rijksmuseum API"
+    }
+  }
+}

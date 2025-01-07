@@ -1,0 +1,42 @@
+{
+  "id": "@kazuph/mcp-gmail-gas",
+  "title": "Mcp-Gmail-Gas",
+  "description": "A Model Context Protocol (MCP) server for integrating Gmail with Claude Desktop or other MCP clients using Google Apps Script.",
+  "tags": [
+    "Node.js",
+    "Gmail API",
+    "MCP"
+  ],
+  "creator": "kazuph",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:09:05Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/kazuph/mcp-gmail-gas"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@kazuph/mcp-gmail-gas"
+    ],
+    "env": {
+      "GAS_ENDPOINT": "**GAS_ENDPOINT**",
+      "VALID_API_KEY": "**VALID_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "GAS_ENDPOINT": {
+      "type": "string",
+      "required": true,
+      "description": "The URL of the deployed Google Apps Script."
+    },
+    "VALID_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "A random API key for securing access to Gmail integration."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "@qpd-v/mcp-wordcounter",
+  "title": "Mcp-Wordcounter",
+  "description": "A Model Context Protocol server for analyzing text documents, providing tools to count words and characters.",
+  "tags": [
+    "text-analysis",
+    "MCP",
+    "CLI"
+  ],
+  "creator": "qpd-v",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:52:57Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/qpd-v/mcp-wordcounter"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-wordcounter"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "filePath": {
+      "type": "string",
+      "required": true,
+      "description": "Path to the text file to analyze"
+    }
+  }
+}

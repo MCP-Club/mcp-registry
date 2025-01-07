@@ -1,0 +1,55 @@
+{
+  "id": "@f4ww4z/mcp-mysql-server",
+  "title": "Mcp-Mysql-Server",
+  "description": "A Model Context Protocol (MCP) server that enables AI models to interact with MySQL databases through a standardized interface.",
+  "categories": ["Databases & Storage", "Machine Learning & AI"],
+  "tags": [
+    "MySQL",
+    "AI",
+    "Server"
+  ],
+  "creator": "f4ww4z",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:01:13Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/f4ww4z/mcp-mysql-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@f4ww4z/mcp-mysql-server"
+    ],
+    "env": {
+      "MYSQL_HOST": "**MYSQL_HOST**",
+      "MYSQL_USER": "**MYSQL_USER**",
+      "MYSQL_PASSWORD": "**MYSQL_PASSWORD**",
+      "MYSQL_DATABASE": "**MYSQL_DATABASE**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "MYSQL_HOST": {
+      "type": "string",
+      "required": true,
+      "description": "The database host name or IP address."
+    },
+    "MYSQL_USER": {
+      "type": "string",
+      "required": true,
+      "description": "The username for authenticating to the MySQL database."
+    },
+    "MYSQL_PASSWORD": {
+      "type": "string",
+      "required": true,
+      "description": "The password for authenticating to the MySQL database."
+    },
+    "MYSQL_DATABASE": {
+      "type": "string",
+      "required": true,
+      "description": "The name of the MySQL database to connect to."
+    }
+  }
+}

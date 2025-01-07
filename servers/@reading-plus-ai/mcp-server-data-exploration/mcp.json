@@ -1,0 +1,27 @@
+{
+  "id": "@reading-plus-ai/mcp-server-data-exploration",
+  "title": "Mcp-Server-Data-Exploration",
+  "description": "MCP Server is a versatile tool designed for interactive data exploration, offering prompt templates and tools to process complex datasets into actionable insights.",
+  "tags": [
+    "data exploration",
+    "python",
+    "automation"
+  ],
+  "creator": "reading-plus-ai",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:54:07Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/reading-plus-ai/mcp-server-data-exploration"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-ds"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

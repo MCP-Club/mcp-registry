@@ -1,0 +1,43 @@
+{
+  "id": "@YanxingLiu/dify-mcp-server",
+  "title": "Dify-Mcp-Server",
+  "description": "A simple implementation of an MCP server for invoking Dify workflows via MCP tools.",
+  "tags": [
+    "MCP",
+    "Dify",
+    "server"
+  ],
+  "creator": "YanxingLiu",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:52:51Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/YanxingLiu/dify-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "**DIFY_MCP_SERVER_PATH**",
+      "run",
+      "dify_mcp_server"
+    ],
+    "env": {
+      "CONFIG_PATH": "**CONFIG_PATH**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "DIFY_MCP_SERVER_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "The file path to the Dify MCP server directory."
+    },
+    "CONFIG_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "The file path to the configuration YAML file that includes dify_base_url and dify_app_sks."
+    }
+  }
+}

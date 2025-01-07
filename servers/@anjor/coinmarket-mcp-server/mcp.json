@@ -1,0 +1,38 @@
+{
+  "id": "@anjor/coinmarket-mcp-server",
+  "title": "Coinmarket-Mcp-Server",
+  "description": "Coinmarket MCP server is an implementation of a service offering Coinmarket API endpoints for cryptocurrency data, along with custom tools for data extraction like currency listings and token quotes.",
+  "tags": [
+    "Coinmarket",
+    "API",
+    "cryptocurrency"
+  ],
+  "creator": "anjor",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:47:46Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/anjor/coinmarket-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "/Users/anjor/repos/anjor/coinmarket_service",
+      "run",
+      "coinmarket_service"
+    ],
+    "env": {
+      "COINMARKET_API_KEY": "**COINMARKET_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "COINMARKET_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key to authenticate requests with the Coinmarket API."
+    }
+  }
+}

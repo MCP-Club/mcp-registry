@@ -1,0 +1,27 @@
+{
+  "id": "@seanivore/mcp-file-preview",
+  "title": "Mcp-File-Preview",
+  "description": "An MCP server enabling HTML file preview and structural analysis with screenshot and metadata capabilities.",
+  "tags": [
+    "MCP",
+    "HTML analysis",
+    "puppeteer"
+  ],
+  "creator": "seanivore",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:07:36Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/seanivore/mcp-file-preview"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/mcp-file-preview/build/index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

@@ -1,0 +1,36 @@
+{
+  "id": "@AviOfLagos/MCP-coding-assistant",
+  "title": "Mcp-Coding-Assistant",
+  "description": "The Coding Assistant Server is an MCP server that offers intelligent coding assistance, technology detection, and documentation integration for enhanced development workflows.",
+  "categories": ["Developer Tools", "Machine Learning & AI"],
+  "tags": [
+    "MCP",
+    "Node.js",
+    "OpenAI"
+  ],
+  "creator": "AviOfLagos",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:48:23Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/AviOfLagos/MCP-coding-assistant"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "build/index.js"
+    ],
+    "env": {
+      "OPENAI_API_KEY": "**OPENAI_API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "OPENAI_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key for accessing OpenAI services."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "@lsemenenko/openhue-mcp-server",
+  "title": "Openhue-Mcp-Server",
+  "description": "An MCP server that allows control of Philips Hue lights through Claude and other LLM interfaces using the OpenHue CLI.",
+  "tags": [
+    "Node.js",
+    "Docker",
+    "Philips Hue"
+  ],
+  "creator": "lsemenenko",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:10:26Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/lsemenenko/openhue-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/absolute/path/to/build/index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

@@ -1,0 +1,48 @@
+{
+  "id": "@ruchernchong/mcp-server-google-analytics",
+  "title": "Mcp-Server-Google-Analytics",
+  "description": "An MCP server implementation for accessing Google Analytics 4 (GA4) data with features like page view metrics, user engagement, and custom event analysis.",
+  "tags": [
+    "GA4",
+    "MCP Server",
+    "Analytics"
+  ],
+  "creator": "ruchernchong",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:07:57Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/ruchernchong/mcp-server-google-analytics"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-server-google-analytics"
+    ],
+    "env": {
+      "GOOGLE_CLIENT_EMAIL": "**GOOGLE_CLIENT_EMAIL**",
+      "GOOGLE_PRIVATE_KEY": "**GOOGLE_PRIVATE_KEY**",
+      "GA_PROPERTY_ID": "**GA_PROPERTY_ID**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "GOOGLE_CLIENT_EMAIL": {
+      "type": "string",
+      "required": true,
+      "description": "The email associated with your Google Cloud service account."
+    },
+    "GOOGLE_PRIVATE_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The private key for your Google Cloud service account."
+    },
+    "GA_PROPERTY_ID": {
+      "type": "string",
+      "required": true,
+      "description": "The Google Analytics 4 property ID to fetch data from."
+    }
+  }
+}

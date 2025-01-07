@@ -1,0 +1,26 @@
+{
+  "id": "@shanejonas/openrpc-mpc-server",
+  "title": "OpenRPC",
+  "description": "An OpenRPC MCP server that enables JSON-RPC functionality, supporting arbitrary method calls and method discovery.",
+  "tags": [
+    "OpenRPC",
+    "JSON-RPC"
+  ],
+  "creator": "shanejonas",
+  "logoUrl": "https://avatars.githubusercontent.com/u/45949547?s=280&v=4",
+  "publishDate": "2024-12-24T09:48:47Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/shanejonas/openrpc-mpc-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "/path/to/openrpc-mcp-server/build/index.js"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

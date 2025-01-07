@@ -1,0 +1,37 @@
+{
+  "id": "@modelcontextprotocol/filesystem",
+  "title": "Filesystem",
+  "description": "Node.js server implementing Model Context Protocol (MCP) for filesystem operations",
+  "tags": [
+    "file operation",
+    "filesystem"
+  ],
+  "categories": [
+    "Operating Systems"
+  ],
+  "creator": "jspahrsummers",
+  "verified": false,
+  "logoUrl": "https://app.mcphub.net/server-configuration/image/filesystem.svg",
+  "publishDate": "2024-12-17T14:55:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+    "npm": "https://www.npmjs.com/package/@modelcontextprotocol/server-filesystem"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "**ALLOWED_DIRS**"
+    ]
+  },
+  "parameters": {
+    "ALLOWED_DIRS": {
+      "type": "array",
+      "required": true,
+      "description": "List of directories that the server is allowed to access"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "@reminia/zendesk-mcp-server",
+  "title": "Zendesk-Mcp-Server",
+  "description": "A Model Context Protocol server for Zendesk providing integration tools for ticket management, analysis, and help center access.",
+  "categories": ["API Management", "Integration & Delivery"],
+  "tags": [
+    "Zendesk",
+    "MCP protocol",
+    "ticket management"
+  ],
+  "creator": "reminia",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:01:40Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/reminia/zendesk-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "/path/to/zendesk-mcp-server",
+      "run",
+      "zendesk"
+    ],
+    "env": {
+      "ZENDESK_API_KEY": "**ZENDESK_API_KEY**",
+      "ZENDESK_SUBDOMAIN": "**ZENDESK_SUBDOMAIN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "ZENDESK_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key for authenticating requests to the Zendesk API."
+    },
+    "ZENDESK_SUBDOMAIN": {
+      "type": "string",
+      "required": true,
+      "description": "The subdomain for accessing the Zendesk instance (e.g., your-company-name in 'https://your-company-name.zendesk.com')."
+    }
+  }
+}

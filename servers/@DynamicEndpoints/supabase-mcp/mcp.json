@@ -1,0 +1,48 @@
+{
+  "id": "@DynamicEndpoints/supabase-mcp",
+  "title": "Supabase-Mcp",
+  "description": "A Model Context Protocol (MCP) server providing tools for Supabase database, storage, and edge function management.",
+  "categories": ["Databases & Storage", "Integration & Delivery"],
+  "tags": [
+    "Supabase",
+    "MCP",
+    "TypeScript"
+  ],
+  "creator": "DynamicEndpoints",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:55:05Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/DynamicEndpoints/supabase-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "node",
+    "args": [
+      "path/to/supabase-server/build/index.js"
+    ],
+    "env": {
+      "SUPABASE_URL": "**SUPABASE_URL**",
+      "SUPABASE_KEY": "**SUPABASE_KEY**",
+      "SUPABASE_ACCESS_TOKEN": "**SUPABASE_ACCESS_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "SUPABASE_URL": {
+      "type": "string",
+      "required": true,
+      "description": "URL of your Supabase project."
+    },
+    "SUPABASE_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "Service role key for accessing Supabase."
+    },
+    "SUPABASE_ACCESS_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Access token for management operations."
+    }
+  }
+}

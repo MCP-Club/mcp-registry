@@ -1,0 +1,60 @@
+{
+  "id": "@QuantGeekDev/mongo-mcp",
+  "title": "Mongo-Mcp",
+  "description": "A Model Context Protocol (MCP) server that enables LLMs to interact with MongoDB databases for query, schema inspection, and data management through natural language.",
+  "categories": ["Databases & Storage", "Machine Learning & AI"],
+  "tags": [
+    "MongoDB",
+    "MCP",
+    "Node.js"
+  ],
+  "creator": "QuantGeekDev",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:50:50Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/QuantGeekDev/mongo-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "mongo-mcp",
+      "mongodb://**USERNAME**:**PASSWORD**@**HOST**:**PORT**/**DATABASE**?authSource=**AUTH_SOURCE**"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {
+    "USERNAME": {
+      "type": "string",
+      "required": true,
+      "description": "The MongoDB username for authentication."
+    },
+    "PASSWORD": {
+      "type": "string",
+      "required": true,
+      "description": "The MongoDB password for authentication."
+    },
+    "HOST": {
+      "type": "string",
+      "required": true,
+      "description": "The MongoDB host address."
+    },
+    "PORT": {
+      "type": "string",
+      "required": true,
+      "description": "The MongoDB port to connect to."
+    },
+    "DATABASE": {
+      "type": "string",
+      "required": true,
+      "description": "The MongoDB database name to connect to."
+    },
+    "AUTH_SOURCE": {
+      "type": "string",
+      "required": true,
+      "description": "The MongoDB authentication source (typically 'admin')."
+    }
+  }
+}

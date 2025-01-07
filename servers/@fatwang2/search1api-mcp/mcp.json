@@ -1,0 +1,36 @@
+{
+  "id": "@fatwang2/search1api-mcp",
+  "title": "Search1Api",
+  "description": "An MCP server for searching the web, retrieving news, crawling website content, and extracting sitemaps, integrated with Claude Desktop.",
+  "tags": [
+    "MCP",
+    "web search",
+    "API"
+  ],
+  "creator": "fatwang2",
+  "logoUrl": "https://www.svgrepo.com/show/88703/api.svg",
+  "publishDate": "2024-12-24T09:23:08Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/fatwang2/search1api-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "search1api-mcp"
+    ],
+    "env": {
+      "SEARCH1API_KEY": "**SEARCH1API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "SEARCH1API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The API key for accessing Search1API services."
+    }
+  }
+}

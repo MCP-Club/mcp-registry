@@ -1,0 +1,54 @@
+{
+  "id": "@kimtth/mcp-aoai-web-browsing",
+  "title": "Mcp-Aoai-Web-Browsing",
+  "description": "A minimal server/client implementation utilizing the Model Context Protocol (MCP) and Azure OpenAI to enable secure AI interactions.",
+  "tags": [
+    "MCP",
+    "Azure OpenAI",
+    "Playwright"
+  ],
+  "creator": "kimtth",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:11:45Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/kimtth/mcp-aoai-web-browsing"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "run",
+      "chatgui.py"
+    ],
+    "env": {
+      "AZURE_OPEN_AI_ENDPOINT": "**AZURE_OPEN_AI_ENDPOINT**",
+      "AZURE_OPEN_AI_API_KEY": "**AZURE_OPEN_AI_API_KEY**",
+      "AZURE_OPEN_AI_DEPLOYMENT_MODEL": "**AZURE_OPEN_AI_DEPLOYMENT_MODEL**",
+      "AZURE_OPEN_AI_API_VERSION": "**AZURE_OPEN_AI_API_VERSION**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "AZURE_OPEN_AI_ENDPOINT": {
+      "type": "string",
+      "required": true,
+      "description": "Azure OpenAI endpoint URL"
+    },
+    "AZURE_OPEN_AI_API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "API key for accessing Azure OpenAI"
+    },
+    "AZURE_OPEN_AI_DEPLOYMENT_MODEL": {
+      "type": "string",
+      "required": true,
+      "description": "Deployment model name for Azure OpenAI"
+    },
+    "AZURE_OPEN_AI_API_VERSION": {
+      "type": "string",
+      "required": true,
+      "description": "API version for Azure OpenAI"
+    }
+  }
+}

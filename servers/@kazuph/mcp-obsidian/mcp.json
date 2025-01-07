@@ -1,0 +1,36 @@
+{
+  "id": "@kazuph/mcp-obsidian",
+  "title": "Mcp-Obsidian",
+  "description": "MCP Obsidian is a Model Context Protocol server that integrates an Obsidian vault with Claude Desktop or other MCP clients for note search and access.",
+  "tags": [
+    "MCP",
+    "Obsidian",
+    "Node.js"
+  ],
+  "creator": "kazuph",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:56:57Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/kazuph/mcp-obsidian"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@kazuph/mcp-obsidian"
+    ],
+    "env": {
+      "OBSIDIAN_VAULT_PATH": "**OBSIDIAN_VAULT_PATH**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "OBSIDIAN_VAULT_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Path to your Obsidian vault directory."
+    }
+  }
+}

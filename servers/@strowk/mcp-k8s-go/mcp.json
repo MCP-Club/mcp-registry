@@ -1,0 +1,35 @@
+{
+  "id": "@strowk/mcp-k8s-go",
+  "title": "Mcp-K8S-Go",
+  "description": "Golang-based MCP server for connecting Kubernetes resources to tools like Claude Desktop for querying and managing Kubernetes contexts, namespaces, pods, and logs.",
+  "tags": [
+    "Golang",
+    "Kubernetes",
+    "MCP"
+  ],
+  "creator": "strowk",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:12:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/strowk/mcp-k8s-go"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "@strowk/mcp-k8s"
+    ],
+    "env": {
+      "KUBECONFIG": "**KUBECONFIG**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "KUBECONFIG": {
+      "type": "string",
+      "required": false,
+      "description": "Path to your Kubernetes configuration file, defaults to ~/.kube/config if not provided."
+    }
+  }
+}

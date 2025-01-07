@@ -1,0 +1,32 @@
+{
+  "id": "@hannesrudolph/imessage-query-fastmcp-mcp-server",
+  "title": "Imessage-Query-Fastmcp-Mcp-Server",
+  "description": "An MCP server that enables querying the iMessage database safely via the Model Context Protocol framework, with support for phone number validation and attachment handling.",
+  "tags": [
+    "FastMCP",
+    "iMessage",
+    "Python"
+  ],
+  "creator": "hannesrudolph",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:06:59Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "run",
+      "--with",
+      "fastmcp",
+      "fastmcp",
+      "run",
+      "/path/to/repo/imessage-query-server.py"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

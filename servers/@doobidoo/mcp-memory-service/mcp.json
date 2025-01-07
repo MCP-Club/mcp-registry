@@ -1,0 +1,49 @@
+{
+  "id": "@doobidoo/mcp-memory-service",
+  "title": "Mcp-Memory-Service",
+  "description": "An MCP server for Claude Desktop, enabling semantic memory, persistent storage, and long-term memory retrieval using ChromaDB and sentence transformers.",
+  "tags": [
+    "MCP",
+    "semantic memory",
+    "ChromaDB"
+  ],
+  "creator": "doobidoo",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:52:05Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/doobidoo/mcp-memory-service"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uv",
+    "args": [
+      "--directory",
+      "**MCP_MEMORY_SERVICE_DIRECTORY**",
+      "run",
+      "memory"
+    ],
+    "env": {
+      "MCP_MEMORY_CHROMA_PATH": "**MCP_MEMORY_CHROMA_PATH**",
+      "MCP_MEMORY_BACKUPS_PATH": "**MCP_MEMORY_BACKUPS_PATH**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "MCP_MEMORY_SERVICE_DIRECTORY": {
+      "type": "string",
+      "required": true,
+      "description": "Path to the MCP memory service directory."
+    },
+    "MCP_MEMORY_CHROMA_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Path for ChromaDB storage."
+    },
+    "MCP_MEMORY_BACKUPS_PATH": {
+      "type": "string",
+      "required": true,
+      "description": "Path for database backups."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "@browserbase/mcp-server-browserbase",
+  "title": "Mcp Server Browserbase",
+  "description": "This project provides a cloud-based browser automation MCP server using Browserbase, Puppeteer, and Stagehand, enabling AI models to interact with web pages and execute JavaScript.",
+  "tags": [
+    "MCP",
+    "Browser Automation",
+    "Puppeteer"
+  ],
+  "creator": "browserbase",
+  "logoUrl": "https://avatars.githubusercontent.com/u/183827180?v=4",
+  "publishDate": "2024-12-24T09:11:59Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/browserbase/mcp-server-browserbase"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "browserbase-mcp-server",
+      "--start",
+      "-e",
+      "**API_KEY**"
+    ],
+    "env": {
+      "API_KEY": "**API_KEY**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "API_KEY": {
+      "type": "string",
+      "required": true,
+      "description": "The API key required to authenticate and connect with the Browserbase cloud automation service."
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "@MindscapeHQ/mcp-server-raygun",
+  "title": "Raygun",
+  "description": "MCP Server for Raygun API V3 providing endpoints for crash reporting, real user monitoring, and performance monitoring.",
+  "categories": ["Monitoring & Observability", "Developer Tools"],
+  "tags": [
+    "Raygun",
+    "API",
+    "MCP Server"
+  ],
+  "creator": "MindscapeHQ",
+  "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YHEwqSfTn2AA0eLUbGMMdFDdMm-zTMLJow&s",
+  "publishDate": "2024-12-24T09:13:01Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/MindscapeHQ/mcp-server-raygun"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@raygun.io/mcp-server-raygun"
+    ],
+    "env": {
+      "RAYGUN_PAT_TOKEN": "**RAYGUN_PAT_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "RAYGUN_PAT_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "Your Raygun PAT token"
+    }
+  }
+}

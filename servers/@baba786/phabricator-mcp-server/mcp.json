@@ -1,0 +1,35 @@
+{
+  "id": "@baba786/phabricator-mcp-server",
+  "title": "Phabricator-Mcp-Server",
+  "description": "An MCP server implementation for interacting with the Phabricator API to manage tasks, projects, and user information.",
+  "tags": [
+    "Python",
+    "Phabricator",
+    "API"
+  ],
+  "creator": "baba786",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T06:48:18Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/baba786/phabricator-mcp-server"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "python",
+    "args": [
+      "server.py"
+    ],
+    "env": {
+      "PHABRICATOR_TOKEN": "**PHABRICATOR_TOKEN**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "PHABRICATOR_TOKEN": {
+      "type": "string",
+      "required": true,
+      "description": "The API token required for authenticating with a Phabricator instance."
+    }
+  }
+}

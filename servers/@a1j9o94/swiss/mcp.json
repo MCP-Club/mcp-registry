@@ -1,0 +1,27 @@
+{
+  "id": "@a1j9o94/swiss",
+  "title": "Swiss",
+  "description": "Swiss MCP is an AI-powered command center for orchestrating complex, multi-step tasks using various AI tools.",
+  "tags": [
+    "AI orchestration",
+    "task automation",
+    "multi-agent systems"
+  ],
+  "creator": "a1j9o94",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:01:09Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/a1j9o94/swiss"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "fastmcp",
+    "args": [
+      "swiss"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}

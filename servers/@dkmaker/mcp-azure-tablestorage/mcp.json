@@ -1,0 +1,35 @@
+{
+  "id": "@dkmaker/mcp-azure-tablestorage",
+  "title": "Mcp-Azure-Tablestorage",
+  "description": "A TypeScript MCP server for interacting with Azure Table Storage, enabling querying, schema exploration, and table management via Cline.",
+  "tags": [
+    "TypeScript",
+    "Azure Table Storage",
+    "MCP"
+  ],
+  "creator": "dkmaker",
+  "logoUrl": "",
+  "publishDate": "2024-12-31T07:06:05Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/dkmaker/mcp-azure-tablestorage"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "dkmaker-mcp-server-tablestore"
+    ],
+    "env": {
+      "AZURE_STORAGE_CONNECTION_STRING": "**AZURE_STORAGE_CONNECTION_STRING**"
+    }
+  },
+  "defVersion": "1",
+  "parameters": {
+    "AZURE_STORAGE_CONNECTION_STRING": {
+      "type": "string",
+      "required": true,
+      "description": "Azure Storage account connection string"
+    }
+  }
+}
